@@ -94,25 +94,25 @@ The objective of this project is to create a versatile and user-friendly applica
 >>>   - `Angular`: A popular framework for building robust web applications.
 >>>   - `Ember.js`: A framework for creating ambitious web applications with a strong focus on convention over configuration.
 >>>   - `Svelte`: A lightweight framework that compiles components to highly optimized vanilla JavaScript.
-> 2. **Back-end:**
->   - `Ruby on Rails`: A powerful and beginner-friendly framework for building web applications using the Ruby programming language.
->   - `Django`: A high-level Python web framework that promotes rapid development and clean, pragmatic design.
->   - `Flask`: A lightweight and flexible Python web framework that provides the essentials for building a web application.
-> 3.  **Libraries/APIs:**
->   - `FFmpeg.js`: A pure JavaScript port of FFmpeg for client-side audio conversion.
->   - `axios`: A promise-based HTTP client for making API requests.
->   - `MusiXmatch API`: For accessing music metadata, lyrics, and other related data.
-> > hello 
+>> 2. **Back-end:**
+>>>   - `Ruby on Rails`: A powerful and beginner-friendly framework for building web applications using the Ruby programming language.
+>>>   - `Django`: A high-level Python web framework that promotes rapid development and clean, pragmatic design.
+>>>   - `Flask`: A lightweight and flexible Python web framework that provides the essentials for building a web application.
+>> 3.  **Libraries/APIs:**
+>>>   - `FFmpeg.js`: A pure JavaScript port of FFmpeg for client-side audio conversion.
+>>>   - `axios`: A promise-based HTTP client for making API requests.
+>>>   - `MusiXmatch API`: For accessing music metadata, lyrics, and other related data.
+> 
 
-#### Desktop App:
+> #### Desktop App:
 >
-##### Version 1
-> - **Front-end:** `Electron.js` for cross-platform compatibility
-> - **Back-end:** `Node.js` with `Express.js` (for handling API requests)
-> - **Libraries/APIs:** YouTube Data API, `FFmpeg` for audio conversion, AI/ML libraries (optional)
+>> ##### Version 1
+>>> - **Front-end:** `Electron.js` for cross-platform compatibility
+>>> - **Back-end:** `Node.js` with `Express.js` (for handling API requests)
+>>> - **Libraries/APIs:** YouTube Data API, `FFmpeg` for audio conversion, AI/ML libraries (optional)
 >
-##### Version 2
-> 1. **Front-end:**
+>> ##### Version 2
+>>> 1. **Front-end:**
 >   - `React Native`: A framework for building cross-platform mobile applications with `React.js` components.
 >   - `Flutter`: A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
 > 2. **Back-end:**
