@@ -87,7 +87,7 @@ The objective of this project is to create a versatile and user-friendly applica
 ##### Version 1
 > - **Front-end:** `React.js` or `Vue.js`
 > - **Back-end:** `Node.js` with `Express.js`
-> - **Libraries/APIs:** YouTube Data API, FFmpeg for audio conversion, AI/ML libraries (optional)
+> - **Libraries/APIs:** YouTube Data API, `FFmpeg` for audio conversion, AI/ML libraries (optional)
 >
 ##### Version 2
 > 1. **Front-end:**
@@ -216,7 +216,7 @@ Provide feedback on the conversion progress and allow users to view and edit met
 
 ## Potential Enhancements (using AI/ML):
 
-1. Implement AI/ML models to analyze audio content and automatically suggest appropriate metadata (artist, title, genre, et ceterea).
+1. Implement AI/ML models to analyze audio content and automatically suggest appropriate metadata (artist, title, genre, et cetera).
 2. Train models to identify the best possible audio format based on the video's content and user preferences.
 
 
@@ -255,4 +255,9 @@ Donations can support server costs, API access, and incentivize continued develo
 
 ## Conclusion
 
-This program empowers users to easily convert and download YouTube audio tracks in their preferred audio formats, making it ideal for DJs, musicians, and music enthusiasts. The addition of AI/ML features streamlines the process, automating metadata retrieval and enhancing user experience. By providing a convenient and accessible tool, this project contributes to the seamless exploration and utilization of online audio content.
+This program empowers users to easily convert and download YouTube audio tracks in their preferred audio formats, making it ideal for DJs, musicians, and music enthusiasts. 
+
+The addition of AI/ML features streamlines the process, automating metadata retrieval and enhancing user experience. 
+
+
+By providing a convenient and accessible tool, this project contributes to the seamless exploration and utilization of online audio content.
