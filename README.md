@@ -80,7 +80,7 @@ The objective of this project is to create a versatile and user-friendly applica
 ## Technologies and Programming Languages
 
 ### Web Application
-#### <ins>__Tech Stack__</ins>:
+#### **<ins>Tech Stack</ins>:**
 > #### **Version 1**
 >> - **Front-end:** `React.js` or `Vue.js`
 >> - **Back-end:** `Node.js` with `Express.js`
