@@ -79,8 +79,8 @@ The objective of this project is to create a versatile and user-friendly applica
 <a name="tech"></a>
 ## Technologies and Programming Languages
 
-### Web App 
-#### <ins>Tech Stack</ins>:
+### Web Application
+#### <ins>__Tech Stack__</ins>:
 > #### **Version 1**
 >> - **Front-end:** `React.js` or `Vue.js`
 >> - **Back-end:** `Node.js` with `Express.js`
