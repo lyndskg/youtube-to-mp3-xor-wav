@@ -80,7 +80,7 @@ The objective of this project is to create a versatile and user-friendly applica
 ## Technologies and Programming Languages
 
 
-### Tech Stacks Options:
+### Tech Stack Options:
 
 #### Web App:
 >
@@ -104,7 +104,7 @@ The objective of this project is to create a versatile and user-friendly applica
 >   - `MusiXmatch API`: For accessing music metadata, lyrics, and other related data.
 
 
-### Desktop App:
+#### Desktop App:
 >
 ##### Version 1
 > - **Front-end:** `Electron.js` for cross-platform compatibility
@@ -123,6 +123,26 @@ The objective of this project is to create a versatile and user-friendly applica
 >   - `Node.js child_process module`: For running `FFmpeg` and other command-line utilities.
 >   - `Spotify Web API`: For accessing music metadata and related information.
  
+
+### Integrated Development Environments (IDEs):
+
+#### Web App: 
+> 1. **Front-end:**
+>   - <ins>Visual Studio Code</ins>: A popular and lightweight code editor with strong community support and numerous extensions for `Angular`, `Ember.js`, and `Svelte` development.
+>   - <ins>WebStorm</ins>: A powerful IDE specifically designed for web development with excellent support for `Angular`, `Ember.js`, and `Svelte`.
+> 3. **Back-end:**
+>   - <ins>Visual Studio Code</ins>: An excellent choice for back-end development with `Ruby on Rails`, `Django`, and `Flask` due to its versatility and extensive plugin support.
+>   - <ins>PyCharm</ins>: A specialized IDE for Python development that provides advanced tools for working with `Django` and `Flask` projects.
+>     
+#### Desktop App:
+> 1. **Front-end:**
+>   - <ins>Visual Studio Code</ins>: A versatile code editor suitable for `React Native` development with its wide range of extensions and `React Native`-specific tooling.
+>   - <ins>IntelliJ IDEA</ins>: A robust IDE from JetBrains that supports `Flutter` development and offers powerful code analysis and debugging tools.
+> 3. **Back-end:**
+>   - <ins>Visual Studio Code</ins>: Can be used for back-end development with `Flask` and `.NET Core`, providing a lightweight and efficient development environment.
+>   - <ins>Visual Studio</ins>: A comprehensive IDE for Windows desktop app development with `.NET Core` and `C#`.
+
+
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
