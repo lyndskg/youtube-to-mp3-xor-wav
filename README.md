@@ -85,9 +85,9 @@ The objective of this project is to create a versatile and user-friendly applica
 > #### Web App:
 >
 >> #### **Version 1**
->>> **Front-end:** `React.js` or `Vue.js`
->>> **Back-end:** `Node.js` with `Express.js`
->>> **Libraries/APIs:** YouTube Data API, `FFmpeg` for audio conversion, AI/ML libraries (optional)
+>>> - **Front-end:** `React.js` or `Vue.js`
+>>> - **Back-end:** `Node.js` with `Express.js`
+>>> - **Libraries/APIs:** YouTube Data API, `FFmpeg` for audio conversion, AI/ML libraries (optional)
 >
 >> #### **Version 2**
 >>> 1. **Front-end:**
