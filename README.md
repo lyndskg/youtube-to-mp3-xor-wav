@@ -79,8 +79,8 @@ The objective of this project is to create a versatile and user-friendly applica
 <a name="tech"></a>
 ## Technologies and Programming Languages
 
-
-### <ins>Tech Stack</ins>: *Web* App
+### Web App 
+#### <ins>Tech Stack</ins>:
 > #### **Version 1**
 >> - **Front-end:** `React.js` or `Vue.js`
 >> - **Back-end:** `Node.js` with `Express.js`
@@ -101,7 +101,7 @@ The objective of this project is to create a versatile and user-friendly applica
 >>> `MusiXmatch API`: For accessing music metadata, lyrics, and other related data.
 
 
-&nbmp;
+&nbsp;
 
 
 ### <ins>Tech Stack</ins>: *Desktop* App
