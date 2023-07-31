@@ -90,10 +90,10 @@ The objective of this project is to create a versatile and user-friendly applica
 >>> - **Libraries/APIs:** YouTube Data API, `FFmpeg` for audio conversion, AI/ML libraries (optional)
 >
 >> ##### Version 2
->> 1. **Front-end:**
->>>   - `Angular`: A popular framework for building robust web applications.
->>>   - `Ember.js`: A framework for creating ambitious web applications with a strong focus on convention over configuration.
->>>   - `Svelte`: A lightweight framework that compiles components to highly optimized vanilla JavaScript.
+>>> 1. **Front-end:**
+>>>> `Angular`: A popular framework for building robust web applications.
+>>>> `Ember.js`: A framework for creating ambitious web applications with a strong focus on convention over configuration.
+>>>>   - `Svelte`: A lightweight framework that compiles components to highly optimized vanilla JavaScript.
 >> 2. **Back-end:**
 >>>   - `Ruby on Rails`: A powerful and beginner-friendly framework for building web applications using the Ruby programming language.
 >>>   - `Django`: A high-level Python web framework that promotes rapid development and clean, pragmatic design.
