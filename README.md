@@ -143,6 +143,9 @@ The objective of this project is to create a versatile and user-friendly applica
 >   - <ins>Visual Studio</ins>: A comprehensive IDE for Windows desktop app development with `.NET Core` and `C#`.
 
 
+Remember that some IDEs may offer better integration and support for specific tech stacks, so it's essential to explore and choose the one that fits your workflow and personal preferences.
+
+Additionally, some IDEs may have community or professional editions, so be sure to consider your project's budget and needs when making a decision.
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
