@@ -79,7 +79,7 @@ The objective of this project is to create a versatile and user-friendly applica
 <a name="tech"></a>
 ## Technologies and Programming Languages
 
-### Web Application
+### <ins>**_Web Application_**</ins>
 
 #### **<ins>Tech Stack</ins>:**
 > #### **Version 1**
