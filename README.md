@@ -19,8 +19,8 @@
         <li>
           <a href="#web">Web Application</a>
           <ul> 
-            <li><a href="wstack"><Tech-Stack></li>
-            <li><a href="wIDE"><Recommended-IDEs></li>
+            <li><a href="wstack"><Tech-Stack></a></li>
+            <li><a href="wIDE"><Recommended-IDEs></a></li>
           </ul>
         </li>
         <li><a href="#back">Back-end</a></li>
