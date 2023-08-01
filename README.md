@@ -13,6 +13,7 @@
         <li><a href="#obj">Objectives</a></li>
       </ul>
     </li>
+    <li><a href="#feat">Key Features</a></li>
     <li>
       <a href="#tech">Technologies and Programming Languages</a>
       <ul>
@@ -27,16 +28,43 @@
             <li><a href="dstack">Tech Stack</a></li>
             <li><a href="dIDE">Recommended IDEs</a></li>
           </ul>
+          <li><a href="devenv">Development Environment</a></li>
         </li> 
-        <li><a href="#back">Back-end</a></li>
-        <li><a href="#ml">Libraries/APIs</a></li>
-        <li><a href="#ide">IDEs (Integrated Development Environments)</a></li>
-        <li><a href="#devenv">Development Environment</a></li>
       </ul>
     </li>
-    <li><a href="#uiux">UI/UX</a></li>
+    <li><a href="#map">Roadmap</a></li>
+    <li><a href="#uiux">UI/UX Implementation Details</a></li>
+    <li><a href="#flow">Basic Workflow Guide</a></li>
+    <li><a href="#impl">Project Implementation Guide</a></li>
     <li>
-      <a href="#map">Roadmap</a>
+      <a href="io">Potential I/O Specifications</a>
+      <ul>
+        <li><a href="#i">Input</a></li>
+        <li><a href="#o">Output</a></li>
+        <li><a href="#sys">System Requirements</a></li>
+        <li><a href="#user">User Requirements</a></li>
+      </ul>
+    </li>
+    <li><a href="#plus">Future Enhancements</a></li>
+    <li>
+      <a href="usage">Usage</a>
+      <ul>
+        <li><a href="use-case">Potential Use Cases</a></li>
+        <li><a href="appl">Practical Applications</a></li>
+        <li><a href="install">User Installation Details</a></li>
+        <li><a href="prereq">Prerequisites</a></li>
+      </ul>
+    </li>
+    <li><a href="give">Contributions</a></li>
+    <li><a href="bye">Conclusion</a></li>
+    <li><a href="#lic">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#ack">Acknowledgments</a></li>
+  </ol>
+</details>
+      
+    </li>
+    
       <ul>
         <li><a href="#line">Timeline</a></li>
         <ul>
@@ -48,27 +76,8 @@
     <li><a href="#start">Getting Started</a></li>
     <li><a href="#flow">Basic Workflow</a></li>
     <li>
-      <a href="#io">Basic I/O Details</a>
-      <ul>
-        <li><a href="#i">Input</a></li>
-        <li><a href="#o">Output</a></li>
-        <li><a href="#sys">System Requirements</a></li>
-        <li><a href="#user">User Requirements</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#use">Usage</a>
-      <ul>
-        <li><a href="#pre">Prerequisites</a></li>
-        <li><a href="#inst">Installation</a></li>
-      </ul>
-    </li>
+ 
     <li><a href="#feat">Key Features</a></li>
-    <li><a href="#give">How to Contribute</a></li>
-    <li><a href="#plus">Future Enhancements</a></li>
-    <li><a href="#lic">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#ack">Acknowledgments</a></li>
   </ol>
 </details>
   
@@ -88,6 +97,13 @@ The project aims to cater to both web and desktop users, supporting both macOS a
 
 <a name="obj"></a>
 ### <ins>Objectives</ins>
+
+
+<p align="right">(<a href="#yt">back to top</a>)</p>
+
+---------------------
+<a name="feat"></a>
+## Key Features
 
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
@@ -177,7 +193,7 @@ Remember that some IDEs may offer better integration and support for specific te
 
 Additionally, some IDEs may have community or professional editions, so be sure to consider your project's budget and needs when making a decision.
 
-
+&nbsp;
 
 <a name="devenv"></a>
 ### Development Environment:
@@ -189,8 +205,9 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
 ---------------------
+
 <a name="map"></a>
-## Roadmap:
+## Roadmap
 
 - [ ]  Phase 1 (2-3 weeks): Set up the project structure, implement basic web or desktop app functionality to convert YouTube audio to WAV format, and allow user-selected location for file saving.
 - [ ] Phase 2 (3-4 weeks): Add support for lossless compression (M4A) and lossy compression (MP3). Implement metadata editing functionality for each audio track manually.
@@ -265,13 +282,13 @@ Provide feedback on the conversion progress and allow users to view and edit met
 
 <a name="user"></a>
 ### User Requirements/Permissions:
-- Users should have access to YouTube to provide video links.
-- Users may require appropriate permissions to read/write files in the selected destination folder.
+> - Users should have access to YouTube to provide video links.
+> - Users may require appropriate permissions to read/write files in the selected destination folder.
 
 <a name="sys"></a>
 ### System Requirements/Permissions:
-- Web App: Modern web browser with JavaScript enabled.
-- Desktop App: Compatible with macOS and Windows operating systems.
+> - Web App: Modern web browser with JavaScript enabled.
+> - Desktop App: Compatible with macOS and Windows operating systems.
 
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
@@ -279,7 +296,7 @@ Provide feedback on the conversion progress and allow users to view and edit met
 ---------------------
 
 <a name="plus"></a>
-## Potential Enhancements (using AI/ML):
+## Future Enhancements (using AI/ML):
 
 1. Implement AI/ML models to analyze audio content and automatically suggest appropriate metadata (artist, title, genre, et cetera).
 2. Train models to identify the best possible audio format based on the video's content and user preferences.
@@ -293,18 +310,24 @@ Provide feedback on the conversion progress and allow users to view and edit met
 ## Usage
 
 <a name="use-case"></a>
-### Potential Use Cases and Practical Applications:
+### Potential Use Cases: 
+
+<a name="appl"></a>
+### Practical Applications:
 
 DJs and music producers can use the application to download high-quality audio tracks with correct metadata for mixing.\
 Musicians can convert YouTube music into lossless formats for sampling or studying.\
 Users who prefer smaller file sizes can choose lossy formats for easy sharing and storage.
 
-<a name="install"></a>
-<a name="prereq"></a>
-### User Installation Details and Prerequisites:
-- Web App: No installation required; users access the app via a web browser.
-- Desktop App: Users need to download and install the application for macOS or Windows.
+&nbsp;
 
+<a name="install"></a>
+### User Installation Details:
+> - **Web App:** No installation required; users access the app via a web browser.
+> - **Desktop App:** Users need to download and install the application for macOS or Windows.
+
+<a name="prereq"></a>
+### Prerequisites:
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
@@ -328,3 +351,67 @@ The addition of AI/ML features streamlines the process, automating metadata retr
 
 
 By providing a convenient and accessible tool, this project contributes to the seamless exploration and utilization of online audio content.
+
+<p align="right">(<a href="#yt">back to top</a>)</p>
+---------------------
+
+<a name="lic"></a>
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#eli5">back to top</a>)</p>
+
+---------------------------
+<a name="contact"></a>
+<!-- CONTACT -->
+## Contact
+
+Your Name - [@lyndskg](https://twitter.com/lyndskg) - lyndsey.gu@gmail.com
+
+Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+
+<p align="right">(<a href="#eli5">back to top</a>)</p>
+
+---------------------------
+<a name="ack"></a>
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+
+* [Choose an Open Source License](https://choosealicense.com)
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+* [Malven's Grid Cheatsheet](https://grid.malven.co/)
+* [Img Shields](https://shields.io)
+* [GitHub Pages](https://pages.github.com)
+* [Font Awesome](https://fontawesome.com)
+* [React Icons](https://react-icons.github.io/react-icons/search)
+
+> Put
+> Shit
+> Here
+
+<p align="right">(<a href="#eli5">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
+[product-screenshot]: images/screenshot.png
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
