@@ -254,10 +254,10 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 ---------------------
 <a name="todo"></a>
 ### <ins>*To-Do List</ins>:*
-1. Project Setup:
-- Choose the tech stack for the web app or desktop app.
-- Set up the development environment and install necessary dependencies.
-- Create a new project repository and initialize version control (e.g., Git).
+> 1. Project Setup:
+> - Choose the tech stack for the web app or desktop app.
+> - Set up the development environment and install necessary dependencies.
+> - Create a new project repository and initialize version control (e.g., Git).
 2. Basic Conversion Functionality:
 - Implement the front-end user interface for inputting YouTube video links and selecting audio formats.
 - Set up the back-end to handle YouTube API requests and download audio in WAV format.
