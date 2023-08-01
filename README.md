@@ -88,7 +88,13 @@ The project aims to cater to both web and desktop users, supporting both macOS a
 <a name="obj"></a>
 ### <ins>Objectives</ins>
 
+1. Provide users with a seamless and intuitive way to convert and download YouTube audio tracks into various audio formats.
+2. Allow users to edit metadata for each audio track, manually or with AI/ML assistance.
+3. Develop an AI/ML model to automatically fetch or generate metadata for improved user experience.
+4. Support both web and desktop applications to cater to a broader user base.
+5. Ensure cross-platform compatibility for the desktop app, supporting macOS and Windows operating systems.
 
+   
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
 
@@ -202,7 +208,7 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 <a name="map"></a>
 ## Roadmap
 
-- [ ]  __<ins>Phase 1</ins> (*2-3 weeks*):__
+- [ ]  __<ins>Phase 1</ins> (*2-3 weeks*): Project Setup and Basic Conversion Functionality__
   - Set up the project structure, implement basic web or desktop app functionality to convert YouTube audio to WAV format, and allow user-selected location for file saving.
 - [ ]  __<ins>Phase 2</ins> (*3-4 weeks*):__ 
   - Add support for lossless compression (M4A) and lossy compression (MP3).
