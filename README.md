@@ -23,7 +23,7 @@
             <li><a href="wstack">Tech Stack</a></li>
             <li><a href="wIDE">Recommended IDEs</a></li>
           </ul>
-          <a href="#desk">Desktop Application</a>
+          <li><a href="#desk">Desktop Application</a></li>
           <ul>
             <li><a href="dstack">Tech Stack</a></li>
             <li><a href="dIDE">Recommended IDEs</a></li>
