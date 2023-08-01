@@ -159,7 +159,8 @@ The project aims to cater to both web and desktop users, supporting both macOS a
 >>   - **<ins>PyCharm</ins>:** A specialized IDE for Python development that provides advanced tools for working with `Django` and `Flask` projects.
 &nbsp;
 <p align="right">(<a href="#yt">back to top</a>)</p>
-------------------
+
+---------------------
 
 <a name="desk"></a>
 ### Desktop Application
