@@ -1,6 +1,6 @@
 <a name="yt"></a>
 
-# yt2wav
+# ytconv3rt3r
 
 #### <ins>__*a web- or app-based youtube audio converter tool*__</ins>
 
@@ -78,10 +78,17 @@
 <a name="view"></a>
 ## Project Overview 
 
-The objective of this project is to create a versatile and user-friendly application that allows users to convert and download YouTube audio tracks into various audio file formats, including uncompressed audio (WAV), lossless compression (M4A), and lossy compression (MP3). Additionally, users can edit metadata for each audio track, with the option of AI/ML assistance for automatic metadata retrieval or generation. The project aims to cater to both web and desktop users, supporting macOS and Windows operating systems.
+`ytconv3rt3r` is a versatile and user-friendly application that allows users to convert and download YouTube audio tracks into various audio file formats &mdash; including uncompressed audio (WAV), lossless compression (M4A), and lossy compression (MP3). 
+
+
+Additionally, users can edit metadata for each audio track, with the option of AI/ML assistance for automatic metadata retrieval or generation. 
+
+The project aims to cater to both web and desktop users, supporting both macOS and Windows operating systems.
+
 
 <a name="obj"></a>
 ### <ins>Objectives</ins>
+
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
