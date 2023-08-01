@@ -138,6 +138,7 @@ The project aims to cater to both web and desktop users, supporting both macOS a
 
 
 &nbsp;
+<p align="right">(<a href="#yt">back to top</a>)</p>
 
 <a name="desk"></a>
 ### Desktop Application
