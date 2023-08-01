@@ -196,9 +196,14 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 <a name="map"></a>
 ## Roadmap
 
-- [ ]  Phase 1 (2-3 weeks): Set up the project structure, implement basic web or desktop app functionality to convert YouTube audio to WAV format, and allow user-selected location for file saving.
-- [ ] Phase 2 (3-4 weeks): Add support for lossless compression (M4A) and lossy compression (MP3). Implement metadata editing functionality for each audio track manually.
-- [ ] Phase 3 (4-5 weeks): Integrate AI/ML to automatically fetch or generate metadata. Enhance UI/UX and add advanced features, such as batch processing and playlist support.
+- [ ]  __<ins>Phase 1</ins> (*2-3 weeks*):__
+  - Set up the project structure, implement basic web or desktop app functionality to convert YouTube audio to WAV format, and allow user-selected location for file saving.
+- [ ]  __<ins>Phase 2</ins> (*3-4 weeks*):__ 
+  - Add support for lossless compression (M4A) and lossy compression (MP3).
+  - Implement metadata editing functionality for each audio track manually.
+- [ ]  __<ins>Phase 3</ins> (*4-5 weeks*):__
+  - Integrate AI/ML to automatically fetch or generate metadata.
+  - Enhance UI/UX and add advanced features, such as batch processing and playlist support.
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
