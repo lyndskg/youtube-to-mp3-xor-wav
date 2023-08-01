@@ -49,6 +49,7 @@
     <li>
       <a href="usage">Usage</a>
       <ul>
+        <li><a href="start">Getting Started</a></li>
         <li><a href="use-case">Potential Use Cases</a></li>
         <li><a href="appl">Practical Applications</a></li>
         <li><a href="install">User Installation Details</a></li>
@@ -295,8 +296,15 @@ Provide feedback on the conversion progress and allow users to view and edit met
 <a name="usage"></a>
 ## Usage
 
+<a name="start"></a>
+### Getting Started 
+
+&nbsp;
+
 <a name="use-case"></a>
 ### Potential Use Cases: 
+
+&nbsp;
 
 <a name="appl"></a>
 ### Practical Applications:
@@ -309,8 +317,12 @@ Users who prefer smaller file sizes can choose lossy formats for easy sharing an
 
 <a name="install"></a>
 ### User Installation Details:
-> - **Web App:** No installation required; users access the app via a web browser.
-> - **Desktop App:** Users need to download and install the application for macOS or Windows.
+> - **Web App:**
+>>  - No installation required; users access the app via a web browser.
+> - **Desktop App:**
+>>  - Users need to download and install the application for macOS or Windows.
+
+&nbsp;
 
 <a name="prereq"></a>
 ### Prerequisites:
