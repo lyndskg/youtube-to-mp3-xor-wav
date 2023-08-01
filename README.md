@@ -19,10 +19,15 @@
         <li>
           <a href="#web">Web Application</a>
           <ul> 
-            <li><a href="wstack"><Tech-Stack></a></li>
-            <li><a href="wIDE"><Recommended-IDEs></a></li>
+            <li><a href="wstack">Tech Stack</a></li>
+            <li><a href="wIDE">Recommended IDEs</a></li>
           </ul>
-        </li>
+          <a href="#desk">Desktop Application</a>
+          <ul>
+            <li><a href="dstack">Tech Stack</a></li>
+            <li><a href="dIDE">Recommended IDEs</a></li>
+          </ul>
+        </li> 
         <li><a href="#back">Back-end</a></li>
         <li><a href="#ml">Libraries/APIs</a></li>
         <li><a href="#ide">IDEs (Integrated Development Environments)</a></li>
