@@ -157,10 +157,9 @@ The project aims to cater to both web and desktop users, supporting both macOS a
 > 2.  **<ins>Back-end</ins>:**
 >>   - **<ins>Visual Studio Code</ins>:** An excellent choice for back-end development with `Ruby on Rails`, `Django`, and `Flask` due to its versatility and extensive plugin support.
 >>   - **<ins>PyCharm</ins>:** A specialized IDE for Python development that provides advanced tools for working with `Django` and `Flask` projects.
-
-
 &nbsp;
 <p align="right">(<a href="#yt">back to top</a>)</p>
+------------------
 
 <a name="desk"></a>
 ### Desktop Application
