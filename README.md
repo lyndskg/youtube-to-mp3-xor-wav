@@ -296,7 +296,7 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 ---------------------
   
 <a name="est"></a>
-### Time Estimate:
+### <ins>Time Estimate</ins>:
 Considering the phases and development times mentioned above, the estimated time of completion for the entire `ytconv3rt3r` project is approximately 20 weeks (*5 months*). 
 
 However, the timeline can be influenced by factors such as team size, resources, complexity of AI/ML integration, and any unforeseen challenges that may arise during development.
@@ -474,9 +474,44 @@ Package the desktop app as a `.dmg` file for macOS and an installer for Windows.
 <a name="plus"></a>
 ## Future Enhancements (using AI/ML):
 
-1. Implement AI/ML models to analyze audio content and automatically suggest appropriate metadata (artist, title, genre, et cetera).
-2. Train models to identify the best possible audio format based on the video's content and user preferences.
+- Implement AI/ML models to analyze audio content and automatically suggest appropriate metadata (artist, title, genre, et cetera).
+- Train models to identify the best possible audio format based on the video's content and user preferences.
 
+1. **Smart Playlists:**\
+- Implement an intelligent playlist feature that automatically organizes converted audio tracks based on metadata, genre, or user preferences.
+- Users can create dynamic playlists that update automatically as new audio tracks are converted and downloaded.
+2. **Audio Quality Selection:**\
+- Allow users to choose the desired audio quality for conversion, providing options for high, medium, or low-quality audio files to cater to different preferences and storage limitations.
+3. **Video to Audio Converter:**\
+- Expand the application to support converting entire YouTube videos to audio files, allowing users to extract audio from videos, such as interviews, podcasts, or lectures.
+4. **Audio Preview:**\
+- Enable users to preview a short snippet of the converted audio before downloading, ensuring the desired quality and content before committing to the full download.
+5. **Offline Mode:**\
+- Implement an offline mode for the desktop app, allowing users to convert YouTube audio tracks without an internet connection, increasing convenience and accessibility.
+6. **Cross-platform Cloud Sync:**\
+- Introduce cloud synchronization capabilities, enabling users to access their converted audio files across multiple devices seamlessly.
+7. **Integration with Music Services:**\
+- Integrate with popular music services or music players, allowing users to directly import converted audio tracks into their existing music libraries.
+8. **Audio Editing Tools:**\
+- Provide basic audio editing tools, such as trimming, fading, and volume adjustment, to enable users to make minor adjustments to their converted audio tracks.
+9. **Language Support:**\
+- Extend language support for the application's user interface to cater to a global audience, making it accessible to users who prefer different languages.
+10. **User Accounts and History:**\
+- Implement user accounts that store conversion history, enabling users to access their conversion records and easily re-download previously converted tracks.
+11. **Social Sharing:**\
+- Introduce social sharing capabilities, allowing users to share their converted audio tracks or playlists on social media platforms or with friends and followers.
+12.** Audio Analysis and Recommendations:**\
+- Utilize AI/ML to analyze user preferences and suggest related audio tracks or genres based on their conversion history, providing personalized music recommendations.
+13. **Audio Effects and Filters:**\
+- Offer a selection of audio effects and filters that users can apply to their converted audio tracks to enhance the listening experience or achieve specific creative effects.
+14. **Online Audio Editing:**\
+- Provide an online audio editing feature, allowing users to perform basic audio editing tasks without the need to download the audio file first.
+15. **Collaboration and Sharing:**\
+- Enable users to collaborate on playlist creation and sharing, allowing multiple users to contribute to a playlist and share it with others.
+
+&nbsp;
+
+By continuously enhancing and expanding the AudioHipster application with these features, the project can keep pace with evolving user needs, remain relevant, and offer a cutting-edge and comprehensive solution for audio conversion and management.
 
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
@@ -553,6 +588,9 @@ By addressing various potential use cases and practical applications, `ytconv3rt
 <a name="prereq"></a>
 ### Prerequisites:
 
+- TODO
+
+- 
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
 ---------------------
