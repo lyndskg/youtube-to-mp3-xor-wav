@@ -492,15 +492,29 @@ Package the desktop app as a `.dmg` file for macOS and an installer for Windows.
 <a name="use-case"></a>
 ### Potential Use Cases: 
 
+1. Music Enthusiasts: Casual users who want to convert their favorite music from YouTube to different audio formats for personal enjoyment or sharing with friends.
+2. DJs and Music Producers: Professionals in the music industry can use the application to convert YouTube audio tracks into lossless formats for sampling, remixing, or creating music mixes for live performances.
+3. Music Students and Educators: Students studying music or educators teaching music theory can use the application to access audio tracks from YouTube for analysis and study purposes.
+4. Podcasters: Creators producing podcasts can convert YouTube audio content to the desired format for use in their episodes.
+5. Music Archivists: Professionals or hobbyists interested in preserving historical or rare music tracks available on YouTube can convert and store them in archival-quality formats.
+
 &nbsp;
 
 <a name="appl"></a>
 ### Practical Applications:
 
-- DJs and music producers can use the application to download high-quality audio tracks with correct metadata for mixing.
-- Musicians can convert YouTube music into lossless formats for sampling or studying.
-- Users who prefer smaller file sizes can choose lossy formats for easy sharing and storage.
+1. **DJ Software Users:**\
+DJs using popular mixing and DJing software like RekordBox or Serato can ensure accurate metadata for their audio files by editing and saving the necessary details with the application.
+3. Music Collectors: Collectors looking to build a personal library of music can convert YouTube audio tracks and organize them with correct metadata.
+4. Music Streaming Platforms: Companies and platforms offering music streaming services can utilize the application to source audio content from YouTube and convert it to the desired format for streaming to users.
+5. Music Libraries and Archives: Libraries and archives dedicated to music preservation can use the application to convert YouTube audio tracks into archival-quality formats, ensuring the preservation of valuable audio content.
+6. Music Education Platforms: Educational platforms focused on music can integrate the application to provide students with access to a wide range of audio content for study and learning purposes.
+7. Music Licensing and Copyright Monitoring: Companies involved in music licensing and copyright monitoring can utilize the application to convert YouTube audio tracks to various formats for tracking and legal compliance.
+8. Audio Content Aggregators: Platforms aggregating audio content from various sources, including YouTube, can leverage the application to convert and offer audio tracks in different formats to their users.
+9. Personal Music Backups: Individual users can use the application to create backups of their favorite music from YouTube in different formats, ensuring access even if the original content is no longer available.
 
+
+By addressing various potential use cases and practical applications, `ytconv3rt3r` becomes a valuable tool for a diverse range of users and industries, catering to their unique needs for audio content conversion and management.
 &nbsp;
 
 <a name="install"></a>
