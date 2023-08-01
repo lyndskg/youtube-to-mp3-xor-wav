@@ -447,23 +447,24 @@ Package the desktop app as a `.dmg` file for macOS and an installer for Windows.
 > - AI/ML-Generated Metadata (*optional*):
 >   - If AI/ML assistance is used, the AI/ML-generated metadata is included in the output audio file.
 
-#### Error Handling: 
-> - **Invalid YouTube Link:** Display an error message if the user inputs an invalid YouTube video link.
-> - **Unsupported Format:** Alert the user if the selected format is not supported or unavailable for conversion.
-> - **Conversion Errors:** Inform the user if any issues arise during the conversion process.
-> - **AI/ML Errors (*optional*):** Handle errors gracefully if AI/ML metadata generation encounters problems.
+
+#### __<ins>*Error Handling*</ins>:__
+> - **<ins>Invalid YouTube Link</ins>:** Display an error message if the user inputs an invalid YouTube video link.
+> - **<ins>Unsupported Format</ins>:** Alert the user if the selected format is not supported or unavailable for conversion.
+> - **<ins>Conversion Errors</ins>:** Inform the user if any issues arise during the conversion process.
+> - **<ins>AI/ML Errors (*optional*)</ins>:** Handle errors gracefully if AI/ML metadata generation encounters problems.
 
 &nbsp;
-
+---------------------
 <a name="user"></a>
-### User Requirements/Permissions:
+### User Requirements and/or Permissions:
 > - Users should have access to YouTube to provide video links.
 > - Users may require appropriate permissions to read/write files in the selected destination folder.
 
 <a name="sys"></a>
-### System Requirements/Permissions:
-> - Web App: Modern web browser with JavaScript enabled.
-> - Desktop App: Compatible with macOS and Windows operating systems.
+### System Requirements and/or Permissions:
+> - **Web App:** Modern web browser with JavaScript enabled.
+> - **Desktop App:** Compatible with macOS and Windows operating systems.
 
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
