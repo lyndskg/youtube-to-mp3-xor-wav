@@ -418,14 +418,30 @@ Package the desktop app as a `.dmg` file for macOS and an installer for Windows.
 <a name="i"></a>
 ### Input: 
 > - YouTube video link,
+>   - Users input the link to the YouTube video they want to convert.
 > - selected audio format,
+>   - Users select the desired audio format (WAV, M4A, MP3) for the conversion.  
 > - destination folder,
-> - optional metadata details.
+>   - Users choose the location on their device where the converted audio file will be saved.
+> - metadata details (*optional*).
+>   - Users manually input artist, title, genre, album, and other details for the audio track. 
 >
 <a name="o"></a>
 ### Output: 
-> - Converted audio file with selected format,
-> - metadata-edited audio file.
+> - Converted audio file,
+>   - The application outputs the audio file in the selected format (WAV, M4A, MP3).
+> - edited metadata (*optional*)
+>   - If manual metadata editing is performed, the edited metadata is included in the output audio file.
+> - AI/ML-Generated Metadata (*optional*):
+>   - If AI/ML assistance is used, the AI/ML-generated metadata is included in the output audio file.
+
+#### Error Handling: 
+> - **Invalid YouTube Link:** Display an error message if the user inputs an invalid YouTube video link.
+> - **Unsupported Format:** Alert the user if the selected format is not supported or unavailable for conversion.
+> - **Conversion Errors:** Inform the user if any issues arise during the conversion process.
+> - **AI/ML Errors (*optional*):** Handle errors gracefully if AI/ML metadata generation encounters problems.
+
+&nbsp;
 
 <a name="user"></a>
 ### User Requirements/Permissions:
