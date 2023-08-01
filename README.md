@@ -75,11 +75,11 @@
 
 Users will have the option to edit metadata for each audio track &mdash; including artist, title, genre, and other relevant details (which is especially crucial for users who use mixing/DJing software like `RekordBox` or `Serato`). 
 
-
+&nbsp;
 > - To enhance the user experience, an AI/ML-enhanced version of the project will be developed, which will automatically source and generate the correct metadata for each YouTube link.
 >   
 > - Additionally, users can edit metadata for each audio track, with the option of AI/ML assistance for automatic metadata retrieval or generation. 
-
+&nbsp;
 
 The project aims to cater to both web and desktop users, supporting both macOS and Windows operating systems.
 
