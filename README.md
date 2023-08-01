@@ -54,11 +54,15 @@
     <li>
       <a href="usage">Usage</a>
       <ul>
-        <li><a href="start">Getting Started</a></li>
+        <li>
+          <a href="start">Getting Started</a></li>
+          <ul>
+            <li><a href="install">User Installation Details</a></li>
+            <li><a href="prereq">Prerequisites</a></li>
+          </ul>
+        </li>
         <li><a href="use-case">Potential Use Cases</a></li>
         <li><a href="appl">Practical Applications</a></li>
-        <li><a href="install">User Installation Details</a></li>
-        <li><a href="prereq">Prerequisites</a></li>
       </ul>
     </li>
     <li><a href="give">Contributions</a></li>
