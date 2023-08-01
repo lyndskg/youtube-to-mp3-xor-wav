@@ -253,7 +253,7 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 
 ---------------------
 <a name="todo"></a>
-### To-Do List:
+### <ins>*To-Do List</ins>:*
 1. Project Setup:
 - Choose the tech stack for the web app or desktop app.
 - Set up the development environment and install necessary dependencies.
