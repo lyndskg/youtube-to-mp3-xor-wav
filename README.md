@@ -316,13 +316,38 @@ Provide feedback on the conversion progress and allow users to view and edit met
 <a name="flow"></a>
 ## Basic Workflow Guide
 
-1. User inputs the YouTube video link and selects the desired audio format (WAV, M4A, or MP3).
-2. The application fetches the video data using the YouTube Data API.
-3. The video is downloaded in the selected format and saved to the user-specified location.
-4. If the user chooses to edit metadata, they can manually input the details or use AI/ML assistance.
-5. The final audio file with edited metadata is saved.
+1. **User Inputs YouTube Video Link:**
+> - The user accesses the `ytconv3rt3r` application and inputs the YouTube video link they want to convert.
+2. **Select Desired Audio Format and Destination Folder:**
+> - The user selects the desired audio format (WAV, M4A, or MP3) for the conversion.
+> - The user chooses the destination folder where the converted audio file will be saved.
+3. **Audio Conversion and Download:**
+> - The application sends the YouTube video link to the back-end, which uses the YouTube API to fetch the video data.
+> - The back-end initiates the audio conversion process using FFmpeg, converting the audio to the selected format.
+> - The converted audio file is downloaded and saved to the specified destination folder.
+4. __Manual Metadata Editing (*Optional*):__
+> - If the user wants to edit metadata manually, they can access the metadata editing interface.
+> - The user can modify artist, title, genre, and other details for the audio track.
+5. __AI/ML Metadata Generation (*Optional*):__
+> - For users who choose to use AI/ML assistance, the application automatically generates or retrieves metadata for the audio track.
+> - AI/ML models analyze the audio content and provide relevant metadata suggestions.
+6. **Feedback and Download Completion:**
+> - The application provides feedback on the conversion progress and notifies the user when the download is complete.
+> - If AI/ML-generated metadata is used, the user can review and confirm the suggested metadata before downloading.
+7. __Advanced Features: Batch Processing and Playlist Support (*Optional*):__
+> - The user can choose to process multiple YouTube video links simultaneously in batch mode.
+> - Playlist support allows the user to download the audio tracks from an entire YouTube playlist.
+8. **Testing, Bug Fixing, and Optimization:**
+> - The application undergoes extensive testing to identify and fix any bugs or issues.
+> - Performance optimizations are applied to ensure efficient and smooth operation.
+9. **Documentation and Deployment:**
+> - Comprehensive documentation, including installation guides and API references, is prepared for users and developers.
+> - The web app is deployed to a reliable server or hosting platform for public access.
+> - The desktop app is packaged as a .dmg file for macOS and an installer for Windows.
+10. **Project Completion and Release:**
+> - The `ytconv3rt3r` project is completed and released to the public, providing users with a powerful and user-friendly tool for converting and downloading YouTube audio tracks in various formats with optional AI/ML-enhanced metadata generation.
 
-
+&nbsp; 
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
 ---------------------
