@@ -63,23 +63,6 @@
   </ol>
 </details>
       
-    </li>
-    
-      <ul>
-        <li><a href="#line">Timeline</a></li>
-        <ul>
-          <li><a href="#time">Time Estimate</a></li>
-        </ul>
-        <li><a href="#todo">To-Do List</a></li>
-      </ul>
-    </li>
-    <li><a href="#start">Getting Started</a></li>
-    <li><a href="#flow">Basic Workflow</a></li>
-    <li>
- 
-    <li><a href="#feat">Key Features</a></li>
-  </ol>
-</details>
   
 
 ---------------------------
@@ -101,7 +84,9 @@ The project aims to cater to both web and desktop users, supporting both macOS a
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
+
 ---------------------
+
 <a name="feat"></a>
 ## Key Features
 
