@@ -249,7 +249,9 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 >  - [ ] Prepare comprehensive documentation for users and developers, including installation guides and API references.
 >  - [ ] Deploy the web app to a reliable server or hosting platform for public access.
 >  - [ ] Package the desktop app as .dmg for macOS and installer for Windows.
+&nbsp;
 
+---------------------
 
 <a name="est"></a>
 ### Time Estimate:
