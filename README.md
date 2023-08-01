@@ -113,17 +113,17 @@ The project aims to cater to both web and desktop users, supporting both macOS a
 ## Key Features
 
 1. __<ins>YouTube Audio Conversion</ins>:__
-- The application allows users to convert YouTube audio tracks into different formats, including uncompressed audio (WAV), lossless compression (M4A), and lossy compression (MP3).
-3. __<ins>Metadata Editing</ins>:__
-- Users have the option to edit metadata for each audio track, such as artist, title, genre, and album, ensuring accurate and relevant information for their audio files.
-4. __<ins>AI/ML Metadata Assistance (*optional*)</ins>:__
-- Users can leverage AI/ML assistance to automatically fetch or generate metadata for their audio tracks, streamlining the process and enhancing the user experience.
-5. __<ins>Web and Desktop Application</ins>:__
-- `ytconv3rt3r` offers both web and desktop versions, catering to a wide range of users across different devices and operating systems.
-6. __<ins>Batch Processing</ins>:__
-- Users can convert multiple YouTube audio tracks simultaneously, saving time and effort when processing large numbers of files.
-7. __<ins>Playlist Support</ins>:__
-- The application supports converting an entire YouTube playlist, providing convenience for users who wish to download multiple audio tracks from a playlist.
+  - The application allows users to convert YouTube audio tracks into different formats, including uncompressed audio (WAV), lossless compression (M4A), and lossy compression (MP3).
+2. __<ins>Metadata Editing</ins>:__
+  - Users have the option to edit metadata for each audio track, such as artist, title, genre, and album, ensuring accurate and relevant information for their audio files.
+3. __<ins>AI/ML Metadata Assistance (*optional*)</ins>:__
+  - Users can leverage AI/ML assistance to automatically fetch or generate metadata for their audio tracks, streamlining the process and enhancing the user experience.
+4. __<ins>Web and Desktop Application</ins>:__
+  - `ytconv3rt3r` offers both web and desktop versions, catering to a wide range of users across different devices and operating systems.
+5. __<ins>Batch Processing</ins>:__
+  - Users can convert multiple YouTube audio tracks simultaneously, saving time and effort when processing large numbers of files.
+6. __<ins>Playlist Support</ins>:__
+  - The application supports converting an entire YouTube playlist, providing convenience for users who wish to download multiple audio tracks from a playlist.
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
