@@ -309,10 +309,10 @@ Users can choose between different audio formats and set the destination folder.
 Provide feedback on the conversion progress and allow users to view and edit metadata before downloading.
 
 
-### UI/UX Implementation Details:
-
-1. **Landing Page:**
-- The landing page features a simple and clean design with a prominent input field for the YouTube video link.
+> ### UI/UX Implementation Details:
+>
+> 1. **Landing Page:**
+> - The landing page features a simple and clean design with a prominent input field for the YouTube video link.
 - Clear and concise instructions guide users on how to use the application to convert and download audio tracks.
 - Users are presented with audio format options (WAV, M4A, MP3) and a browse button to select the destination folder.
 2. **Conversion Progress:**
