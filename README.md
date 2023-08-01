@@ -16,11 +16,16 @@
     <li>
       <a href="#tech">Technologies and Programming Languages</a>
       <ul>
-        <li><a href="#front">Front-end (User Interface)</a></li>
+        <li>
+          <a href="#web">Web Application</a>
+          <ul> 
+            <li><a href="wstack"><Tech Stack></li>
+            </ul>
+        </li>
         <li><a href="#back">Back-end</a></li>
         <li><a href="#ml">Libraries/APIs</a></li>
         <li><a href="#ide">IDEs (Integrated Development Environments)</a></li>
-        <li><a href="#ml">Development Environment</a></li>
+        <li><a href="#devenv">Development Environment</a></li>
       </ul>
     </li>
     <li><a href="#uiux">UI/UX</a></li>
@@ -79,8 +84,10 @@ The objective of this project is to create a versatile and user-friendly applica
 <a name="tech"></a>
 ## Technologies and Programming Languages
 
+<a name="web"></a>
 ### <ins>**_Web Application_**</ins>
 
+<a name="wstack"></a>
 #### **<ins>Tech Stack</ins>:**
 >
 > #### **Version 1**
@@ -104,7 +111,7 @@ The objective of this project is to create a versatile and user-friendly applica
 >>> - `axios`: A promise-based HTTP client for making API requests.
 >>> - `MusiXmatch API`: For accessing music metadata, lyrics, and other related data.
 
-
+<a name="wIDE"></a>
 #### **<ins>Recommended IDEs</ins>:**
 >
 > 1. __<ins>Front-end</ins>: (*User Interface*)__
@@ -118,8 +125,10 @@ The objective of this project is to create a versatile and user-friendly applica
 
 &nbsp;
 
+<a name="desk"></a>
 ### Desktop Application
 
+<a name="dstack"></a>
 #### **<ins>Tech Stack</ins>:**
 > #### **Version 1**
 >> - __<ins>Front-end</ins>: (*User Interface*)__ `Electron.js` for cross-platform compatibility
@@ -138,7 +147,7 @@ The objective of this project is to create a versatile and user-friendly applica
 >>> - `Node.js child_process module`: For running `FFmpeg` and other command-line utilities.
 >>> - `Spotify Web API`: For accessing music metadata and related information.
  
-
+<a name="dIDE"></a>
 #### **<ins>Recommended IDEs</ins>:**
 > 1. __<ins>Front-end</ins>: (*User Interface*)__
 >>   - <ins>Visual Studio Code</ins>: A versatile code editor suitable for `React Native` development with its wide range of extensions and `React Native`-specific tooling.
@@ -155,10 +164,19 @@ Remember that some IDEs may offer better integration and support for specific te
 
 Additionally, some IDEs may have community or professional editions, so be sure to consider your project's budget and needs when making a decision.
 
+
+
+<a name="devenv"></a>
+### Development Environment:
+
+> - **Operating System:** macOS Ventura *(version 14.3.1)*
+> - **Architecture:** Apple arm64
+
+
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
 ---------------------
-
+<a name="map"></a>
 ## Roadmap:
 
 - [ ]  Phase 1 (2-3 weeks): Set up the project structure, implement basic web or desktop app functionality to convert YouTube audio to WAV format, and allow user-selected location for file saving.
@@ -169,6 +187,7 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 
 ---------------------
 
+<a name="uiux"></a>
 ## UI/UX Implementation Details
 
 The UI/UX should be intuitive and straightforward, featuring a simple input field for the YouTube video link and options for choosing the desired audio format and metadata editing. 
@@ -182,7 +201,7 @@ Provide feedback on the conversion progress and allow users to view and edit met
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
 ---------------------
-
+<a name="flow"></a>
 ## Basic Workflow Guide
 
 1. User inputs the YouTube video link and selects the desired audio format (WAV, M4A, or MP3).
@@ -195,7 +214,7 @@ Provide feedback on the conversion progress and allow users to view and edit met
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
 ---------------------
-
+<a name="impl"></a>
 ## Project Implementation Guide
 
 1. **<ins>Getting Started</ins>:**
@@ -216,25 +235,27 @@ Provide feedback on the conversion progress and allow users to view and edit met
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
 ---------------------
-
+<a name="io"></a>
 ## Potential I/O Specifications
 
+<a name="i"></a>
 ### Input: 
 > - YouTube video link,
 > - selected audio format,
 > - destination folder,
 > - optional metadata details.
->   
+>
+<a name="o"></a>
 ### Output: 
 > - Converted audio file with selected format,
 > - metadata-edited audio file.
 
-
+<a name="user"></a>
 ### User Requirements/Permissions:
 - Users should have access to YouTube to provide video links.
 - Users may require appropriate permissions to read/write files in the selected destination folder.
 
-
+<a name="sys"></a>
 ### System Requirements/Permissions:
 - Web App: Modern web browser with JavaScript enabled.
 - Desktop App: Compatible with macOS and Windows operating systems.
@@ -244,7 +265,7 @@ Provide feedback on the conversion progress and allow users to view and edit met
 
 ---------------------
 
-
+<a name="plus"></a>
 ## Potential Enhancements (using AI/ML):
 
 1. Implement AI/ML models to analyze audio content and automatically suggest appropriate metadata (artist, title, genre, et cetera).
@@ -255,16 +276,18 @@ Provide feedback on the conversion progress and allow users to view and edit met
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
 ---------------------
-
+<a name="usage"></a>
 ## Usage
 
+<a name="use-case"></a>
 ### Potential Use Cases and Practical Applications:
 
 DJs and music producers can use the application to download high-quality audio tracks with correct metadata for mixing.\
 Musicians can convert YouTube music into lossless formats for sampling or studying.\
 Users who prefer smaller file sizes can choose lossy formats for easy sharing and storage.
 
-
+<a name="install"></a>
+<a name="prereq"></a>
 ### User Installation Details and Prerequisites:
 - Web App: No installation required; users access the app via a web browser.
 - Desktop App: Users need to download and install the application for macOS or Windows.
@@ -273,7 +296,7 @@ Users who prefer smaller file sizes can choose lossy formats for easy sharing an
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
 ---------------------
-
+<a name="give"></a>
 ## Contributions
 
 Contributions can help enhance the application, adding new features and improving performance.\
@@ -283,7 +306,7 @@ Donations can support server costs, API access, and incentivize continued develo
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
 ---------------------
-
+<a name="bye"></a>
 ## Conclusion
 
 This program empowers users to easily convert and download YouTube audio tracks in their preferred audio formats, making it ideal for DJs, musicians, and music enthusiasts. 
