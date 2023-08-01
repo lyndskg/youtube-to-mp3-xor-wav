@@ -314,9 +314,9 @@ Provide feedback on the conversion progress and allow users to view and edit met
 <a name="appl"></a>
 ### Practical Applications:
 
-DJs and music producers can use the application to download high-quality audio tracks with correct metadata for mixing.\
-Musicians can convert YouTube music into lossless formats for sampling or studying.\
-Users who prefer smaller file sizes can choose lossy formats for easy sharing and storage.
+- DJs and music producers can use the application to download high-quality audio tracks with correct metadata for mixing.
+- Musicians can convert YouTube music into lossless formats for sampling or studying.
+- Users who prefer smaller file sizes can choose lossy formats for easy sharing and storage.
 
 &nbsp;
 
@@ -353,7 +353,6 @@ This program empowers users to easily convert and download YouTube audio tracks 
 
 The addition of AI/ML features streamlines the process, automating metadata retrieval and enhancing user experience. 
 
-
 By providing a convenient and accessible tool, this project contributes to the seamless exploration and utilization of online audio content.
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
@@ -365,7 +364,7 @@ By providing a convenient and accessible tool, this project contributes to the s
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#eli5">back to top</a>)</p>
+<p align="right">(<a href="#yt">back to top</a>)</p>
 
 ---------------------------
 <a name="contact"></a>
@@ -376,7 +375,7 @@ Your Name - [@lyndskg](https://twitter.com/lyndskg) - lyndsey.gu@gmail.com
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
-<p align="right">(<a href="#eli5">back to top</a>)</p>
+<p align="right">(<a href="#yt">back to top</a>)</p>
 
 ---------------------------
 <a name="ack"></a>
@@ -398,7 +397,7 @@ Use this space to list resources you find helpful and would like to give credit 
 > Shit
 > Here
 
-<p align="right">(<a href="#eli5">back to top</a>)</p>
+<p align="right">(<a href="#yt">back to top</a>)</p>
 
 
 
