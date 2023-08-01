@@ -321,8 +321,9 @@ Users who prefer smaller file sizes can choose lossy formats for easy sharing an
 <a name="give"></a>
 ## Contributions
 
-Contributions can help enhance the application, adding new features and improving performance.\
-Donations can support server costs, API access, and incentivize continued development.
+**<ins>How to help</ins>:**
+> - *Contributions* can help enhance the application, adding new features and improving performance.
+> - *Donations* can support server costs, API access, and incentivize continued development.
 
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
