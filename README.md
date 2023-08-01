@@ -88,7 +88,7 @@ The objective of this project is to create a versatile and user-friendly applica
 >> - **Libraries/APIs:** YouTube Data API, `FFmpeg` for audio conversion, AI/ML libraries (optional)
 >
 > #### **Version 2**
->> 1. **Front-end:**
+>> 1. __<ins>Front-end</ins>: (*User Interface*)__
 >>> - `Angular`: A popular framework for building robust web applications.
 >>> - `Ember.js`: A framework for creating ambitious web applications with a strong focus on convention over configuration.
 >>> - `Svelte`: A lightweight framework that compiles components to highly optimized vanilla JavaScript.
@@ -142,6 +142,9 @@ The objective of this project is to create a versatile and user-friendly applica
 >>   - <ins>Visual Studio Code</ins>: Can be used for back-end development with `Flask` and `.NET Core`, providing a lightweight and efficient development environment.
 >>   - <ins>Visual Studio</ins>: A comprehensive IDE for Windows desktop app development with `.NET Core` and `C#`.
 
+
+
+&nbsp;
 
 Remember that some IDEs may offer better integration and support for specific tech stacks, so it's essential to explore and choose the one that fits your workflow and personal preferences.
 
