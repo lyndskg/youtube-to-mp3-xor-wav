@@ -217,15 +217,15 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 <a name="map"></a>
 ## Roadmap
 
-> - [ ]  __<ins>Phase 1</ins>: Project Setup and Basic Conversion Functionality (*3-4 weeks*)__
+ - [ ]  __<ins>Phase 1</ins>: Project Setup and Basic Conversion Functionality (*3-4 weeks*)__
 >  - [ ] Set up the development environment and select the tech stack.
 >  - [ ] Implement the basic front-end and back-end structure for the web app or desktop app.
 >  - [ ] Enable users to input YouTube video links and select desired audio formats (WAV, M4A, MP3).
 >  - [ ] Develop functionality to convert and download YouTube audio tracks into WAV format.
 >  - [ ] Set up the project structure, implement basic web or desktop app functionality to convert YouTube audio to WAV format, and allow user-selected location for file saving.
->     
->    
-> - [ ]  __<ins>Phase 2</ins>: Expanding Audio Formats and Manual Metadata Editing (*4 weeks*):__ 
+     
+   
+ - [ ]  __<ins>Phase 2</ins>: Expanding Audio Formats and Manual Metadata Editing (*4 weeks*):__ 
 >  - [ ] Add support for lossless compression (M4A) and lossy compression (MP3) formats.
 >  - [ ] Allow users to choose the destination folder for the downloaded audio files.
 >  - [ ] Implement a user interface for manual metadata editing, enabling users to modify artist, title, genre, and other details.
