@@ -232,21 +232,21 @@ Additionally, some IDEs may have community or professional editions, so be sure 
      
         
 - [ ]  __<ins>Phase 3</ins>: AI/ML Integration and Advanced Features (*6 weeks*)__
-  - [ ] Research, train, and integrate AI/ML models to automatically fetch or generate metadata for audio tracks.
-  - [ ] Enhance the UI/UX design for a more intuitive and visually appealing user experience.
-  - [ ] Add advanced features, such as batch processing and playlist support for converting multiple YouTube audio tracks simultaneously.
+>  - [ ] Research, train, and integrate AI/ML models to automatically fetch or generate metadata for audio tracks.
+>  - [ ] Enhance the UI/UX design for a more intuitive and visually appealing user experience.
+>  - [ ] Add advanced features, such as batch processing and playlist support for converting multiple YouTube audio tracks simultaneously.
      
         
 - [ ] __<ins>Phase 4</ins>: Testing, Bug Fixing, and Performance Optimization (*4 weeks*)__
-  - [ ] Conduct thorough testing to identify and address any bugs or issues.
-  - [ ] Optimize the application for performance and scalability.
-  - [ ] Address user feedback and implement necessary improvements.
+>  - [ ] Conduct thorough testing to identify and address any bugs or issues.
+>  - [ ] Optimize the application for performance and scalability.
+>  - [ ] Address user feedback and implement necessary improvements.
 
       
 - [ ] __<ins>Phase 5</ins>: Documentation and Deployment (*2 weeks*)__
-  - [ ] Prepare comprehensive documentation for users and developers, including installation guides and API references.
-  - [ ] Deploy the web app to a reliable server or hosting platform for public access.
-  - [ ] Package the desktop app as .dmg for macOS and installer for Windows.
+>  - [ ] Prepare comprehensive documentation for users and developers, including installation guides and API references.
+>  - [ ] Deploy the web app to a reliable server or hosting platform for public access.
+>  - [ ] Package the desktop app as .dmg for macOS and installer for Windows.
 
 
 <a name="est"></a>
