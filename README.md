@@ -254,31 +254,31 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 ---------------------
 <a name="todo"></a>
 ### <ins>*To-Do List</ins>:*
-> 1. Project Setup:
+1. **Project Setup:**
 > - Choose the tech stack for the web app or desktop app.
 > - Set up the development environment and install necessary dependencies.
 > - Create a new project repository and initialize version control (e.g., Git).
-2. Basic Conversion Functionality:
-- Implement the front-end user interface for inputting YouTube video links and selecting audio formats.
-- Set up the back-end to handle YouTube API requests and download audio in WAV format.
-- Test the basic conversion functionality and ensure files are saved in the specified location.
-3. Expanding Audio Formats and Manual Metadata Editing:
-- Add support for converting audio to lossless compression (M4A) and lossy compression (MP3) formats.
-- Implement a user interface for users to specify the destination folder for the downloaded audio files.
-- Create a metadata editing interface for users to manually modify artist, title, genre, and other details.
-4. AI/ML Integration and Advanced Features:
-- Research and select suitable AI/ML models for metadata generation or retrieval.
-- Integrate the AI/ML models into the application to automatically fetch or generate metadata.
-- Enhance the UI/UX design for a more intuitive and visually appealing user experience.
-- Implement advanced features such as batch processing and playlist support.
-5. Testing, Bug Fixing, and Performance Optimization:
-- Conduct thorough testing of the application's functionality and user interfaces.
-- Identify and fix any bugs or issues that arise during testing.
-- Optimize the application's performance and ensure efficient resource usage.
+2. **Basic Conversion Functionality:**
+> - Implement the front-end user interface for inputting YouTube video links and selecting audio formats.
+> - Set up the back-end to handle YouTube API requests and download audio in WAV format.
+> - Test the basic conversion functionality and ensure files are saved in the specified location.
+3. **Expanding Audio Formats and Manual Metadata Editing:**
+> - Add support for converting audio to lossless compression (M4A) and lossy compression (MP3) formats.
+> - Implement a user interface for users to specify the destination folder for the downloaded audio files.
+> - Create a metadata editing interface for users to manually modify artist, title, genre, and other details.
+4. **AI/ML Integration and Advanced Features:**
+> - Research and select suitable AI/ML models for metadata generation or retrieval.
+>> - Integrate the AI/ML models into the application to automatically fetch or generate metadata.
+> - Enhance the UI/UX design for a more intuitive and visually appealing user experience.
+> - Implement advanced features such as batch processing and playlist support.
+5. **Testing, Bug Fixing, and Performance Optimization:**
+> - Conduct thorough testing of the application's functionality and user interfaces.
+>- Identify and fix any bugs or issues that arise during testing.
+> - Optimize the application's performance and ensure efficient resource usage.
 6. Documentation and Deployment:
-- Prepare comprehensive documentation for users and developers, including installation guides and API references.
-- Deploy the web app to a reliable server or hosting platform for public access.
-- Package the desktop app as a .dmg file for macOS and an installer for Windows.
+> - Prepare comprehensive documentation for users and developers, including installation guides and API references.
+> - Deploy the web app to a reliable server or hosting platform for public access.
+> - Package the desktop app as a .dmg file for macOS and an installer for Windows.
 &nbsp;
 
 ---------------------
