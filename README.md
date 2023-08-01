@@ -116,7 +116,7 @@ The project aims to cater to both web and desktop users, supporting both macOS a
   - The application allows users to convert YouTube audio tracks into different formats, including uncompressed audio (WAV), lossless compression (M4A), and lossy compression (MP3).
 2. __<ins>Metadata Editing</ins>:__
   - Users have the option to edit metadata for each audio track, such as artist, title, genre, and album, ensuring accurate and relevant information for their audio files.
-3. __<ins>AI/ML Metadata Assistance (*optional*)</ins>:__
+3. __<ins>AI/ML Metadata Assistance</ins> (*optional*):__
   - Users can leverage AI/ML assistance to automatically fetch or generate metadata for their audio tracks, streamlining the process and enhancing the user experience.
 4. __<ins>Web and Desktop Application</ins>:__
   - `ytconv3rt3r` offers both web and desktop versions, catering to a wide range of users across different devices and operating systems.
