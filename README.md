@@ -223,18 +223,26 @@ Additionally, some IDEs may have community or professional editions, so be sure 
   - [ ] Enable users to input YouTube video links and select desired audio formats (WAV, M4A, MP3).
   - [ ] Develop functionality to convert and download YouTube audio tracks into WAV format.
   - [ ] Set up the project structure, implement basic web or desktop app functionality to convert YouTube audio to WAV format, and allow user-selected location for file saving.
+     
+    
 - [ ]  __<ins>Phase 2</ins>: Expanding Audio Formats and Manual Metadata Editing (*4 weeks*):__ 
   - [ ] Add support for lossless compression (M4A) and lossy compression (MP3) formats.
   - [ ] Allow users to choose the destination folder for the downloaded audio files.
   - [ ] Implement a user interface for manual metadata editing, enabling users to modify artist, title, genre, and other details.
+     
+        
 - [ ]  __<ins>Phase 3</ins>: AI/ML Integration and Advanced Features (*6 weeks*)__
   - [ ] Research, train, and integrate AI/ML models to automatically fetch or generate metadata for audio tracks.
   - [ ] Enhance the UI/UX design for a more intuitive and visually appealing user experience.
   - [ ] Add advanced features, such as batch processing and playlist support for converting multiple YouTube audio tracks simultaneously.
+     
+        
 - [ ] __<ins>Phase 4</ins>: Testing, Bug Fixing, and Performance Optimization (*4 weeks*)__
   - [ ] Conduct thorough testing to identify and address any bugs or issues.
   - [ ] Optimize the application for performance and scalability.
-  - [ ] Address user feedback and implement necessary improvements.   
+  - [ ] Address user feedback and implement necessary improvements.
+
+      
 - [ ] __<ins>Phase 5</ins>: Documentation and Deployment (*2 weeks*)__
   - [ ] Prepare comprehensive documentation for users and developers, including installation guides and API references.
   - [ ] Deploy the web app to a reliable server or hosting platform for public access.
@@ -243,13 +251,12 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 
 <a name="est"></a>
 ### Time Estimate:
-Considering the phases and development times mentioned above, the estimated time of completion for the entire `ytconv3rt3r` project is approximately 20 weeks (5 months). 
+Considering the phases and development times mentioned above, the estimated time of completion for the entire `ytconv3rt3r` project is approximately 20 weeks (*5 months*). 
 
 However, the timeline can be influenced by factors such as team size, resources, complexity of AI/ML integration, and any unforeseen challenges that may arise during development.
 
-&nbsp;
 
-Please note that the timeline is a rough estimate and may vary depending on the specific circumstances and any additional features or enhancements you may decide to include during the development process.\
+**<ins>Note</ins>:** The timeline is a rough estimate and may vary depending on the specific circumstances and any additional features or enhancements you may decide to include during the development process.\
 It's essential to plan and allocate resources accordingly to ensure the project's successful completion.
 
 
