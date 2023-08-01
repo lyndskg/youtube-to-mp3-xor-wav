@@ -98,7 +98,7 @@ The project aims to cater to both web and desktop users, supporting both macOS a
 ## Technologies and Programming Languages
 
 <a name="web"></a>
-### <ins>**_Web Application_**</ins>
+### Web Application
 
 <a name="wstack"></a>
 #### **<ins>Tech Stack</ins>:**
