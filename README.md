@@ -309,25 +309,25 @@ Users can choose between different audio formats and set the destination folder.
 Provide feedback on the conversion progress and allow users to view and edit metadata before downloading.
 
 
-> ### UI/UX Implementation Details:
+### <ins>UI/UX Implementation Details</ins>:
 >
 > 1. **Landing Page:**
-> - The landing page features a simple and clean design with a prominent input field for the YouTube video link.
-- Clear and concise instructions guide users on how to use the application to convert and download audio tracks.
-- Users are presented with audio format options (WAV, M4A, MP3) and a browse button to select the destination folder.
-2. **Conversion Progress:**
-- During the conversion process, a progress bar or spinner informs users of the conversion status.
-- Real-time updates show the percentage completed and the remaining time for larger files.
-3. **Metadata Editing Interface:**
-- The metadata editing interface provides text input fields for artist, title, genre, album, and other relevant details.
-- Where applicable, dropdown menus with suggested options for artist and genre are available for user convenience.
-- Users can preview the current metadata and compare it with AI/ML-generated suggestions (if applicable) before finalizing.
-4. __AI/ML Metadata Generation (*Optional*):__
-- Users are presented with an option to enable AI/ML assistance for metadata generation or retrieval.
-- If selected, the AI/ML-generated metadata suggestions are displayed for review and confirmation by the user.
-5. **Error Handling:**
-- Clear error messages and alerts guide users in case of invalid URLs, unsupported formats, or other issues.
-- Adequate error handling ensures a seamless user experience and helps users understand and resolve any problems.
+>> - The landing page features a simple and clean design with a prominent input field for the YouTube video link.
+>> - Clear and concise instructions guide users on how to use the application to convert and download audio tracks.
+>> - Users are presented with audio format options (WAV, M4A, MP3) and a browse button to select the destination folder.
+> 2. **Conversion Progress:**
+>> - During the conversion process, a progress bar or spinner informs users of the conversion status.
+>> - Real-time updates show the percentage completed and the remaining time for larger files.
+> 3. **Metadata Editing Interface:**
+>> - The metadata editing interface provides text input fields for artist, title, genre, album, and other relevant details.
+>> - Where applicable, dropdown menus with suggested options for artist and genre are available for user convenience.
+>> - Users can preview the current metadata and compare it with AI/ML-generated suggestions (if applicable) before finalizing.
+> 4. __AI/ML Metadata Generation (*Optional*):__
+>> - Users are presented with an option to enable AI/ML assistance for metadata generation or retrieval.
+>> - If selected, the AI/ML-generated metadata suggestions are displayed for review and confirmation by the user.
+> 5. **Error Handling:**
+>> - Clear error messages and alerts guide users in case of invalid URLs, unsupported formats, or other issues.
+>> - Adequate error handling ensures a seamless user experience and helps users understand and resolve any problems.
 
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
