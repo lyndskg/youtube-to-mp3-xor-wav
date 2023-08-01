@@ -35,6 +35,7 @@
     <li>
       <a href="#map">Roadmap</a></li>
       <ul>
+        <li><a href="todo">To-Do List</a></li>
         <li><a href="est">Time Estimate</a></li>
       </ul> 
     </li>
@@ -46,6 +47,7 @@
       <ul>
         <li><a href="#i">Input</a></li>
         <li><a href="#o">Output</a></li>
+        <li><a href="#err">Error Handling</a></li>
         <li><a href="#sys">System Requirements</a></li>
         <li><a href="#user">User Requirements</a></li>
       </ul>
@@ -263,6 +265,9 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 >  - [ ] Package the desktop app as .dmg for macOS and installer for Windows.
 &nbsp;
 
+
+<p align="right">(<a href="#yt">back to top</a>)</p>
+
 ---------------------
 <a name="todo"></a>
 ### <ins>*To-Do List</ins>:*
@@ -287,11 +292,14 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 > - Conduct thorough testing of the application's functionality and user interfaces.
 >- Identify and fix any bugs or issues that arise during testing.
 > - Optimize the application's performance and ensure efficient resource usage.
-6. Documentation and Deployment:
+6. **Documentation and Deployment:**
 > - Prepare comprehensive documentation for users and developers, including installation guides and API references.
 > - Deploy the web app to a reliable server or hosting platform for public access.
 > - Package the desktop app as a .dmg file for macOS and an installer for Windows.
 &nbsp;
+
+
+<p align="right">(<a href="#yt">back to top</a>)</p>
 
 ---------------------
   
@@ -447,7 +455,7 @@ Package the desktop app as a `.dmg` file for macOS and an installer for Windows.
 > - AI/ML-Generated Metadata (*optional*):
 >   - If AI/ML assistance is used, the AI/ML-generated metadata is included in the output audio file.
 
-
+<a name="err"></a>
 #### __<ins>*Error Handling*</ins>:__
 > - **<ins>Invalid YouTube Link</ins>:** Display an error message if the user inputs an invalid YouTube video link.
 > - **<ins>Unsupported Format</ins>:** Alert the user if the selected format is not supported or unavailable for conversion.
@@ -455,6 +463,7 @@ Package the desktop app as a `.dmg` file for macOS and an installer for Windows.
 > - **<ins>AI/ML Errors (*optional*)</ins>:** Handle errors gracefully if AI/ML metadata generation encounters problems.
 
 &nbsp;
+
 ---------------------
 <a name="user"></a>
 ### User Requirements and/or Permissions:
@@ -545,6 +554,8 @@ Professionals or hobbyists interested in preserving historical or rare music tra
 
 &nbsp;
 
+<p align="right">(<a href="#yt">back to top</a>)</p>
+
 <a name="appl"></a>
 ### Practical Applications:
 
@@ -575,6 +586,8 @@ Individual users can use the application to create backups of their favorite mus
 
 By addressing various potential use cases and practical applications, `ytconv3rt3r` becomes a valuable tool for a diverse range of users and industries, catering to their unique needs for audio content conversion and management.
 &nbsp;
+
+<p align="right">(<a href="#yt">back to top</a>)</p>
 
 <a name="install"></a>
 ### User Installation Details:
