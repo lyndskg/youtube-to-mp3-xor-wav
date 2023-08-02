@@ -88,7 +88,7 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
 
-## V2
+## V2: OTHER TOOLS AND TECH STACK LIST
 
 - Collaboration Tools: To enhance collaboration between you and your friend, consider using collaboration tools like GitHub or GitLab for version control. These platforms allow you to work on the same codebase simultaneously, manage code changes, and review each other's code.
 - Communication Tools: To facilitate communication and real-time collaboration, you can use messaging and video conferencing tools like Slack, Microsoft Teams, or Discord. These platforms enable seamless communication between team members, allowing you to discuss ideas, share progress, and resolve any issues promptly.
@@ -150,3 +150,30 @@ Certainly! Here are some more tech stacks that you can consider for your collabo
    - **Firebase**: A mobile and web application development platform.
 
 Remember to consider factors like the project's scope, scalability requirements, and the learning curve associated with each stack while making your decision. Additionally, consider your team's comfort level with the languages and frameworks involved, as this will significantly impact your development speed and efficiency.
+
+
+## V3: HTML-CSS-JS FRONTEND
+
+If you prefer using HTML, CSS, and JavaScript for the front-end, you can modify the recommended tech stack to accommodate your choice. Here's an updated suggestion:
+
+**Tech Stack Recommendation:**
+Since your project involves both C# and Python, and you want to use HTML, CSS, and JavaScript for the front-end, you'll need a tech stack that supports all these requirements. One option is to use ASP.NET Core (C#) for the backend and Django (Python) for the API services, while building the front-end separately using HTML, CSS, and JavaScript.
+
+Here's how you can structure the tech stack:
+
+1. **Front-End:**
+   - **HTML**: Markup language for structuring the content of your web pages.
+   - **CSS**: Styling language for designing the layout and appearance of your web pages.
+   - **JavaScript**: Programming language for adding interactivity and dynamic elements to your front-end.
+
+2. **Backend API:**
+   - **ASP.NET Core (C#)**: Use C# and ASP.NET Core to build the backend API that will handle data processing, business logic, and interact with the database.
+
+3. **API Integration:**
+   - **Django (Python)**: Develop a separate Django application that will act as a middleware API. This API will receive requests from the front-end and communicate with the ASP.NET Core backend for data exchange.
+
+By using this approach, you'll be able to leverage the strengths of C# and Python in the backend while having the flexibility to design and implement the front-end using standard web technologies like HTML, CSS, and JavaScript.
+
+The communication between the front-end and the backend can happen through HTTP requests, where the front-end sends requests to the Django API, which then communicates with the ASP.NET Core backend for data processing. The responses are sent back to the front-end through the Django API, which acts as a bridge between the two languages.
+
+Remember to define clear API contracts to ensure seamless communication between the front-end and the backend. Additionally, using this approach, you and your friend can work on the backends independently, with minimal dependencies between your respective codebases.
