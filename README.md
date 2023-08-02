@@ -82,7 +82,6 @@
    
 <p align="right">**<ins>Note</ins>:** <ins>Last updated</ins>: 8/2/23</p>
 
-#### **<ins>Note</ins>:** <ins>Last updated</ins>: 8/2/23
 
 ---------------------------
 
