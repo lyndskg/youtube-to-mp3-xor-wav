@@ -759,7 +759,7 @@ However, the timeline can be influenced by factors such as team size, resources,
 We welcome contributions from the community to help improve `ytconv3rt3r` and make it even better.
 
 <a name="coc"></a>
-### **Code of Conduct:**
+#### **<ins>Code of Conduct</ins>:**
 We follow a <strong><em>Code of Conduct</em></strong> to ensure a respectful and inclusive environment for all contributors.\
 Please review the project's Code of Conduct [link to Code of Conduct file] before making any contributions.
 &nbsp;
@@ -767,28 +767,42 @@ Please review the project's Code of Conduct [link to Code of Conduct file] befor
 Now, without any further ado...
 
 <a name="whattogive"></a>
-### **What to Contribute:**
+#### **<ins>What to Contribute</ins>:**
 Whether you are a developer, designer, tester, or a music enthusiast, there are several ways you can contribute to the project:
-1. **Code Contributions:** If you are a developer, you can contribute to the project by adding new features, fixing bugs, or optimizing existing code. Fork the project, make your changes, and submit a pull request to have your changes reviewed and merged.
-2. **Documentation:** Clear and comprehensive documentation is crucial for any project. If you have good technical writing skills, you can contribute by improving the project's documentation, including user guides, installation instructions, and API references.
-3. **Bug Reports:** If you encounter any bugs or issues while using `ytconv3rt3r`, please report them on the project's issue tracker on GitHub. Include detailed information about the problem, steps to reproduce it, and the operating system and browser (for web app users) you are using.
-4. **Feature Requests:** Have an idea for a new feature or improvement? Share it on the issue tracker. We value user feedback and suggestions and will consider all feature requests for future enhancements.
-5. **Testing:** Help us ensure the stability and reliability of `ytconv3rt3r` by testing the application on different devices and browsers. Report any issues you find, and provide feedback on the user experience.
-6. **Translations:** If you are proficient in multiple languages, you can contribute by translating the user interface into different languages, making `ytconv3rt3r` accessible to a broader audience.
-7. **User Experience (UX) Design:** If you are a UX designer, you can contribute by improving the application's user interface and experience. Provide design mockups, suggest UI improvements, and create a more intuitive and visually appealing experience for users.
-8. **Donations:** If you find `ytconv3rt3r` helpful and wish to support the project financially, you can make a donation to help cover server costs, API access, and motivate ongoing development.
+> 1. **Code Contributions:**
+>   - If you are a developer, you can contribute to the project by adding new features, fixing bugs, or optimizing existing code.
+>   - Fork the project, make your changes, and submit a pull request to have your changes reviewed and merged.
+> 2. **Documentation:**
+>   - Clear and comprehensive documentation is crucial for any project.
+>   - If you have good technical writing skills, you can contribute by improving the project's documentation, including user guides, installation instructions, and API references.
+> 3. **Bug Reports:**
+>   - If you encounter any bugs or issues while using `ytconv3rt3r`, please report them on the project's issue tracker on GitHub.
+>     - Include detailed information about the problem, steps to reproduce it, and the operating system and browser (for web app users) you are using.
+> 5. **Feature Requests:**
+>   - Have an idea for a new feature or improvement? Share it on the issue tracker.
+>   - We value user feedback and suggestions and will consider all feature requests for future enhancements.
+> 6. **Testing:**
+>   - Help us ensure the stability and reliability of `ytconv3rt3r` by testing the application on different devices and browsers.
+>   - Report any issues you find, and provide feedback on the user experience.
+> 7. **Translations:**
+>   - If you are proficient in multiple languages, you can contribute by translating the user interface into different languages, making `ytconv3rt3r` accessible to a broader audience.
+> 8. **User Experience (UX) Design:**
+>   - If you are a UX designer, you can contribute by improving the application's user interface and experience.
+>   - Provide design mockups, suggest UI improvements, and create a more intuitive and visually appealing experience for users.
+> 9. **Donations:**
+>   - If you find `ytconv3rt3r` helpful and wish to support the project financially, you can make a donation to help cover server costs, API access, and motivate ongoing development.
 
 
 <a name="howtogive"></a>
-### **How to Contribute:**
-- Fork the repository on GitHub and make your changes in a new branch.
-- Ensure your code follows the project's coding guidelines and conventions.
-- Test your changes thoroughly to avoid introducing new issues.
-- Submit a pull request to the main repository, clearly describing your changes and the problem they solve.
+#### **<ins>How to Contribute</ins>:**
+> - Fork the repository on GitHub and make your changes in a new branch.
+> - Ensure your code follows the project's coding guidelines and conventions.
+> - Test your changes thoroughly to avoid introducing new issues.
+> - Submit a pull request to the main repository, clearly describing your changes and the problem they solve.
 
 
 <a name="whygive"></a>
-### **Why Contribute:**
+#### **<ins>Why Contribute</ins>:**
 By contributing to `ytconv3rt3r`, you become part of an active and collaborative community, and your efforts help enhance the application's functionality and user experience.\
 We appreciate your support and value your contributions to the project's success.
 
