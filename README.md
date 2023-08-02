@@ -102,7 +102,7 @@ The project aims to cater to both web and desktop users, supporting both macOS a
 ---------------------
 
 <a name="obj"></a>
-### <ins>Objectives</ins>
+### <ins>Objectives</ins>:
 
 1. __<ins>Seamless Audio Conversion Experience</ins>:__
 > - The primary objective of the `ytconv3rt3r` project is to provide users with a seamless and hassle-free experience when converting YouTube audio tracks into various audio formats.
@@ -130,7 +130,7 @@ The project aims to cater to both web and desktop users, supporting both macOS a
 ---------------------
 
 <a name="curr"></a>
-### Current Notes and/or Issues: 
+### <ins>Current Notes and/or Issues</ins>: 
 
 > Write
 >
