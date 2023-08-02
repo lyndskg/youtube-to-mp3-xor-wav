@@ -52,13 +52,13 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 
 -----------------
 
+<!---- Is this even necessary if downloading from website as dmg vs from App Store -----> 
+### V1.1 In Python
+
 If your project is intended to be a desktop app for macOS, the tech stack and tools you choose might change compared to web application development. Here are some considerations and adjustments you can make for a desktop app using PYTHON:
 
 
 Here's a revised tech stack recommendation tailored for your desktop app:
-
-<!---- Is this even necessary if downloading from website as dmg vs from App Store -----> 
-### V1.1 In Python
 
 #### **<ins>Frameworks</ins>:**
 
