@@ -26,6 +26,15 @@
            <li><a href= "express">Express + Node + Electron JS</a></li>
         </ul>
      </li>
+     <li>
+        <a href=py">Python Tech Stacks</a>
+        <ul>
+           <li><a href= "express">Flask + SQLite</a></li>
+           <li><a href= "express">Flask + PostgreSQL</a></li>
+           <li><a href= "express">Django + SQLite</a></li>
+           <li><a href= "express">Django + PostgreSQL</a></li>
+        </ul>
+     </li>
   </ol>
 </details>
         
