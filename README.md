@@ -249,39 +249,39 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 ## Project Implementation Guide
 
 1. **<ins>Getting Started</ins>:**
-- Choose the tech stack for the web or desktop app and set up the development environment.
-  - Install required dependencies.
-- Create the basic web or desktop app structure.
-  - Create the front-end skeleton with the necessary components, routing (for web apps), and basic styling.
-  - Set up the back-end to handle API requests, including YouTube API and AI/ML integration (if applicable).
+> - Choose the tech stack for the web or desktop app and set up the development environment.
+>   - Install required dependencies.
+> - Create the basic web or desktop app structure.
+>  - Create the front-end skeleton with the necessary components, routing (for web apps), and basic styling.
+>  - Set up the back-end to handle API requests, including YouTube API and AI/ML integration (if applicable).
 2. **<ins>YouTube Audio Conversion</ins>:**
-- Implement code to fetch and download YouTube audio using FFmpeg for audio conversion.
-- Utilize `FFmpeg`(or `FFmpeg.js` for web apps) to perform audio conversion to WAV, M4A, or MP3 formats.
+> - Implement code to fetch and download YouTube audio using FFmpeg for audio conversion.
+> - Utilize `FFmpeg`(or `FFmpeg.js` for web apps) to perform audio conversion to WAV, M4A, or MP3 formats.
 3. **<ins>Metadata Editing</ins>:**
-- Develop the front-end user interface for manual metadata editing, enabling users to modify track details.
-- If integrating AI/ML, prepare the back-end to connect with AI/ML models and retrieve or generate metadata.
+> - Develop the front-end user interface for manual metadata editing, enabling users to modify track details.
+> - If integrating AI/ML, prepare the back-end to connect with AI/ML models and retrieve or generate metadata.
 4. **<ins>AI/ML Integration</ins>:**
-- Research and select appropriate AI/ML models for metadata generation or retrieval.
-- Implement the connection between the back-end and AI/ML models for seamless metadata integration.
+> - Research and select appropriate AI/ML models for metadata generation or retrieval.
+> - Implement the connection between the back-end and AI/ML models for seamless metadata integration.
 5. **<ins>UI/UX Enhancement</ins>:**
-- Design a user-friendly interface with proper error handling and progress indicators.
-- Enhance the user interface with CSS and responsive design to create a visually appealing and user-friendly application.
-- Add support for batch processing and playlist downloads.
-- Improve the user experience by providing real-time feedback, smooth transitions, and intuitive interactions.
+> - Design a user-friendly interface with proper error handling and progress indicators.
+> - Enhance the user interface with CSS and responsive design to create a visually appealing and user-friendly application.
+> - Add support for batch processing and playlist downloads.
+> - Improve the user experience by providing real-time feedback, smooth transitions, and intuitive interactions.
 6. **<ins>Advanced Features</ins>:**
-- Implement batch processing functionality for users to convert multiple YouTube audio tracks at once.
-- Enable playlist support for downloading audio from an entire YouTube playlist.
+> - Implement batch processing functionality for users to convert multiple YouTube audio tracks at once.
+> - Enable playlist support for downloading audio from an entire YouTube playlist.
 7. **<ins>Testing and Bug Fixing</ins>:**
-- Conduct thorough testing for the web or desktop app on different devices and browsers.
-- Identify and fix any bugs or issues that arise during testing.
+> - Conduct thorough testing for the web or desktop app on different devices and browsers.
+> - Identify and fix any bugs or issues that arise during testing.
 8. **<ins>Performance Optimization</ins>:**
-- Optimize the application for performance and responsiveness, ensuring efficient resource utilization.
+> - Optimize the application for performance and responsiveness, ensuring efficient resource utilization.
 9. **<ins>Documentation</ins>:**
-- Prepare comprehensive documentation, including a user guide, installation instructions, and API documentation.
-- Provide clear and concise explanations for each feature and functionality.
+> - Prepare comprehensive documentation, including a user guide, installation instructions, and API documentation.
+> - Provide clear and concise explanations for each feature and functionality.
 10. **<ins>Deployment</ins>:**
-- Deploy the web app to a reliable server or hosting platform for public access.
-Package the desktop app as a `.dmg` file for macOS and an installer for Windows.
+> - Deploy the web app to a reliable server or hosting platform for public access.
+> - Package the desktop app as a `.dmg` file for macOS and an installer for Windows.
 
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
