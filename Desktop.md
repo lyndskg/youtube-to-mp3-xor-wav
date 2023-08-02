@@ -1,16 +1,16 @@
-## 1. Desktop App 
+# Desktop App 
 
    
 <p align="right">(<a href="#deskpy">Python version</a>)</p>
 
 <a name="dstack"></a>
 ## **<ins>Tech Stack</ins>:**
-> ### **Version 1**
+> ## **Version 1**
 >> - __<ins>Front-end</ins>: (*User Interface*)__ `Electron.js` for cross-platform compatibility
 >> - **<ins>Back-end</ins>:** `Node.js` with `Express.js` (for handling API requests)
 >> - **<ins>Libraries and APIs</ins>:** YouTube Data API, `FFmpeg` for audio conversion, AI/ML libraries (optional)
 >
-> ### **Version 2**
+> ## **Version 2**
 >> 1. __<ins>Front-end</ins>: (*User Interface*)__
 >> - For desktop apps, the frontend will be the user interface of the application. You can use the GUI libraries provided by the chosen desktop app framework (*e.g.*, `PyQt` or `Tkinter` or `Kivy`) to create the user interface using widgets and layouts.
 >>> - `React Native`: A framework for building cross-platform mobile applications with `React.js` components.
@@ -68,7 +68,7 @@ Here's a revised tech stack recommendation tailored for your desktop app:
 ### **<ins>Frameworks</ins>:**
 
 
-#### **Frontend:**
+### **Frontend:**
 
 Since you are building a desktop app for macOS, you'll need a framework that supports macOS app development.\
 For the frontend of your desktop app, you can use Python's built-in GUI libraries or other third-party frameworks that support macOS app development. Some options include:
@@ -149,6 +149,8 @@ Overall, the main difference is that you'll be developing a standalone desktop a
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
 -----------------
+## Python or C# (Back-end)
+
 
 **C# for Backend:**
 1. **Strongly Typed Language:** C# is a statically-typed language, which means variables and data types must be defined at compile time. This helps catch errors early in the development process and makes the code more robust.
@@ -227,28 +229,7 @@ In summary, consider the data-related requirements of your desktop application a
 
 -----------------
 
-## V4.2: WEB APP IN PYTHON
 
-If you are comfortable with Python and would like to stick with it for both the backend and frontend of your project, that's absolutely possible and can simplify the development process. In that case, you won't need ASP.NET Core for the backend, and you can use Python-based frameworks for both frontend and backend development.
-
-Here's a revised tech stack recommendation for your project:
-
-**Frontend:**
-- **HTML, CSS, and JavaScript:** Use these fundamental web technologies for building the structure, style, and interactivity of your web application's frontend. You can use frameworks like Bootstrap or MaterializeCSS to expedite the frontend development process.
-
-**Backend:**
-- **Python Web Framework (Django or Flask):** Since you want to stick with Python, you have a couple of popular choices for the backend. Django and Flask are both excellent options:
-  - **Django:** This high-level web framework follows the "don't repeat yourself" (DRY) principle and includes many built-in features such as an ORM (Object-Relational Mapping) for database interactions, user authentication, and admin panel.
-  - **Flask:** Flask is a micro-framework that gives you more flexibility and control over your project's structure. It's lightweight and lets you choose your preferred libraries and components to build the application.
-
-**Database:**
-- **SQLite (for Development):** Both Django and Flask can work with SQLite, which is a lightweight, serverless database suitable for development and testing purposes. It requires minimal configuration and is a good choice when starting the project.
-- **PostgreSQL (for Production):** For a more robust and scalable solution in a production environment, consider using PostgreSQL. Django and Flask can seamlessly integrate with PostgreSQL, and it's an excellent open-source relational database.
-
-**Deployment:**
-- **PythonAnywhere or Heroku:** These platforms offer easy deployment options for Python web applications. PythonAnywhere provides a simple web hosting environment for Python applications, while Heroku offers more customization and scaling options.
-
-By using Python for both frontend and backend, you and your friend can leverage your Python expertise efficiently. Python has a vast number of libraries and frameworks that can assist in various aspects of web development, making it a versatile choice for building web applications. Just ensure that you are familiar with Python best practices for web development and follow proper security practices to keep your application secure. Happy coding!
 
 
 ### IS DB NECESSARY
