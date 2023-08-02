@@ -80,7 +80,7 @@
 
 ## <a href="#curr">View our Progress</a>
    
-<p align="right"><strong><ins>Note</ins>:</strong> <em>Last updated</em>: <8/2/23</p>
+<p align="right"><strong><ins>Note</ins>:</strong> <em>Last updated</em>: 8/2/23</p>
 
 
 ---------------------------
