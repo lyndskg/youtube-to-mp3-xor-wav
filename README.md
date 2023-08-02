@@ -11,18 +11,19 @@
       <a href="#view">Project Overview</a>
       <ul>
         <li><a href="#obj">Objectives</a></li>
+        <li><a href="#curr">Current Notes and Issues</a></li>
       </ul>
     </li>
     <li>
       <a href="#tech">Technologies and Programming Languages</a>
       <ul>
         <li>
-          <a href="#desk">Web Application</a>
+          <a href="#desk">Desktop Application</a>
           <ul> 
             <li><a href="dstack">Tech Stack</a></li>
             <li><a href="dIDE">Recommended IDEs</a></li>
           </ul>
-          <li><a href="#web">Desktop Application</a></li>
+          <li><a href="#web">Web Application</a></li>
           <ul>
             <li><a href="wstack">Tech Stack</a></li>
             <li><a href="wIDE">Recommended IDEs</a></li>
@@ -123,6 +124,17 @@ The project aims to cater to both web and desktop users, supporting both macOS a
 5. **<ins>Cross-Platform Compatibility</ins>:**
 > - In addition to supporting both web and desktop applications, cross-platform compatibility is a crucial objective of the project.
 > - The team will ensure that the application functions smoothly on various operating systems and web browsers, allowing users to access and use it regardless of their chosen platform.
+
+&nbsp;
+
+---------------------
+
+<a name="curr"></a>
+### Current Notes and/or Issues: 
+
+> Write
+> Stuff
+> Here
 
    
 <p align="right">(<a href="#yt">back to top</a>)</p>
