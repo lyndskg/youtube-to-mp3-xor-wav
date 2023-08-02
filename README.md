@@ -101,7 +101,8 @@
 > Executive
 >
 > Summary
-   
+
+#### <a href="#stackz">View our Tech Stack</a>
 <p align="right"><strong><ins>Note</ins>:</strong> <em>Last updated</em>: 8/2/23</p>
 
 
@@ -171,6 +172,16 @@ The project aims to cater to both web and desktop users, supporting both macOS a
 
 <a name="tech"></a>
 ## Technologies and Programming Languages
+
+<a name="stackz"></a>
+## Currently Used Tech Stack: 
+
+> A
+>
+> B
+>
+> C
+
 
 <a name="desk"></a>
 ### Desktop Application
