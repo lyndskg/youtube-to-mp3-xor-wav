@@ -6,13 +6,12 @@
 <p align="right">(<a href="#deskpy">Python version</a>)</p>
 
 <a name="dstack"></a>
-## **<ins>Tech Stack</ins>:**
-> ## **Version 1**
+## **Version 1**
 >> - __<ins>Front-end</ins>: (*User Interface*)__ `Electron.js` for cross-platform compatibility
 >> - **<ins>Back-end</ins>:** `Node.js` with `Express.js` (for handling API requests)
 >> - **<ins>Libraries and APIs</ins>:** YouTube Data API, `FFmpeg` for audio conversion, AI/ML libraries (optional)
 >
-> ## **Version 2**
+## **Version 2**
 >> 1. __<ins>Front-end</ins>: (*User Interface*)__
 >> - For desktop apps, the frontend will be the user interface of the application. You can use the GUI libraries provided by the chosen desktop app framework (*e.g.*, `PyQt` or `Tkinter` or `Kivy`) to create the user interface using widgets and layouts.
 >>> - `React Native`: A framework for building cross-platform mobile applications with `React.js` components.
