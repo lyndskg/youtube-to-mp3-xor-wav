@@ -2,6 +2,15 @@
 
 #### <strong><ins><em>Tech Stacks</em></ins></strong>
 
+## Table of Contents
+1. JavaScript
+2. Python
+- i) Flask + SQLite
+- ii) Flask + PostgreSQL
+- iii) Django + SQLite
+- iv) Django + PostgreSQL
+3. C#
+   
 <details>
   <summary>Table of Contents</summary>
   <ol>
