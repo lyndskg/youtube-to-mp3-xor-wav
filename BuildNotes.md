@@ -1,5 +1,7 @@
 # V1: Desktop Application
 
+   
+<p align="right">(<a href="#deskpy">Python version</a>)</p>
 
 <a name="dstack"></a>
 ## **<ins>Tech Stack</ins>:**
