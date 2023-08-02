@@ -28,7 +28,7 @@
 <p align="right">(<a href="#deskpy">Python version</a>)</p>
 
 <a name="express"></a>
-## **Version 1**
+## 1.1: Electron.js + Node.js w/ Express.js + Youtube Data API + FFmpeg
 >> - __<ins>Front-end</ins>: (*User Interface*)__ `Electron.js` for cross-platform compatibility
 >> - **<ins>Back-end</ins>:** `Node.js` with `Express.js` (for handling API requests)
 >> - **<ins>Libraries and APIs</ins>:** YouTube Data API, `FFmpeg` for audio conversion, AI/ML libraries (optional)
