@@ -30,7 +30,7 @@
 ## 1. JS-Based Tech Stacks 
 
 <a name="express"></a>
-## 1.1: Electron.js + Node.js w/ Express.js + Youtube Data API + FFmpeg
+## i) Electron.js + Node.js w/ Express.js + Youtube Data API + FFmpeg
 >> - __<ins>Front-end</ins>: (*User Interface*)__ `Electron.js` for cross-platform compatibility
 >> - **<ins>Back-end</ins>:** `Node.js` with `Express.js` (for handling API requests)
 >> - **<ins>Libraries and APIs</ins>:**
