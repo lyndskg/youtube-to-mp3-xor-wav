@@ -6,10 +6,10 @@
 1. JavaScript
    1. <a href="#express">Express, Node & Electron JS</a>
 3. Python
-- i) Flask + SQLite
-- ii) Flask + PostgreSQL
-- iii) Django + SQLite
-- iv) Django + PostgreSQL
+   1. Flask + SQLite
+   2. Flask + PostgreSQL
+   3. Django + SQLite
+   4. Django + PostgreSQL
 3. C#
    
 <details>
@@ -31,7 +31,11 @@
 ## 1.1: Electron.js + Node.js w/ Express.js + Youtube Data API + FFmpeg
 >> - __<ins>Front-end</ins>: (*User Interface*)__ `Electron.js` for cross-platform compatibility
 >> - **<ins>Back-end</ins>:** `Node.js` with `Express.js` (for handling API requests)
->> - **<ins>Libraries and APIs</ins>:** YouTube Data API, `FFmpeg` for audio conversion, AI/ML libraries (optional)
+>> - **<ins>Libraries and APIs</ins>:**
+>>> - YouTube Data API
+>>> - `FFmpeg` for audio conversion
+>>> - `Electron Forge`: A complete toolchain to package and distribute `Electron.js` applications.
+>>> - AI/ML libraries (optional)
 
 
 ## **Version 2**
@@ -62,11 +66,11 @@
 <a name="dIDE"></a>
 ## **<ins>Recommended IDEs</ins>:**
 > 1. __<ins>Front-end</ins>: (*User Interface*)__
->>   - <ins>Visual Studio Code</ins>: A versatile code editor suitable for `React Native` development with its wide range of extensions and `React Native`-specific tooling.
->>   - <ins>IntelliJ IDEA</ins>: A robust IDE from JetBrains that supports `Flutter` development and offers powerful code analysis and debugging tools.
+>>   - __<ins>Visual Studio Code</ins>:__ A versatile code editor suitable for `React Native` development with its wide range of extensions and `React Native`-specific tooling.
+>>   - __<ins>IntelliJ IDEA</ins>:__ A robust IDE from JetBrains that supports `Flutter` development and offers powerful code analysis and debugging tools.
 > 2. **<ins>Back-end</ins>:**
->>   - <ins>Visual Studio Code</ins>: Can be used for back-end development with `Flask` and `.NET Core`, providing a lightweight and efficient development environment.
->>   - <ins>Visual Studio</ins>: A comprehensive IDE for Windows desktop app development with `.NET Core` and `C#`.
+>>   - **<ins>Visual Studio Code</ins>:** Can be used for back-end development with `Flask` and `.NET Core`, providing a lightweight and efficient development environment.
+>>   - **<ins>Visual Studio</ins>:** A comprehensive IDE for Windows desktop app development with `.NET Core` and `C#`.
 
 &nbsp;
 
@@ -85,29 +89,39 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 
 1. <strong><ins>Tech Stack 1</ins>:<strong>
 
-Consists of Python with Flask for the backend, where you can build RESTful APIs, and HTML/CSS/JavaScript for the frontend.
+Consists of Python with `Flask` for the backend, where you can build RESTful APIs, and *`HTML/CSS/JavaScript`* for the frontend.
 - `SQLite` is used as a lightweight, serverless database for development purposes.
 - It also includes integration with the Youtube Data API for fetching Youtube data and `FFmpeg` for audio conversion.
 
   
-> - Front-end (UI): HTML/CSS/JavaScript
-> - Back-end: Python + Flask
-> - Database: SQLite
-> - Additional Libraries and Frameworks: Youtube Data API + FFmpeg
+> - **<ins>Front-end (UI)</ins>:**
+>> - `HTML/CSS/JavaScript`
+>   
+> - **<ins>Back-end</ins>:**
+>> - `Python`
+>> - `Flask`
+>   
+> - **<ins>Database</ins>:**
+>> - `SQLite`
+>   
+> - **<ins>Additional Libraries, Frameworks and APIs</ins>:**
+>> - Youtube Data API
+>> - `FFmpeg`
+>> - `Node.js child_process module`: For running `FFmpeg` and other command-line utilities.
+>
 > - IDE: Visual Studio Code (VS Code)
 >> - VS Code's versatility is valuable for integrating additional libraries and APIs like the Youtube Data API and FFmpeg.
-
-
-> -  Pros:
->> - Flask allows for rapid development and easy integration with the Youtube Data API and FFmpeg.
->> - SQLite is simple to set up and suitable for development and testing purposes.
->> - Python provides a wide range of libraries and tools for various functionalities.
->> - Youtube Data API enables seamless integration with Youtube for fetching data.
->> - FFmpeg facilitates audio conversion, supporting various formats.
 >
-> - Cons:
->> - SQLite may not be suitable for production-scale databases.
->> - Flask might require additional libraries for certain functionalities compared to Django.
+> - <strong><em><ins>Pros</ins></em>:</strong>
+>> - `Flask` allows for rapid development and easy integration with the Youtube Data API and `FFmpeg`.
+>> - `SQLite` is simple to set up and suitable for development and testing purposes.
+>> - `Python` provides a wide range of libraries and tools for various functionalities.
+>> - Youtube Data API enables seamless integration with Youtube for fetching data.
+>> - `FFmpeg` facilitates audio conversion, supporting various formats.
+>
+> - <strong><em><ins>Cons</ins></em>:</strong>
+>> - `SQLite` may not be suitable for production-scale databases.
+>> - `Flask` might require additional libraries for certain functionalities compared to `Django`.
 
 
 
