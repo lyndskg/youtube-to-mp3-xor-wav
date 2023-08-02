@@ -269,6 +269,82 @@ It's essential to plan and allocate resources accordingly to ensure the project'
 
 ---------------------
 
+<a name="impl"></a>
+## Project Implementation Guide
+
+1. **<ins>Getting Started</ins>:**
+- Choose the tech stack for the web or desktop app and set up the development environment.
+  - Install required dependencies.
+- Create the basic web or desktop app structure.
+  - Create the front-end skeleton with the necessary components, routing (for web apps), and basic styling.
+  - Set up the back-end to handle API requests, including YouTube API and AI/ML integration (if applicable).
+2. **<ins>YouTube Audio Conversion</ins>:**
+- Implement code to fetch and download YouTube audio using FFmpeg for audio conversion.
+- Utilize `FFmpeg`(or `FFmpeg.js` for web apps) to perform audio conversion to WAV, M4A, or MP3 formats.
+3. **<ins>Metadata Editing</ins>:**
+- Develop the front-end user interface for manual metadata editing, enabling users to modify track details.
+- If integrating AI/ML, prepare the back-end to connect with AI/ML models and retrieve or generate metadata.
+4. **<ins>AI/ML Integration</ins>:**
+- Research and select appropriate AI/ML models for metadata generation or retrieval.
+- Implement the connection between the back-end and AI/ML models for seamless metadata integration.
+5. **<ins>UI/UX Enhancement</ins>:**
+- Design a user-friendly interface with proper error handling and progress indicators.
+- Enhance the user interface with CSS and responsive design to create a visually appealing and user-friendly application.
+- Add support for batch processing and playlist downloads.
+- Improve the user experience by providing real-time feedback, smooth transitions, and intuitive interactions.
+6. **<ins>Advanced Features</ins>:**
+- Implement batch processing functionality for users to convert multiple YouTube audio tracks at once.
+- Enable playlist support for downloading audio from an entire YouTube playlist.
+7. **<ins>Testing and Bug Fixing</ins>:**
+- Conduct thorough testing for the web or desktop app on different devices and browsers.
+- Identify and fix any bugs or issues that arise during testing.
+8. **<ins>Performance Optimization</ins>:**
+- Optimize the application for performance and responsiveness, ensuring efficient resource utilization.
+9. **<ins>Documentation</ins>:**
+- Prepare comprehensive documentation, including a user guide, installation instructions, and API documentation.
+- Provide clear and concise explanations for each feature and functionality.
+10. **<ins>Deployment</ins>:**
+- Deploy the web app to a reliable server or hosting platform for public access.
+Package the desktop app as a `.dmg` file for macOS and an installer for Windows.
+
+
+<p align="right">(<a href="#yt">back to top</a>)</p>
+
+---------------------
+<a name="io"></a>
+## Potential I/O Specifications
+
+<a name="i"></a>
+### Input: 
+> - YouTube video link,
+>   - Users input the link to the YouTube video they want to convert.
+> - selected audio format,
+>   - Users select the desired audio format (WAV, M4A, MP3) for the conversion.  
+> - destination folder,
+>   - Users choose the location on their device where the converted audio file will be saved.
+> - metadata details (*optional*).
+>   - Users manually input artist, title, genre, album, and other details for the audio track. 
+>
+<a name="o"></a>
+### Output: 
+> - Converted audio file,
+>   - The application outputs the audio file in the selected format (WAV, M4A, MP3).
+> - edited metadata (*optional*)
+>   - If manual metadata editing is performed, the edited metadata is included in the output audio file.
+> - AI/ML-Generated Metadata (*optional*):
+>   - If AI/ML assistance is used, the AI/ML-generated metadata is included in the output audio file.
+
+<a name="err"></a>
+#### __<ins>*Error Handling*</ins>:__
+> - **<ins>Invalid YouTube Link</ins>:** Display an error message if the user inputs an invalid YouTube video link.
+> - **<ins>Unsupported Format</ins>:** Alert the user if the selected format is not supported or unavailable for conversion.
+> - **<ins>Conversion Errors</ins>:** Inform the user if any issues arise during the conversion process.
+> - **<ins>AI/ML Errors (*optional*)</ins>:** Handle errors gracefully if AI/ML metadata generation encounters problems.
+
+&nbsp;
+
+---------------------
+
 <a name="uiux"></a>
 ## UI/UX
 
@@ -407,81 +483,7 @@ Provide feedback on the conversion progress and allow users to view and edit met
 
 
 ---------------------
-<a name="impl"></a>
-## Project Implementation Guide
 
-1. **<ins>Getting Started</ins>:**
-- Choose the tech stack for the web or desktop app and set up the development environment.
-  - Install required dependencies.
-- Create the basic web or desktop app structure.
-  - Create the front-end skeleton with the necessary components, routing (for web apps), and basic styling.
-  - Set up the back-end to handle API requests, including YouTube API and AI/ML integration (if applicable).
-2. **<ins>YouTube Audio Conversion</ins>:**
-- Implement code to fetch and download YouTube audio using FFmpeg for audio conversion.
-- Utilize `FFmpeg`(or `FFmpeg.js` for web apps) to perform audio conversion to WAV, M4A, or MP3 formats.
-3. **<ins>Metadata Editing</ins>:**
-- Develop the front-end user interface for manual metadata editing, enabling users to modify track details.
-- If integrating AI/ML, prepare the back-end to connect with AI/ML models and retrieve or generate metadata.
-4. **<ins>AI/ML Integration</ins>:**
-- Research and select appropriate AI/ML models for metadata generation or retrieval.
-- Implement the connection between the back-end and AI/ML models for seamless metadata integration.
-5. **<ins>UI/UX Enhancement</ins>:**
-- Design a user-friendly interface with proper error handling and progress indicators.
-- Enhance the user interface with CSS and responsive design to create a visually appealing and user-friendly application.
-- Add support for batch processing and playlist downloads.
-- Improve the user experience by providing real-time feedback, smooth transitions, and intuitive interactions.
-6. **<ins>Advanced Features</ins>:**
-- Implement batch processing functionality for users to convert multiple YouTube audio tracks at once.
-- Enable playlist support for downloading audio from an entire YouTube playlist.
-7. **<ins>Testing and Bug Fixing</ins>:**
-- Conduct thorough testing for the web or desktop app on different devices and browsers.
-- Identify and fix any bugs or issues that arise during testing.
-8. **<ins>Performance Optimization</ins>:**
-- Optimize the application for performance and responsiveness, ensuring efficient resource utilization.
-9. **<ins>Documentation</ins>:**
-- Prepare comprehensive documentation, including a user guide, installation instructions, and API documentation.
-- Provide clear and concise explanations for each feature and functionality.
-10. **<ins>Deployment</ins>:**
-- Deploy the web app to a reliable server or hosting platform for public access.
-Package the desktop app as a `.dmg` file for macOS and an installer for Windows.
-
-
-<p align="right">(<a href="#yt">back to top</a>)</p>
-
----------------------
-<a name="io"></a>
-## Potential I/O Specifications
-
-<a name="i"></a>
-### Input: 
-> - YouTube video link,
->   - Users input the link to the YouTube video they want to convert.
-> - selected audio format,
->   - Users select the desired audio format (WAV, M4A, MP3) for the conversion.  
-> - destination folder,
->   - Users choose the location on their device where the converted audio file will be saved.
-> - metadata details (*optional*).
->   - Users manually input artist, title, genre, album, and other details for the audio track. 
->
-<a name="o"></a>
-### Output: 
-> - Converted audio file,
->   - The application outputs the audio file in the selected format (WAV, M4A, MP3).
-> - edited metadata (*optional*)
->   - If manual metadata editing is performed, the edited metadata is included in the output audio file.
-> - AI/ML-Generated Metadata (*optional*):
->   - If AI/ML assistance is used, the AI/ML-generated metadata is included in the output audio file.
-
-<a name="err"></a>
-#### __<ins>*Error Handling*</ins>:__
-> - **<ins>Invalid YouTube Link</ins>:** Display an error message if the user inputs an invalid YouTube video link.
-> - **<ins>Unsupported Format</ins>:** Alert the user if the selected format is not supported or unavailable for conversion.
-> - **<ins>Conversion Errors</ins>:** Inform the user if any issues arise during the conversion process.
-> - **<ins>AI/ML Errors (*optional*)</ins>:** Handle errors gracefully if AI/ML metadata generation encounters problems.
-
-&nbsp;
-
----------------------
 <a name="user"></a>
 ### User Requirements and/or Permissions:
 > - Users should have access to YouTube to provide video links.
