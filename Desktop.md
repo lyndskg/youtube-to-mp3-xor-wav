@@ -133,7 +133,7 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 -----------------
 
 <a name="py"></a>
-## I, Python-Based Tech Stacks 
+## I. Python-Based Tech Stacks 
 
 <a name="flasql"></a>
 <h2> 1.  <strong><ins>Python Stack 1</ins>: Flask + SQLite</strong></h2>
