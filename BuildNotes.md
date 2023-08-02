@@ -1,8 +1,8 @@
-## V1: Desktop Application
+# V1: Desktop Application
 
 
 <a name="dstack"></a>
-### **<ins>Tech Stack</ins>:**
+## **<ins>Tech Stack</ins>:**
 > ### **Version 1**
 >> - __<ins>Front-end</ins>: (*User Interface*)__ `Electron.js` for cross-platform compatibility
 >> - **<ins>Back-end</ins>:** `Node.js` with `Express.js` (for handling API requests)
@@ -34,7 +34,7 @@
 
 
 <a name="dIDE"></a>
-### **<ins>Recommended IDEs</ins>:**
+## **<ins>Recommended IDEs</ins>:**
 > 1. __<ins>Front-end</ins>: (*User Interface*)__
 >>   - <ins>Visual Studio Code</ins>: A versatile code editor suitable for `React Native` development with its wide range of extensions and `React Native`-specific tooling.
 >>   - <ins>IntelliJ IDEA</ins>: A robust IDE from JetBrains that supports `Flutter` development and offers powerful code analysis and debugging tools.
@@ -53,17 +53,17 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 -----------------
 
 <!---- Is this even necessary if downloading from website as dmg vs from App Store -----> 
-### V1.1 In Python
+## V1.1 In Python
 
 If your project is intended to be a desktop app for macOS, the tech stack and tools you choose might change compared to web application development. Here are some considerations and adjustments you can make for a desktop app using PYTHON:
 
 
 Here's a revised tech stack recommendation tailored for your desktop app:
 
-#### **<ins>Frameworks</ins>:**
+### **<ins>Frameworks</ins>:**
 
 
-**Frontend:**
+#### **Frontend:**
 
 Since you are building a desktop app for macOS, you'll need a framework that supports macOS app development.\
 For the frontend of your desktop app, you can use Python's built-in GUI libraries or other third-party frameworks that support macOS app development. Some options include:
@@ -84,9 +84,7 @@ For the frontend of your desktop app, you can use Python's built-in GUI librarie
 If you are comfortable with Python and would like to stick with it for your desktop app's development, that's a great choice and can simplify the entire process. In this case, you won't need to use ASP.NET Core or any other technology outside of Python.
 
 
-#### Back-end
-
-**Backend:**
+### **Backend:**
 
 For the backend of your desktop app, you can still use Python with frameworks like Flask or Django, but the focus will shift from web-related tasks to app-specific functionalities. Both Flask and Django are excellent choices, depending on the complexity and requirements of your desktop app:
 
@@ -95,27 +93,25 @@ For the backend of your desktop app, you can still use Python with frameworks li
 2. **Flask:** Flask is a micro-framework that offers more flexibility and control over the project's structure. It's lightweight and allows you to choose your preferred libraries and components, making it suitable for smaller desktop applications.
 
 
-#### DB
-
-**Database:**
+### **Database:**
 
 Since you are building a desktop app, you might not need a full-fledged database system like PostgreSQL or MySQL. Instead, you can use SQLite, a lightweight, embedded database that doesn't require a separate server. SQLite is suitable for small to medium-sized desktop applications.
 
 
 
-#### **Packaging and Distribution:**
+### **Packaging and Distribution:**
 When building desktop apps, you'll need to consider packaging and distributing your application to macOS users. Tools like PyInstaller or cx_Freeze can help you package your Python code into standalone executables for macOS.
 
 To distribute your desktop app to macOS users, you can use tools like PyInstaller or cx_Freeze. These tools package your Python code into standalone executables for macOS, making it easy for users to install and run your app without requiring a Python interpreter.
 
 
-####  **Integration with macOS Features:**
+###  **Integration with macOS Features:**
 You can take advantage of macOS-specific features and integrations, such as using native macOS menus, notifications, and system functionalities.
 
 
 As you are targeting macOS, consider taking advantage of macOS-specific features and integrations to enhance the user experience. You can use libraries or modules that provide access to macOS functionalities like menus, notifications, and system services.
 
-#### **Deployment:**
+### **Deployment:**
 Consider how you will deploy the desktop app to your users.\
 You might choose to distribute it through the macOS App Store or provide it as a downloadable package from your website.
 
