@@ -1,6 +1,8 @@
 # Desktop App 
 
-   
+#### <strong><ins><em>Tech Stacks</em></ins></strong>
+
+
 <p align="right">(<a href="#deskpy">Python version</a>)</p>
 
 <a name="dstack"></a>
