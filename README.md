@@ -15,8 +15,8 @@
         <li><a href="#curr">Current Notes and Issues</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#tech">Technologies and Programming Languages</a>
+    <li><a href="#tech">Technologies and Programming Languages</a></li>
+    <li><a href="#stackz">Currently Used Tech Stacks</a></li>
       <ul>
         <li>
           <a href="#desk">Desktop Application</a>
@@ -34,7 +34,7 @@
       </ul>
     </li>
     <li>
-      <a href="#map">Roadmap</a></li>
+      <a href="#map">Roadmap</a>
       <ul>
         <li><a href="todo">To-Do List</a></li>
         <li><a href="est">Time Estimate</a></li>
@@ -59,24 +59,25 @@
     <li>
       <a href="#usage">Usage</a>
       <ul>
-        <li><a href="#install">User installation Details</a>
-          <ul>
-            <li><a href="#climac">macOS via CLI</a></li>
-            <li><a href="#gitmac">macOS via Git</a></li>
-          </ul>
-        <li><a href="#instwindows">Windows</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#prereq">Prerequisites</a>
-      <ul>
-        <li><a href="preweb"></a>Web</li>
-        <li><a href="premac"></a>macOS</li>
-        <li><a href="prewindows"></a>Windows</li>
-      </ul>
-    </li>
-        <li><a href="use-case">Potential Use Cases</a></li>
-        <li><a href="appl">Practical Applications</a></li>
+        <ul>
+          <li><a href="#install">User installation Details</a>
+            <ul>
+              <li><a href="#climac">macOS via CLI</a></li>
+              <li><a href="#gitmac">macOS via Git</a></li>
+            </ul>
+          <li><a href="#instwindows">Windows</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#prereq">Prerequisites</a>
+        <ul>
+          <li><a href="preweb"></a>Web</li>
+          <li><a href="premac"></a>macOS</li>
+          <li><a href="prewindows"></a>Windows</li>
+        </ul>
+      </li>
+      <li><a href="use-case">Potential Use Cases</a></li>
+      <li><a href="appl">Practical Applications</a></li>
       </ul>
     </li>
     <li>
@@ -102,8 +103,10 @@
 >
 > Summary
 
-#### <a href="#stackz">View our Tech Stack</a>
 <p align="right"><strong><ins>Note</ins>:</strong> <em>Last updated</em>: 8/2/23</p>
+
+
+#### <a href="#stackz">View our Tech Stack</a>
 
 
 ---------------------------
@@ -174,13 +177,13 @@ The project aims to cater to both web and desktop users, supporting both macOS a
 ## Technologies and Programming Languages
 
 <a name="stackz"></a>
-## Currently Used Tech Stack: 
+## Currently Used Tech Stacks: 
 
-> A
+> Web:
 >
-> B
+> macOS:
 >
-> C
+> Windows:
 
 
 <a name="desk"></a>
