@@ -1,8 +1,5 @@
 
-
-<a name="tech"></a>
-## Technologies and Programming Languages
-
+## Originally Provided 
 <a name="desk"></a>
 ### Desktop Application
 
