@@ -133,7 +133,9 @@ The project aims to cater to both web and desktop users, supporting both macOS a
 ### Current Notes and/or Issues: 
 
 > Write
+>
 > Stuff
+> 
 > Here
 
    
