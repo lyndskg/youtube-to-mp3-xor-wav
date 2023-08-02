@@ -1,9 +1,11 @@
+<a name="top"></a>
+
 # Desktop App 
 
 #### <strong><ins><em>Tech Stacks</em></ins></strong>
 
-## Table of Contents
-1. JavaScript
+<h2>Table of Contents</h2>
+1. <a href="#js">JavaScript</a>
    1. <a href="#express">Express, Node & Electron JS</a>
 3. Python
    1. Flask + SQLite
@@ -16,7 +18,21 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#view">Project Overview</a>
+      <a href="#idea">Project Overview</a>
+    </li>
+     <li>
+        <a href="js">JavaScript Tech Stacks</a>
+        <ul>
+           <li><a href= "express">Express + Node + Electron JS</a></li>
+        </ul>
+     </li>
+     <li>
+        
+     </li>
+  </ol>
+      
+        
+     </li>
       <ul>
         <li><a href="#obj">Objectives</a></li>
       </ul>
@@ -27,20 +43,12 @@
 
 <p align="right">(<a href="#deskpy">Python version</a>)</p>
 
-<h2> I. &nbsp; JS-Based Tech Stacks</h2>
+------
 
-<a name="express"></a>
-## 1) Electron.js + Node.js w/ Express.js + Youtube Data API + FFmpeg
->> - __<ins>Front-end</ins>: (*User Interface*)__ `Electron.js` for cross-platform compatibility
->> - **<ins>Back-end</ins>:** `Node.js` with `Express.js` (for handling API requests)
->> - **<ins>Libraries and APIs</ins>:**
->>> - YouTube Data API
->>> - `FFmpeg` for audio conversion
->>> - `Electron Forge`: A complete toolchain to package and distribute `Electron.js` applications.
->>> - AI/ML libraries (optional)
+<a name="idea"></a>
 
+## Basic Idea
 
-## **Version 2**
 >> 1. __<ins>Front-end</ins>: (*User Interface*)__
 >> - For desktop apps, the frontend will be the user interface of the application. You can use the GUI libraries provided by the chosen desktop app framework (*e.g.*, `PyQt` or `Tkinter` or `Kivy`) to create the user interface using widgets and layouts.
 >>> - `React Native`: A framework for building cross-platform mobile applications with `React.js` components.
@@ -63,6 +71,27 @@
 >> 4. **<ins>Database(s)</ins>:**
 >>> - Since you are building a desktop app, you might not need a full-fledged database system like PostgreSQL or MySQL.
 >>>> - Instead, you can use SQLite, a lightweight, embedded database that doesn't require a separate server. SQLite is suitable for small to medium-sized desktop applications.
+
+&nbsp;
+
+
+<p align="right">(<a href="#top">Back to top</a>)</p>
+
+
+------
+<a name="js"></a>
+
+<h2> I. &nbsp; JS-Based Tech Stacks</h2>
+
+<a name="express"></a>
+## 1) Electron.js + Node.js w/ Express.js + Youtube Data API + FFmpeg
+>> - __<ins>Front-end</ins>: (*User Interface*)__ `Electron.js` for cross-platform compatibility
+>> - **<ins>Back-end</ins>:** `Node.js` with `Express.js` (for handling API requests)
+>> - **<ins>Libraries and APIs</ins>:**
+>>> - YouTube Data API
+>>> - `FFmpeg` for audio conversion
+>>> - `Electron Forge`: A complete toolchain to package and distribute `Electron.js` applications.
+>>> - AI/ML libraries (optional)
 
 
 <a name="dIDE"></a>
@@ -126,6 +155,8 @@ Consists of Python with `Flask` for the backend, where you can build RESTful API
 >> - `Flask` might require additional libraries for certain functionalities compared to `Django`.
 
 
+<p align="right">(<a href="#top">Back to top</a>)</p>
+
 
 2. <strong><ins>Tech Stack 2</ins>:<strong>
 >
@@ -145,6 +176,8 @@ Consists of Python with `Flask` for the backend, where you can build RESTful API
 > 
 > - Cons:
 >> - Setting up and configuring PostgreSQL might require additional effort compared to SQLite.
+
+<p align="right">(<a href="#top">Back to top</a>)</p>
 
 
 3. <strong><ins>Tech Stack 3 </ins>:<strong>
@@ -167,6 +200,8 @@ Consists of Python with `Flask` for the backend, where you can build RESTful API
 >> - For smaller projects, Django might introduce unnecessary complexity.
 
 
+<p align="right">(<a href="#top">Back to top</a>)</p>
+
 4. <strong><ins>Tech Stack 4 </ins>:<strong>
 >
 > - Front-end (UI): HTML/CSS/JavaScript
@@ -187,6 +222,8 @@ Consists of Python with `Flask` for the backend, where you can build RESTful API
 >> - May be overkill for smaller projects with limited functionalities.
 
 
+<p align="right">(<a href="#top">Back to top</a>)</p>
+
 ### Additional Libraries and Frameworks:
 
 - **`PyQt`** or **`Tkinter`**: If you decide to build the frontend using *`Python`*, `PyQt` and `Tkinter` are popular choices for creating native-like desktop GUI applications.\
@@ -201,6 +238,8 @@ Remember to consider the specific requirements, scalability, and your team's exp
 
 Integrating the Youtube Data API and `FFmpeg` will enable you to work with Youtube data and handle audio conversion, respectively, expanding the capabilities of your application.
 
+
+<p align="right">(<a href="#top">Back to top</a>)</p>
 ### IDEs:
 
 For the frontend development using web technologies (HTML, CSS, and JavaScript), Visual Studio Code and PyCharm are both excellent options, providing robust support for web development and a range of extensions to enhance productivity.
@@ -334,6 +373,9 @@ Overall, the main difference is that you'll be developing a standalone desktop a
 
 In conclusion, if your project requires high performance, has a strong focus on the Windows ecosystem, and you have experience with C# and ASP.NET Core, C# could be the better choice. On the other hand, if you prioritize ease of development, a rich library ecosystem, and want to leverage Python's data-related strengths, Python might be more suitable. Keep in mind that both languages can be used effectively for backend development, and the "better" choice depends on your project's specific needs and your team's expertise.
 
+
+<p align="right">(<a href="#top">Back to top</a>)</p>
+
 -----------------
 
 ## V3: HTML-CSS-JS FRONTEND
@@ -362,7 +404,7 @@ The communication between the front-end and the backend can happen through HTTP 
 
 Remember to define clear API contracts to ensure seamless communication between the front-end and the backend. Additionally, using this approach, you and your friend can work on the backends independently, with minimal dependencies between your respective codebases.
 
-
+<p align="right">(<a href="#top">Back to top</a>)</p>
 
 -----------------
 ## V4.1: DESKTOP APP IN PYTHON
@@ -389,6 +431,7 @@ Python provides various database options for desktop applications, ranging from 
 In summary, consider the data-related requirements of your desktop application and weigh the benefits of using a database against the complexity it might introduce. If data storage, retrieval, or complex data operations are integral to your application, incorporating a database into your tech stack can significantly enhance its capabilities and flexibility.
 
 
+<p align="right">(<a href="#top">Back to top</a>)</p>
 -----------------
 
 ### IS DB NECESSARY
@@ -412,3 +455,5 @@ If your web application involves storing data or has any of the above characteri
 However, if your project is relatively simple, and you don't need to store persistent data or perform complex data operations, you might get away without using a traditional database. In such cases, you can explore other lightweight storage options like using in-memory data structures or file-based storage, but keep in mind that these may have limitations and won't be suitable for more extensive or complex applications.
 
 Ultimately, assess your project's requirements, and if data storage and retrieval are necessary, go ahead and use a database. It's a fundamental component of most web applications and will provide you with the necessary capabilities to build a robust and scalable system.
+
+<p align="right">(<a href="#top">Back to top</a>)</p>
