@@ -79,7 +79,7 @@
 </details>
 
 
-### <a href="#curr">View our Progress</a>
+#### <a href="#curr">View our Progress</a>
 > Quick
 >
 > Executive
