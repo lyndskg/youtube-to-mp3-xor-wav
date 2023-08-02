@@ -3,6 +3,7 @@
 <a name="desk"></a>
 ### Desktop Application
 
+
 <a name="dstack"></a>
 #### **<ins>Tech Stack</ins>:**
 > #### **Version 1**
@@ -12,16 +13,21 @@
 >
 > #### **Version 2**
 >> 1. __<ins>Front-end</ins>: (*User Interface*)__
+>> - For desktop apps, the frontend will be the user interface of the application. You can use the GUI libraries provided by the chosen desktop app framework (e.g., PyQt or Tkinter) to create the user interface using widgets and layouts.
 >>> - `React Native`: A framework for building cross-platform mobile applications with `React.js` components.
 >>> - `Flutter`: A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
 >> 2. **<ins>Back-end</ins>:**
 >>> - `Flask`: A lightweight and flexible Python web framework that can also be used for desktop app back-end functionality.
+>>> - `Django`: A high-level Python web framework that promotes rapid development and clean, pragmatic design.
 >>> - `.NET Core`: A cross-platform, open-source framework for building modern applications for Windows, macOS, and Linux.
 >> 3.  **<ins>Libraries and APIs</ins>:**
 >>> - `Electron Forge`: A complete toolchain to package and distribute `Electron.js` applications.
 >>> - `Node.js child_process module`: For running `FFmpeg` and other command-line utilities.
 >>> - `Spotify Web API`: For accessing music metadata and related information.
- 
+>> 4. **<ins>Database(s)</ins>:**
+>>> - Since you are building a desktop app, you might not need a full-fledged database system like PostgreSQL or MySQL. Instead, you can use SQLite, a lightweight, embedded database that doesn't require a separate server. SQLite is suitable for small to medium-sized desktop applications.
+
+
 <a name="dIDE"></a>
 #### **<ins>Recommended IDEs</ins>:**
 > 1. __<ins>Front-end</ins>: (*User Interface*)__
@@ -39,36 +45,41 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 
 &nbsp;
 
+-----------------
+
 If your project is intended to be a desktop app for macOS, the tech stack and tools you choose might change compared to web application development. Here are some considerations and adjustments you can make for a desktop app:
 
-
 <!---- Is this even necessary if downloading from website as dmg vs from App Store -----> 
-1. **Desktop App Frameworks:**
-   Since you are building a desktop app for macOS, you'll need a framework that supports macOS app development. Some popular options include:
-   - **PyQt:** A set of Python bindings for the Qt application framework, which allows you to build cross-platform desktop applications, including macOS.
-   - **Tkinter:** This is a built-in Python GUI library that provides basic functionalities to create simple desktop applications on macOS and other platforms.
+#### 1. **<ins>Frameworks</ins>:**
+Since you are building a desktop app for macOS, you'll need a framework that supports macOS app development. Some popular options include:
 
-2. **Backend Development:**
-   For the backend, you can still use Python with frameworks like Flask or Django to handle the application's logic and data processing, but the focus will shift from web-related tasks to app-specific functionalities.
 
-3. **Database:**
-   Since you are building a desktop app, you might not need a full-fledged database system like PostgreSQL or MySQL. Instead, you can use SQLite, a lightweight, embedded database that doesn't require a separate server. SQLite is suitable for small to medium-sized desktop applications.
+ > - **PyQt:** A set of Python bindings for the Qt application framework, which allows you to build cross-platform desktop applications, including macOS.
+> - **Tkinter:** This is a built-in Python GUI library that provides basic functionalities to create simple desktop applications on macOS and other platforms.
 
-4. **Frontend (User Interface):**
-   For desktop apps, the frontend will be the user interface of the application. You can use the GUI libraries provided by the chosen desktop app framework (e.g., PyQt or Tkinter) to create the user interface using widgets and layouts.
 
-5. **Packaging and Distribution:**
-   When building desktop apps, you'll need to consider packaging and distributing your application to macOS users. Tools like PyInstaller or cx_Freeze can help you package your Python code into standalone executables for macOS.
 
-6. **Integration with macOS Features:**
+
+#### **Packaging and Distribution:**
+When building desktop apps, you'll need to consider packaging and distributing your application to macOS users. Tools like PyInstaller or cx_Freeze can help you package your Python code into standalone executables for macOS.
+
+
+####  **Integration with macOS Features:**
    You can take advantage of macOS-specific features and integrations, such as using native macOS menus, notifications, and system functionalities.
 
-7. **Deployment:**
+#### **Deployment:**
    Consider how you will deploy the desktop app to your users. You might choose to distribute it through the macOS App Store or provide it as a downloadable package from your website.
+
+&nbsp;
+
 
 Overall, the main difference is that you'll be developing a standalone desktop application that runs directly on macOS, rather than a web application that requires a web server and a browser to access. The choice of framework and tools will be influenced by the specific requirements of desktop app development and macOS compatibility.
 
+
 <!---- TODO: Windows?? -----> 
+
+&nbsp;
+
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
 -----------------
