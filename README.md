@@ -13,7 +13,6 @@
         <li><a href="#obj">Objectives</a></li>
       </ul>
     </li>
-    <li><a href="#feat">Key Features</a></li>
     <li>
       <a href="#tech">Technologies and Programming Languages</a>
       <ul>
@@ -40,6 +39,7 @@
       </ul> 
     </li>
     <li><a href="#uiux">UI/UX Implementation Details</a></li>
+    <li><a href="#feat">Key Features</a></li>
     <li><a href="#flow">Basic Workflow Guide</a></li>
     <li><a href="#impl">Project Implementation Guide</a></li>
     <li>
@@ -120,27 +120,6 @@ The project aims to cater to both web and desktop users, supporting both macOS a
 > - The team will ensure that the application functions smoothly on various operating systems and web browsers, allowing users to access and use it regardless of their chosen platform.
 
    
-<p align="right">(<a href="#yt">back to top</a>)</p>
-
-
----------------------
-
-<a name="feat"></a>
-## Key Features
-
-1. __<ins>YouTube Audio Conversion</ins>:__
-  - The application allows users to convert YouTube audio tracks into different formats, including uncompressed audio (WAV), lossless compression (M4A), and lossy compression (MP3).
-2. __<ins>Metadata Editing</ins>:__
-  - Users have the option to edit metadata for each audio track, such as artist, title, genre, and album, ensuring accurate and relevant information for their audio files.
-3. __<ins>AI/ML Metadata Assistance</ins> (*optional*):__
-  - Users can leverage AI/ML assistance to automatically fetch or generate metadata for their audio tracks, streamlining the process and enhancing the user experience.
-4. __<ins>Web and Desktop Application</ins>:__
-  - `ytconv3rt3r` offers both web and desktop versions, catering to a wide range of users across different devices and operating systems.
-5. __<ins>Batch Processing</ins>:__
-  - Users can convert multiple YouTube audio tracks simultaneously, saving time and effort when processing large numbers of files.
-6. __<ins>Playlist Support</ins>:__
-  - The application supports converting an entire YouTube playlist, providing convenience for users who wish to download multiple audio tracks from a playlist.
-
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
 ---------------------
@@ -364,6 +343,26 @@ Provide feedback on the conversion progress and allow users to view and edit met
 > - Clear error messages and alerts guide users in case of invalid URLs, unsupported formats, or other issues.
 > - Adequate error handling ensures a seamless user experience and helps users understand and resolve any problems.
 
+
+<p align="right">(<a href="#yt">back to top</a>)</p>
+
+---------------------
+
+<a name="feat"></a>
+## Key Features
+
+1. __<ins>YouTube Audio Conversion</ins>:__
+  - The application allows users to convert YouTube audio tracks into different formats, including uncompressed audio (WAV), lossless compression (M4A), and lossy compression (MP3).
+2. __<ins>Metadata Editing</ins>:__
+  - Users have the option to edit metadata for each audio track, such as artist, title, genre, and album, ensuring accurate and relevant information for their audio files.
+3. __<ins>AI/ML Metadata Assistance</ins> (*optional*):__
+  - Users can leverage AI/ML assistance to automatically fetch or generate metadata for their audio tracks, streamlining the process and enhancing the user experience.
+4. __<ins>Web and Desktop Application</ins>:__
+  - `ytconv3rt3r` offers both web and desktop versions, catering to a wide range of users across different devices and operating systems.
+5. __<ins>Batch Processing</ins>:__
+  - Users can convert multiple YouTube audio tracks simultaneously, saving time and effort when processing large numbers of files.
+6. __<ins>Playlist Support</ins>:__
+  - The application supports converting an entire YouTube playlist, providing convenience for users who wish to download multiple audio tracks from a playlist.
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
