@@ -4,8 +4,8 @@
 
 #### <ins>__*a desktop- or web app-based youtube audio converter tool*__</ins>
 
-<details>
-  ## <summary>Table of Contents</summary>
+## <details>
+  <summary>Table of Contents</summary>
   <ol>
     <li>
       <a href="#view">Project Overview</a>
