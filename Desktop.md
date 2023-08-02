@@ -5,6 +5,7 @@
 #### <strong><ins><em>Tech Stacks</em></ins></strong>
 
 <h2>Table of Contents</h2>
+
 1. <a href="#js">JavaScript</a>
    1. <a href="#express">Express, Node & Electron JS</a>
 3. Python
@@ -18,7 +19,10 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#idea">Project Overview</a>
+      <a href="#idea">Basic Ideas</a>
+       <ul>
+          <li><a href="addl">Additional Libraries and Frameworks:</a></li>
+       </ul>
     </li>
      <li>
         <a href="js">JavaScript Tech Stacks</a>
@@ -47,7 +51,7 @@
 
 <a name="idea"></a>
 
-## Basic Idea
+## Basic Ideas
 
 >> 1. __<ins>Front-end</ins>: (*User Interface*)__
 >> - For desktop apps, the frontend will be the user interface of the application. You can use the GUI libraries provided by the chosen desktop app framework (*e.g.*, `PyQt` or `Tkinter` or `Kivy`) to create the user interface using widgets and layouts.
@@ -75,10 +79,21 @@
 &nbsp;
 
 
+<a name="addl"></a>
+### Additional Libraries and Frameworks:
+
+- **`PyQt`** or **`Tkinter`**: If you decide to build the frontend using *`Python`*, `PyQt` and `Tkinter` are popular choices for creating native-like desktop GUI applications.\
+  - `PyQt` provides bindings for the `Qt` framework, while `Tkinter` is Python's built-in GUI toolkit.
+ 
+- **`Electron.js`**: If you prefer building the frontend using web technologies (*`HTML/CSS/JavaScript`*) and want to create a cross-platform desktop app, `Electron.js` is a great option.\
+- It allows you to package web applications as native-like desktop apps.
+
+
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
 
 ------
+
 <a name="js"></a>
 
 <h2> I. &nbsp; JS-Based Tech Stacks</h2>
