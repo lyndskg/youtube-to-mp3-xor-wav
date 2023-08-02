@@ -78,7 +78,7 @@
 </details>
 
 
-<a href="#curr">View our Progress</a>
+## <a href="#curr">View our Progress</a>
 
 #### **<ins>Note</ins>:** <ins>Last updated</ins>: 8/2/23
 
