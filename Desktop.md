@@ -52,29 +52,28 @@
 <a name="idea"></a>
 
 ## Basic Ideas
+1. __<ins>Front-end</ins>: (*User Interface*)__
+   - For desktop apps, the frontend will be the user interface of the application. You can use the GUI libraries provided by the chosen desktop app framework (*e.g.*, `PyQt` or `Tkinter` or `Kivy`) to create the user interface using widgets and layouts.
+      - `React Native`: A framework for building cross-platform mobile applications with `React.js` components.
+      - `Flutter`: A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.&nbsp;
+     
+2. **<ins>Back-end</ins>:**
+   1. *Languages*:
+      - `Python`
+      - `C#`
+   2. *Frameworks*:
+      -`Flask`: A lightweight and flexible Python web framework that can also be used for desktop app back-end functionality.
+      - `Django`: A high-level Python web framework that promotes rapid development and clean, pragmatic design.
+      - `.NET Core`: A cross-platform, open-source framework for building modern applications for Windows, macOS, and Linux.
 
->> 1. __<ins>Front-end</ins>: (*User Interface*)__
->> - For desktop apps, the frontend will be the user interface of the application. You can use the GUI libraries provided by the chosen desktop app framework (*e.g.*, `PyQt` or `Tkinter` or `Kivy`) to create the user interface using widgets and layouts.
->>> - `React Native`: A framework for building cross-platform mobile applications with `React.js` components.
->>> - `Flutter`: A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
->>>   
->> 2. **<ins>Back-end</ins>:**
->>> - 1. *Languages*:
->>>> - `Python`
->>>> - `C#`
->>> - 2. *Frameworks*:
->>>> -`Flask`: A lightweight and flexible Python web framework that can also be used for desktop app back-end functionality.
->>>> - `Django`: A high-level Python web framework that promotes rapid development and clean, pragmatic design.
->>>> - `.NET Core`: A cross-platform, open-source framework for building modern applications for Windows, macOS, and Linux.
->>>
->> 3.  **<ins>Libraries and APIs</ins>:**
->>> - `Electron Forge`: A complete toolchain to package and distribute `Electron.js` applications.
->>> - `Node.js child_process module`: For running `FFmpeg` and other command-line utilities.
->>> - `Spotify Web API`: For accessing music metadata and related information.
->>>   
->> 4. **<ins>Database(s)</ins>:**
->>> - Since you are building a desktop app, you might not need a full-fledged database system like PostgreSQL or MySQL.
->>>> - Instead, you can use SQLite, a lightweight, embedded database that doesn't require a separate server. SQLite is suitable for small to medium-sized desktop applications.
+3.  **<ins>Libraries and APIs</ins>:**
+   - `Electron Forge`: A complete toolchain to package and distribute `Electron.js` applications.
+   - `Node.js child_process module`: For running `FFmpeg` and other command-line utilities.
+   - `Spotify Web API`: For accessing music metadata and related information.
+  
+4. **<ins>Database(s)</ins>:**
+   - Since you are building a desktop app, you might not need a full-fledged database system like PostgreSQL or MySQL.
+   - Instead, you can use SQLite, a lightweight, embedded database that doesn't require a separate server. SQLite is suitable for small to medium-sized desktop applications.
 
 &nbsp;
 
