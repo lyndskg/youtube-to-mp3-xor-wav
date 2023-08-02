@@ -1,6 +1,14 @@
-# V1: Desktop Application
+# how tf do we set this up 
+
 
 Eat buttz
+
+&nbsp;
+
+-----------------
+
+## 1. Desktop App 
+
    
 <p align="right">(<a href="#deskpy">Python version</a>)</p>
 
