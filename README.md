@@ -57,20 +57,37 @@
     </li>
     <li><a href="#plus">Future Enhancements</a></li>
     <li>
-      <a href="usage">Usage</a>
+      <a href="#usage">Usage</a>
       <ul>
-        <li>
-          <a href="start">Getting Started</a></li>
+        <li><a href="#install">User installation Details</a>
           <ul>
-            <li><a href="install">User Installation Details</a></li>
-            <li><a href="prereq">Prerequisites</a></li>
+            <li><a href="#climac">macOS via CLI</a></li>
+            <li><a href="#gitmac">macOS via Git</a></li>
           </ul>
-        </li>
+        <li><a href="#instwindows">Windows</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#prereq">Prerequisites</a>
+      <ul>
+        <li><a href="preweb"></a>Web</li>
+        <li><a href="premac"></a>macOS</li>
+        <li><a href="prewindows"></a>Windows</li>
+      </ul>
+    </li>
         <li><a href="use-case">Potential Use Cases</a></li>
         <li><a href="appl">Practical Applications</a></li>
       </ul>
     </li>
-    <li><a href="give">Contributions</a></li>
+    <li>
+      <a href="give">Contributions</a>
+      <ul>
+        <li><a href="coc">Code of Conduct</a></li>
+        <li><a href="whattogive">What?</a></li>
+        <li><a href="howtogive">How?</a></li>
+        <li><a href="whygive">Why?</a></li>
+      </ul>
+    </li>
     <li><a href="bye">Conclusion</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#ack">Acknowledgments</a></li>
@@ -376,6 +393,7 @@ Provide feedback on the conversion progress and allow users to view and edit met
 4. __AI/ML Metadata Generation (*Optional*):__
 > - Users are presented with an option to enable AI/ML assistance for metadata generation or retrieval.
 > - If selected, the AI/ML-generated metadata suggestions are displayed for review and confirmation by the user.
+
 5. **Error Handling:**
 > - Clear error messages and alerts guide users in case of invalid URLs, unsupported formats, or other issues.
 > - Adequate error handling ensures a seamless user experience and helps users understand and resolve any problems.
@@ -554,10 +572,93 @@ By continuously enhancing and expanding the `ytconv3rt3r` application with these
 <a name="usage"></a>
 ## Usage
 
-<a name="start"></a>
-### Getting Started 
+<a name="install"></a>
+## User Installation Details:
+
+
+**<ins>Note</ins>:** The desktop app versions of `ytconv3rt3r` might require you to have administrative privileges on your macOS or Windows system to install and run the application.
+
+<a name="webinst"></a>
+### **Web App:**
+Can be accessed via any modern web browser with JavaScript enabled.
+ 
+No installation is required for the web app, and users can simply follow these steps to start using it:
+> 1. Open your preferred web browser (*e.g.*, Google Chrome, Mozilla Firefox, Safari, or Microsoft Edge).
+> 2. Navigate to the `ytconv3rt3r` web app URL. (TODO: Add URL here)
+> 3. Once the web app loads, you'll be presented with a simple and intuitive user interface to convert and download YouTube audio tracks.
+
+
+<a name="instmac"></a>
+### **Desktop App (macOS):**
+The desktop app version of `ytconv3rt3r`is available for macOS users.
+
+To install and use the `ytconv3rt3r` desktop app on macOS, you have the following options:
+
+<a name="climac"></a>
+#### 1. <ins>Command Line Installation</ins>:
+> - Open Terminal on your macOS system.
+> - Use the package manager Homebrew to install `ytconv3rt3r` by running the following command:
+>   ```
+>   brew install ytconv3rt3r
+>   ```
+> - Once the installation is complete, you can launch the `ytconv3rt3r` desktop app from the Applications folder or by searching for `ytconv3rt3r` in Spotlight.
+
+<a name="gitmac"></a>
+#### 2. <ins>Github Installation</ins>:
+>  - Visit the `ytconv3rt3r` GitHub repository (TODO: Add GitHub repository URL here).
+>  - Download the latest release of the macOS desktop app (usually available as a `.dmg` file).
+>  - Open the downloaded `.dmg` file and drag the `ytconv3rt3r` application to the Applications folder.
+>  - Launch `ytconv3rt3r` from the Applications folder.
 
 &nbsp;
+
+
+<a name="instwindows"></a>
+### **Desktop App (Windows):**
+The desktop app version of `ytconv3rt3r`is available for Windows users.
+
+
+To install and use the `ytconv3rt3r` desktop app on Windows, follow these steps:
+> 1. Visit the `ytconv3rt3r` GitHub repository (TODO: Add GitHub repository URL here).
+> 2. Download the latest release of the Windows desktop app (usually available as an installer, such as `.exe`).
+> 3. Run the downloaded installer and follow the on-screen instructions to install `ytconv3rt3r` on your Windows system.
+> 4. Once the installation is complete, you can launch `ytconv3rt3r` from the Start menu or by searching for "`ytconv3rt3r`" in the search bar.
+
+&nbsp;
+
+--- 
+<a name="prereq"></a>
+## Prerequisites:
+
+**<ins>Note</ins>:** The web app version does not require any additional software installation, while the desktop app versions (for macOS and Windows) require you to download and install the respective application.
+
+
+<a name="preweb"></a>
+### **Web App:**
+To ensure a smooth experience, users should meet the following prerequisites:
+1. <ins>Web Browser</ins>: Ensure you have a modern web browser installed on your device. Supported browsers include Google Chrome, Mozilla Firefox, Safari, Microsoft Edge, or any other browser with up-to-date JavaScript support.
+2. <ins>Internet Connection</ins>: The web app requires an active internet connection to access YouTube and perform audio conversions.
+
+<a name="premac"></a>
+### **Desktop App (macOS):**
+The desktop app version of `ytconv3rt3r` is compatible with macOS, and users should have the following prerequisites:
+- <ins>Operating System</ins>: macOS 10.12 (Sierra) or later.
+- <ins>System Requirements</ins>: Ensure your macOS system meets the minimum requirements for running `ytconv3rt3r` smoothly.
+- <ins>Disk Space</ins>: Make sure you have sufficient free disk space to download and install the desktop app.
+
+<a name="prewindows"></a>
+### Desktop App (Windows):
+The desktop app version of `ytconv3rt3r` is compatible with Windows, and users should have the following prerequisites:
+- <ins>Operating System</ins>: Windows 7, 8, 8.1, or 10 (64-bit version).
+- <ins>System Requirements</ins>: Ensure your Windows system meets the minimum requirements for running `ytconv3rt3r` smoothly.
+- <ins>Disk Space</ins>: Make sure you have sufficient free disk space to download and install the desktop app.
+
+
+&nbsp;
+
+<p align="right">(<a href="#yt">back to top</a>)</p>
+
+------
 
 <a name="use-case"></a>
 ### Potential Use Cases: 
@@ -614,59 +715,6 @@ By addressing various potential use cases and practical applications, `ytconv3rt
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
-<a name="install"></a>
-### User Installation Details:
-
-> - **Web App:**
->>  - Can be accessed via any modern web browser with JavaScript enabled.
->>    
->>  - No installation is required for the web app, and users can simply follow these steps to start using it:
->>>  1. Open your preferred web browser (*e.g.*, Google Chrome, Mozilla Firefox, Safari, or Microsoft Edge).
->>>  2. Navigate to the `ytconv3rt3r` web app URL. (TODO: Add URL here)
->>>  3. Once the web app loads, you'll be presented with a simple and intuitive user interface to convert and download YouTube audio tracks.
-
-
-> - **Desktop App (macOS):**
-> - The desktop app version of `ytconv3rt3r`is available for macOS users.
-> - To install and use the `ytconv3rt3r` desktop app on macOS, you have the following options:
->
->
-> 1. <ins>Command Line Installation</ins>:
->   - Open Terminal on your macOS system.
->   - Use the package manager Homebrew to install `ytconv3rt3r` by running the following command:
->     ```
->     brew install ytconv3rt3r
->     ```
->   - Once the installation is complete, you can launch the `ytconv3rt3r` desktop app from the Applications folder or by searching for `ytconv3rt3r` in Spotlight.
-> 2. <ins>Github Installation</ins>:
->   - Visit the `ytconv3rt3r` GitHub repository (TODO: Add GitHub repository URL here).
->   - Download the latest release of the macOS desktop app (usually available as a `.dmg` file).
->   - Open the downloaded `.dmg` file and drag the `ytconv3rt3r` application to the Applications folder.
->   - Launch `ytconv3rt3r` from the Applications folder.
-
-
-> - **Desktop App (Windows):**
-> - The desktop app version of `ytconv3rt3r`is available for Windows users.
-> - To install and use the `ytconv3rt3r` desktop app on Windows, follow these steps:
->   1. Visit the `ytconv3rt3r` GitHub repository (TODO: Add GitHub repository URL here).
->   2. Download the latest release of the Windows desktop app (usually available as an installer, such as `.exe`).
->   3. Run the downloaded installer and follow the on-screen instructions to install `ytconv3rt3r` on your Windows system.
->   4. Once the installation is complete, you can launch `ytconv3rt3r` from the Start menu or by searching for "`ytconv3rt3r`" in the search bar.
-
-
-**<ins>Note</ins>:** The desktop app versions of `ytconv3rt3r` might require you to have administrative privileges on your macOS or Windows system to install and run the application.
-
-
-&nbsp;
-
-<a name="prereq"></a>
-### Prerequisites:
-
-- TODO
-
-- 
-<p align="right">(<a href="#yt">back to top</a>)</p>
-
 ---------------------
   
 <a name="est"></a>
@@ -676,10 +724,6 @@ Considering the phases and development times mentioned above, the estimated time
 However, the timeline can be influenced by factors such as team size, resources, complexity of AI/ML integration, and any unforeseen challenges that may arise during development.
 &nbsp;
 **<ins>Note</ins>:** The timeline is a rough estimate and may vary depending on the specific circumstances and any additional features or enhancements you may decide to include during the development process.
-
-
-It's essential to plan and allocate resources accordingly to ensure the project's successful completion.
-
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
@@ -696,11 +740,46 @@ It's essential to plan and allocate resources accordingly to ensure the project'
 
 ---------------------
 <a name="give"></a>
-## Contributions
+## How to Support Us
 
-**<ins>How to help</ins>:**
-> - *Contributions* can help enhance the application, adding new features and improving performance.
-> - *Donations* can support server costs, API access, and incentivize continued development.
+We welcome contributions from the community to help improve `ytconv3rt3r` and make it even better.
+
+<a name="coc"></a>
+### **Code of Conduct:**
+We follow a <strong><em>Code of Conduct</em></strong> to ensure a respectful and inclusive environment for all contributors.\
+Please review the project's Code of Conduct [link to Code of Conduct file] before making any contributions.
+&nbsp;
+
+Now, without any further ado...
+
+<a name="whattogive"></a>
+### **What to Contribute:**
+Whether you are a developer, designer, tester, or a music enthusiast, there are several ways you can contribute to the project:
+1. **Code Contributions:** If you are a developer, you can contribute to the project by adding new features, fixing bugs, or optimizing existing code. Fork the project, make your changes, and submit a pull request to have your changes reviewed and merged.
+2. **Documentation:** Clear and comprehensive documentation is crucial for any project. If you have good technical writing skills, you can contribute by improving the project's documentation, including user guides, installation instructions, and API references.
+3. **Bug Reports:** If you encounter any bugs or issues while using `ytconv3rt3r`, please report them on the project's issue tracker on GitHub. Include detailed information about the problem, steps to reproduce it, and the operating system and browser (for web app users) you are using.
+4. **Feature Requests:** Have an idea for a new feature or improvement? Share it on the issue tracker. We value user feedback and suggestions and will consider all feature requests for future enhancements.
+5. **Testing:** Help us ensure the stability and reliability of `ytconv3rt3r` by testing the application on different devices and browsers. Report any issues you find, and provide feedback on the user experience.
+6. **Translations:** If you are proficient in multiple languages, you can contribute by translating the user interface into different languages, making `ytconv3rt3r` accessible to a broader audience.
+7. **User Experience (UX) Design:** If you are a UX designer, you can contribute by improving the application's user interface and experience. Provide design mockups, suggest UI improvements, and create a more intuitive and visually appealing experience for users.
+8. **Donations:** If you find `ytconv3rt3r` helpful and wish to support the project financially, you can make a donation to help cover server costs, API access, and motivate ongoing development.
+
+
+<a name="howtogive"></a>
+### **How to Contribute:**
+- Fork the repository on GitHub and make your changes in a new branch.
+- Ensure your code follows the project's coding guidelines and conventions.
+- Test your changes thoroughly to avoid introducing new issues.
+- Submit a pull request to the main repository, clearly describing your changes and the problem they solve.
+
+
+<a name="whygive"></a>
+### **Why Contribute:**
+By contributing to `ytconv3rt3r`, you become part of an active and collaborative community, and your efforts help enhance the application's functionality and user experience.\
+We appreciate your support and value your contributions to the project's success.
+
+
+<!--- With this updated section, users and developers will have a clear understanding of how they can contribute to the ytconv3rt3r project and become an active part of the community. You can also add links to the repository, issue tracker, and contribution guidelines to help users easily access the necessary resources for contributing. --->
 
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
@@ -709,11 +788,19 @@ It's essential to plan and allocate resources accordingly to ensure the project'
 <a name="bye"></a>
 ## Conclusion
 
-This program empowers users to easily convert and download YouTube audio tracks in their preferred audio formats, making it ideal for DJs, musicians, and music enthusiasts. 
+`ytconv3rt3r` is your go-to audio conversion tool, offering a seamless experience for converting and downloading YouTube audio tracks in various formats. With a user-friendly interface and the option to edit metadata manually or with AI/ML assistance, `ytconv3rt3r` ensures accurate and personalized information for each track.
 
-The addition of AI/ML features streamlines the process, automating metadata retrieval and enhancing user experience. 
+Whether you are a music enthusiast, DJ, musician, or educator, ytconv3rt3r caters to your needs with support for uncompressed audio (`WAV`), lossless compression (`M4A`), and lossy compression (`MP3`) formats.
 
-By providing a convenient and accessible tool, this project contributes to the seamless exploration and utilization of online audio content.
+Our commitment to continuous development means we are constantly exploring future enhancements, including AI/ML features, to stay ahead of user needs. `ytconv3rt3r` supports web and desktop applications, making it accessible on multiple platforms.
+
+Contributions from our growing community play a crucial role in making `ytconv3rt3r` even better. Join us in improving the application through bug reports, feature suggestions, documentation assistance, and translations.
+
+Experience the convenience of `ytconv3rt3r` for music conversion, DJing, music education, podcasting, and more. 
+
+&nbsp;
+
+Thank you for choosing `ytconv3rt3r`, and let's embark on this journey of audio conversion excellence together.
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
