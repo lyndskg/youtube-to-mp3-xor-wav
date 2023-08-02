@@ -95,7 +95,6 @@ Users will have the option to edit metadata for each audio track &mdash; includi
 &nbsp;
 
 The project aims to cater to both web and desktop users, supporting both macOS and Windows operating systems.
-
 &nbsp;
 
 ---------------------
