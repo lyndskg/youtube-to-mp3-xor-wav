@@ -72,7 +72,6 @@
     </li>
     <li><a href="give">Contributions</a></li>
     <li><a href="bye">Conclusion</a></li>
-    <li><a href="#lic">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#ack">Acknowledgments</a></li>
   </ol>
@@ -617,10 +616,46 @@ By addressing various potential use cases and practical applications, `ytconv3rt
 
 <a name="install"></a>
 ### User Installation Details:
+
 > - **Web App:**
->>  - No installation required; users access the app via a web browser.
-> - **Desktop App:**
->>  - Users need to download and install the application for macOS or Windows.
+>>  - Can be accessed via any modern web browser with JavaScript enabled.
+>>    
+>>  - No installation is required for the web app, and users can simply follow these steps to start using it:
+>>>  1. Open your preferred web browser (*e.g.*, Google Chrome, Mozilla Firefox, Safari, or Microsoft Edge).
+>>>  2. Navigate to the `ytconv3rt3r` web app URL. (TODO: Add URL here)
+>>>  3. Once the web app loads, you'll be presented with a simple and intuitive user interface to convert and download YouTube audio tracks.
+
+
+> - **Desktop App (macOS):**
+> - The desktop app version of `ytconv3rt3r`is available for macOS users.
+> - To install and use the `ytconv3rt3r` desktop app on macOS, you have the following options:
+>
+>
+> 1. <ins>Command Line Installation</ins>:
+>   - Open Terminal on your macOS system.
+>   - Use the package manager Homebrew to install `ytconv3rt3r` by running the following command:
+>     ```
+>     brew install ytconv3rt3r
+>     ```
+>   - Once the installation is complete, you can launch the `ytconv3rt3r` desktop app from the Applications folder or by searching for `ytconv3rt3r` in Spotlight.
+> 2. <ins>Github Installation</ins>:
+>   - Visit the `ytconv3rt3r` GitHub repository (TODO: Add GitHub repository URL here).
+>   - Download the latest release of the macOS desktop app (usually available as a `.dmg` file).
+>   - Open the downloaded `.dmg` file and drag the `ytconv3rt3r` application to the Applications folder.
+>   - Launch `ytconv3rt3r` from the Applications folder.
+
+
+> - **Desktop App (Windows):**
+> - The desktop app version of `ytconv3rt3r`is available for Windows users.
+> - To install and use the `ytconv3rt3r` desktop app on Windows, follow these steps:
+>   1. Visit the `ytconv3rt3r` GitHub repository (TODO: Add GitHub repository URL here).
+>   2. Download the latest release of the Windows desktop app (usually available as an installer, such as `.exe`).
+>   3. Run the downloaded installer and follow the on-screen instructions to install `ytconv3rt3r` on your Windows system.
+>   4. Once the installation is complete, you can launch `ytconv3rt3r` from the Start menu or by searching for "`ytconv3rt3r`" in the search bar.
+
+
+**<ins>Note</ins>:** The desktop app versions of `ytconv3rt3r` might require you to have administrative privileges on your macOS or Windows system to install and run the application.
+
 
 &nbsp;
 
@@ -681,15 +716,6 @@ The addition of AI/ML features streamlines the process, automating metadata retr
 By providing a convenient and accessible tool, this project contributes to the seamless exploration and utilization of online audio content.
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
----------------------
-
-<a name="lic"></a>
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#yt">back to top</a>)</p>
 
 ---------------------------
 <a name="contact"></a>
@@ -707,23 +733,11 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/ly
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
 > Put
 > Shit
 > Here
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
