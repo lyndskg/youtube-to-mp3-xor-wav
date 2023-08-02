@@ -18,15 +18,15 @@
       <a href="#tech">Technologies and Programming Languages</a>
       <ul>
         <li>
-          <a href="#web">Web Application</a>
+          <a href="#desk">Web Application</a>
           <ul> 
-            <li><a href="wstack">Tech Stack</a></li>
-            <li><a href="wIDE">Recommended IDEs</a></li>
-          </ul>
-          <li><a href="#desk">Desktop Application</a></li>
-          <ul>
             <li><a href="dstack">Tech Stack</a></li>
             <li><a href="dIDE">Recommended IDEs</a></li>
+          </ul>
+          <li><a href="#web">Desktop Application</a></li>
+          <ul>
+            <li><a href="wstack">Tech Stack</a></li>
+            <li><a href="wIDE">Recommended IDEs</a></li>
           </ul>
           <li><a href="devenv">Development Environment</a></li>
         </li> 
@@ -99,6 +99,12 @@ The project aims to cater to both web and desktop users, supporting both macOS a
 <a name="obj"></a>
 ### <ins>Objectives</ins>
 
+1. __<ins>Seamless Audio Conversion Experience</ins>:__ The primary objective of the ytconv3rt3r project is to provide users with a seamless and hassle-free experience when converting YouTube audio tracks into various audio formats. The application should be easy to use, with a straightforward process for inputting YouTube video links and selecting desired audio formats. Users should be able to initiate the conversion process with minimal effort and receive high-quality audio output promptly.
+2. **<ins>Metadata Editing with or without AI/ML Assistance</ins>:** Another key objective is to enable users to edit metadata associated with the converted audio tracks. Metadata includes information such as track title, artist name, album name, genre, and cover art. Users should have the option to manually edit this metadata to ensure accurate and personalized information. Additionally, the project aims to explore the integration of AI/ML technologies to assist users in automatically retrieving or generating metadata for the audio tracks, saving them time and effort.
+3. **<ins>AI/ML Model for Metadata Retrieval or Generation</ins>:** As part of the project's innovation, the development team aims to build and integrate an AI/ML model that can analyze audio content and retrieve or generate relevant metadata automatically. This AI/ML model would use techniques such as audio fingerprinting, natural language processing, and machine learning algorithms to identify key metadata details from the audio content itself or external sources. By providing AI/ML assistance, the application can streamline the metadata editing process and enhance the overall user experience.
+4. **<ins>Support for Web and Desktop Applications</ins>:** The ytconv3rt3r project aims to be versatile and accessible to a wide range of users. To achieve this, the team plans to develop two versions of the application: a web-based version that users can access through their internet browsers, and a desktop application for macOS and Windows operating systems. This approach allows users to choose the platform that best suits their preferences and requirements.
+5. **<ins>Cross-Platform Compatibility</ins>:** In addition to supporting both web and desktop applications, cross-platform compatibility is a crucial objective of the project. The team will ensure that the application functions smoothly on various operating systems and web browsers, allowing users to access and use it regardless of their chosen platform.
+
 1. Provide users with a seamless and intuitive way to convert and download YouTube audio tracks into various audio formats.
 2. Allow users to edit metadata for each audio track, manually or with AI/ML assistance.
 3. Develop an AI/ML model to automatically fetch or generate metadata for improved user experience.
@@ -133,6 +139,40 @@ The project aims to cater to both web and desktop users, supporting both macOS a
 
 <a name="tech"></a>
 ## Technologies and Programming Languages
+
+<a name="desk"></a>
+### Desktop Application
+
+<a name="dstack"></a>
+#### **<ins>Tech Stack</ins>:**
+> #### **Version 1**
+>> - __<ins>Front-end</ins>: (*User Interface*)__ `Electron.js` for cross-platform compatibility
+>> - **<ins>Back-end</ins>:** `Node.js` with `Express.js` (for handling API requests)
+>> - **<ins>Libraries and APIs</ins>:** YouTube Data API, `FFmpeg` for audio conversion, AI/ML libraries (optional)
+>
+> #### **Version 2**
+>> 1. __<ins>Front-end</ins>: (*User Interface*)__
+>>> - `React Native`: A framework for building cross-platform mobile applications with `React.js` components.
+>>> - `Flutter`: A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
+>> 2. **<ins>Back-end</ins>:**
+>>> - `Flask`: A lightweight and flexible Python web framework that can also be used for desktop app back-end functionality.
+>>> - `.NET Core`: A cross-platform, open-source framework for building modern applications for Windows, macOS, and Linux.
+>> 3.  **<ins>Libraries and APIs</ins>:**
+>>> - `Electron Forge`: A complete toolchain to package and distribute `Electron.js` applications.
+>>> - `Node.js child_process module`: For running `FFmpeg` and other command-line utilities.
+>>> - `Spotify Web API`: For accessing music metadata and related information.
+ 
+<a name="dIDE"></a>
+#### **<ins>Recommended IDEs</ins>:**
+> 1. __<ins>Front-end</ins>: (*User Interface*)__
+>>   - <ins>Visual Studio Code</ins>: A versatile code editor suitable for `React Native` development with its wide range of extensions and `React Native`-specific tooling.
+>>   - <ins>IntelliJ IDEA</ins>: A robust IDE from JetBrains that supports `Flutter` development and offers powerful code analysis and debugging tools.
+> 2. **<ins>Back-end</ins>:**
+>>   - <ins>Visual Studio Code</ins>: Can be used for back-end development with `Flask` and `.NET Core`, providing a lightweight and efficient development environment.
+>>   - <ins>Visual Studio</ins>: A comprehensive IDE for Windows desktop app development with `.NET Core` and `C#`.
+
+
+--------------------
 
 <a name="web"></a>
 ### Web Application
@@ -174,40 +214,7 @@ The project aims to cater to both web and desktop users, supporting both macOS a
 &nbsp;
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
----------------------
-
-<a name="desk"></a>
-### Desktop Application
-
-<a name="dstack"></a>
-#### **<ins>Tech Stack</ins>:**
-> #### **Version 1**
->> - __<ins>Front-end</ins>: (*User Interface*)__ `Electron.js` for cross-platform compatibility
->> - **<ins>Back-end</ins>:** `Node.js` with `Express.js` (for handling API requests)
->> - **<ins>Libraries and APIs</ins>:** YouTube Data API, `FFmpeg` for audio conversion, AI/ML libraries (optional)
->
-> #### **Version 2**
->> 1. __<ins>Front-end</ins>: (*User Interface*)__
->>> - `React Native`: A framework for building cross-platform mobile applications with `React.js` components.
->>> - `Flutter`: A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
->> 2. **<ins>Back-end</ins>:**
->>> - `Flask`: A lightweight and flexible Python web framework that can also be used for desktop app back-end functionality.
->>> - `.NET Core`: A cross-platform, open-source framework for building modern applications for Windows, macOS, and Linux.
->> 3.  **<ins>Libraries and APIs</ins>:**
->>> - `Electron Forge`: A complete toolchain to package and distribute `Electron.js` applications.
->>> - `Node.js child_process module`: For running `FFmpeg` and other command-line utilities.
->>> - `Spotify Web API`: For accessing music metadata and related information.
- 
-<a name="dIDE"></a>
-#### **<ins>Recommended IDEs</ins>:**
-> 1. __<ins>Front-end</ins>: (*User Interface*)__
->>   - <ins>Visual Studio Code</ins>: A versatile code editor suitable for `React Native` development with its wide range of extensions and `React Native`-specific tooling.
->>   - <ins>IntelliJ IDEA</ins>: A robust IDE from JetBrains that supports `Flutter` development and offers powerful code analysis and debugging tools.
-> 2. **<ins>Back-end</ins>:**
->>   - <ins>Visual Studio Code</ins>: Can be used for back-end development with `Flask` and `.NET Core`, providing a lightweight and efficient development environment.
->>   - <ins>Visual Studio</ins>: A comprehensive IDE for Windows desktop app development with `.NET Core` and `C#`.
-
-
+--------------------
 
 &nbsp;
 
