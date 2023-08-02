@@ -85,9 +85,9 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 -----------------
 
 
-# Python-Based Tech Stacks 
+## Python-Based Tech Stacks 
 
-1. <strong><ins>Tech Stack 1</ins>:<strong>
+## 1. <strong><ins>Tech Stack 1</ins>:<strong>
 
 Consists of Python with `Flask` for the backend, where you can build RESTful APIs, and *`HTML/CSS/JavaScript`* for the frontend.
 - `SQLite` is used as a lightweight, serverless database for development purposes.
