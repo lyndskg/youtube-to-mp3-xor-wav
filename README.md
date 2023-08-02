@@ -231,7 +231,7 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 - [ ] __<ins>Phase 5</ins>: Documentation and Deployment (*2 weeks*)__
 >  - [ ] Prepare comprehensive documentation for users and developers, including installation guides and API references.
 >  - [ ] Deploy the web app to a reliable server or hosting platform for public access.
->  - [ ] Package the desktop app as .dmg for macOS and installer for Windows.
+>  - [ ] Package the desktop app as `.dmg` for macOS and installer for Windows.
 &nbsp;
 
 
@@ -243,13 +243,13 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 1. **Project Setup:**
 > - Choose the tech stack for the web app or desktop app.
 > - Set up the development environment and install necessary dependencies.
-> - Create a new project repository and initialize version control (e.g., Git).
+> - Create a new project repository and initialize version control (e.g., `Git`).
 2. **Basic Conversion Functionality:**
 > - Implement the front-end user interface for inputting YouTube video links and selecting audio formats.
-> - Set up the back-end to handle YouTube API requests and download audio in WAV format.
+> - Set up the back-end to handle YouTube API requests and download audio in `WAV` format.
 > - Test the basic conversion functionality and ensure files are saved in the specified location.
 3. **Expanding Audio Formats and Manual Metadata Editing:**
-> - Add support for converting audio to lossless compression (M4A) and lossy compression (MP3) formats.
+> - Add support for converting audio to lossless compression (M4A) and lossy compression (`MP3`) formats.
 > - Implement a user interface for users to specify the destination folder for the downloaded audio files.
 > - Create a metadata editing interface for users to manually modify artist, title, genre, and other details.
 4. **AI/ML Integration and Advanced Features:**
@@ -264,7 +264,7 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 6. **Documentation and Deployment:**
 > - Prepare comprehensive documentation for users and developers, including installation guides and API references.
 > - Deploy the web app to a reliable server or hosting platform for public access.
-> - Package the desktop app as a .dmg file for macOS and an installer for Windows.
+> - Package the desktop app as a `.dmg` file for macOS and an installer for Windows.
 &nbsp;
 
 
@@ -279,11 +279,11 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 > - Choose the tech stack for the web or desktop app and set up the development environment.
 >   - Install required dependencies.
 > - Create the basic web or desktop app structure.
->  - Create the front-end skeleton with the necessary components, routing (for web apps), and basic styling.
+>  - Create the front-end skeleton with the necessary components, routing (*i.e.*, for web apps), and basic styling.
 >  - Set up the back-end to handle API requests, including YouTube API and AI/ML integration (if applicable).
 2. **<ins>YouTube Audio Conversion</ins>:**
 > - Implement code to fetch and download YouTube audio using FFmpeg for audio conversion.
-> - Utilize `FFmpeg`(or `FFmpeg.js` for web apps) to perform audio conversion to WAV, M4A, or MP3 formats.
+> - Utilize `FFmpeg`(or `FFmpeg.js` for web apps) to perform audio conversion to `WAV`, `M4A`, or `MP3` formats.
 3. **<ins>Metadata Editing</ins>:**
 > - Develop the front-end user interface for manual metadata editing, enabling users to modify track details.
 > - If integrating AI/ML, prepare the back-end to connect with AI/ML models and retrieve or generate metadata.
@@ -319,30 +319,34 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 
 <a name="i"></a>
 ### Input: 
-> - YouTube video link,
+> - YouTube video link
 >   - Users input the link to the YouTube video they want to convert.
-> - selected audio format,
->   - Users select the desired audio format (WAV, M4A, MP3) for the conversion.  
-> - destination folder,
+> - Selected audio format
+>   - Users select the desired audio format (`WAV`, `M4A`, `MP3`) for the conversion.  
+> - Destination folder
 >   - Users choose the location on their device where the converted audio file will be saved.
-> - metadata details (*optional*).
+> - Metadata details (*optional*)
 >   - Users manually input artist, title, genre, album, and other details for the audio track. 
 >
 <a name="o"></a>
 ### Output: 
-> - Converted audio file,
+> - Converted audio file
 >   - The application outputs the audio file in the selected format (WAV, M4A, MP3).
-> - edited metadata (*optional*)
+> - Edited metadata (*optional*)
 >   - If manual metadata editing is performed, the edited metadata is included in the output audio file.
-> - AI/ML-Generated Metadata (*optional*):
+> - AI/ML-Generated Metadata (*optional*)
 >   - If AI/ML assistance is used, the AI/ML-generated metadata is included in the output audio file.
 
 <a name="err"></a>
 #### __<ins>*Error Handling*</ins>:__
-> - **<ins>Invalid YouTube Link</ins>:** Display an error message if the user inputs an invalid YouTube video link.
-> - **<ins>Unsupported Format</ins>:** Alert the user if the selected format is not supported or unavailable for conversion.
-> - **<ins>Conversion Errors</ins>:** Inform the user if any issues arise during the conversion process.
-> - **<ins>AI/ML Errors (*optional*)</ins>:** Handle errors gracefully if AI/ML metadata generation encounters problems.
+> - **<ins>Invalid YouTube Link</ins>:**
+>   -  Display an error message if the user inputs an invalid YouTube video link.
+> - **<ins>Unsupported Format</ins>:**
+>   - Alert the user if the selected format is not supported or unavailable for conversion.
+> - **<ins>Conversion Errors</ins>:**
+>   - Inform the user if any issues arise during the conversion process.
+> - **<ins>AI/ML Errors (*optional*)</ins>:**
+>   - Handle errors gracefully if AI/ML metadata generation encounters problems.
 
 &nbsp;
 
@@ -362,7 +366,7 @@ Provide feedback on the conversion progress and allow users to view and edit met
 1. **Landing Page:**
 > - The landing page features a simple and clean design with a prominent input field for the YouTube video link.
 > - Clear and concise instructions guide users on how to use the application to convert and download audio tracks.
-> - Users are presented with audio format options (WAV, M4A, MP3) and a browse button to select the destination folder.
+> - Users are presented with audio format options (`WAV`, `M4A`, `MP3`) and a browse button to select the destination folder.
 2. **Conversion Progress:**
 > - During the conversion process, a progress bar or spinner informs users of the conversion status.
 > - Real-time updates show the percentage completed and the remaining time for larger files.
@@ -386,7 +390,7 @@ Provide feedback on the conversion progress and allow users to view and edit met
 ## Key Features
 
 1. __<ins>YouTube Audio Conversion</ins>:__
-  - The application allows users to convert YouTube audio tracks into different formats, including uncompressed audio (WAV), lossless compression (M4A), and lossy compression (MP3).
+  - The application allows users to convert YouTube audio tracks into different formats, including uncompressed audio (`WAV`), lossless compression (`M4A`), and lossy compression (`MP3`).
 2. __<ins>Metadata Editing</ins>:__
   - Users have the option to edit metadata for each audio track, such as artist, title, genre, and album, ensuring accurate and relevant information for their audio files.
 3. __<ins>AI/ML Metadata Assistance</ins> (*optional*):__
@@ -407,11 +411,11 @@ Provide feedback on the conversion progress and allow users to view and edit met
 1. **User Inputs YouTube Video Link:**
 > - The user accesses the `ytconv3rt3r` application and inputs the YouTube video link they want to convert.
 2. **Select Desired Audio Format and Destination Folder:**
-> - The user selects the desired audio format (WAV, M4A, or MP3) for the conversion.
+> - The user selects the desired audio format (`WAV`, `M4A`, or `MP3`) for the conversion.
 > - The user chooses the destination folder where the converted audio file will be saved.
 3. **Audio Conversion and Download:**
 > - The application sends the YouTube video link to the back-end, which uses the YouTube API to fetch the video data.
-> - The back-end initiates the audio conversion process using FFmpeg, converting the audio to the selected format.
+> - The back-end initiates the audio conversion process using `FFmpeg`, converting the audio to the selected format.
 > - The converted audio file is downloaded and saved to the specified destination folder.
 4. __Manual Metadata Editing (*Optional*):__
 > - If the user wants to edit metadata manually, they can access the metadata editing interface.
@@ -431,7 +435,7 @@ Provide feedback on the conversion progress and allow users to view and edit met
 9. **Documentation and Deployment:**
 > - Comprehensive documentation, including installation guides and API references, is prepared for users and developers.
 > - The web app is deployed to a reliable server or hosting platform for public access.
-> - The desktop app is packaged as a .dmg file for macOS and an installer for Windows.
+> - The desktop app is packaged as a `.dmg` file for macOS and an installer for Windows.
 10. **Project Completion and Release:**
 > - The `ytconv3rt3r` project is completed and released to the public, providing users with a powerful and user-friendly tool for converting and downloading YouTube audio tracks in various formats with optional AI/ML-enhanced metadata generation.
 
@@ -450,7 +454,7 @@ Provide feedback on the conversion progress and allow users to view and edit met
 > #### **Version 1**
 >> - __<ins>Front-end</ins>: (*User Interface*)__ `React.js` or `Vue.js`
 >> - **<ins>Back-end</ins>:** `Node.js` with `Express.js`
->> - **<ins>Libraries and APIs</ins>:** YouTube Data API, `FFmpeg` for audio conversion, AI/ML libraries (optional)
+>> - **<ins>Libraries and APIs</ins>:** YouTube Data API, `FFmpeg` for audio conversion, AI/ML libraries (*optional*)
 >
 > #### **Version 2**
 >> 1. __<ins>Front-end</ins>: (*User Interface*)__
@@ -692,9 +696,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@lyndskg](https://twitter.com/lyndskg) - lyndsey.gu@gmail.com
+Lyndsey Gu - [@lyndskg](https://twitter.com/lyndskg) - lyndsey.gu@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/your_username/repo_name](https://github.com/lyndskg/ytconv3rt3r)
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
