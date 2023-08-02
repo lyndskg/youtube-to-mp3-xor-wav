@@ -29,10 +29,10 @@
      <li>
         <a href=py">Python Tech Stacks</a>
         <ul>
-           <li><a href= "express">Flask + SQLite</a></li>
-           <li><a href= "express">Flask + PostgreSQL</a></li>
-           <li><a href= "express">Django + SQLite</a></li>
-           <li><a href= "express">Django + PostgreSQL</a></li>
+           <li><a href= "flasql">Flask + SQLite</a></li>
+           <li><a href= "postflask">Flask + PostgreSQL</a></li>
+           <li><a href= "djangosql">Django + SQLite</a></li>
+           <li><a href= "postdjango">Django + PostgreSQL</a></li>
         </ul>
      </li>
   </ol>
@@ -118,6 +118,7 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 
 ## Python-Based Tech Stacks 
 
+<a name="flasql"></a>
 ## 1.  <strong><ins>Tech Stack 1</ins>:<strong>
 
 Consists of Python with `Flask` for the backend, where you can build RESTful APIs, and *`HTML/CSS/JavaScript`* for the frontend.
@@ -158,6 +159,7 @@ Consists of Python with `Flask` for the backend, where you can build RESTful API
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
 
+<a name="postflask"></a>
 2. <strong><ins>Tech Stack 2</ins>:<strong>
 >
 > - Front-end (UI): HTML/CSS/JavaScript
@@ -180,6 +182,7 @@ Consists of Python with `Flask` for the backend, where you can build RESTful API
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
 
+<a name="djangosql"></a>
 3. <strong><ins>Tech Stack 3 </ins>:<strong>
 >
 > - Front-end (UI): HTML/CSS/JavaScript
@@ -202,6 +205,8 @@ Consists of Python with `Flask` for the backend, where you can build RESTful API
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
+
+<a name="postdjango"></a>
 4. <strong><ins>Tech Stack 4 </ins>:<strong>
 >
 > - Front-end (UI): HTML/CSS/JavaScript
