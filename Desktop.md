@@ -2,6 +2,18 @@
 
 #### <strong><ins><em>Tech Stacks</em></ins></strong>
 
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#view">Project Overview</a>
+      <ul>
+        <li><a href="#obj">Objectives</a></li>
+      </ul>
+    </li>
+  </ol>
+</details>
+
 
 <p align="right">(<a href="#deskpy">Python version</a>)</p>
 
