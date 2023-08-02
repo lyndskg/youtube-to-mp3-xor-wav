@@ -42,7 +42,6 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 If your project is intended to be a desktop app for macOS, the tech stack and tools you choose might change compared to web application development. Here are some considerations and adjustments you can make for a desktop app:
 
 
-
 <!---- Is this even necessary if downloading from website as dmg vs from App Store -----> 
 1. **Desktop App Frameworks:**
    Since you are building a desktop app for macOS, you'll need a framework that supports macOS app development. Some popular options include:
