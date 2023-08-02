@@ -3,8 +3,8 @@
 #### <strong><ins><em>Tech Stacks</em></ins></strong>
 
 ## Table of Contents
-1. JavaScript\
-   i)   <a href="#express">Express, Node & Electron</a>
+1. JavaScript
+   1. <a href="#express">Express, Node & Electron JS</a>
 3. Python
 - i) Flask + SQLite
 - ii) Flask + PostgreSQL
