@@ -93,6 +93,87 @@
 
 ------
 
+## Back-end Technologies
+
+A comprehensive list of backend languages, frameworks, libraries, and APIs that you can consider for your project, along with their descriptions and pros/cons:
+
+1. **<ins>Python with `Flask`</ins>:**
+   - <ins>Description</ins>:
+      - `Flask` is a lightweight and flexible Python web framework that allows you to build backend applications.
+         -  It provides the essentials for building web APIs and integrates well with other libraries.
+   - <ins>Pros</ins>:
+      - Easy to get started, extensive community support, wide range of third-party libraries for various functionalities, suitable for small to medium-sized applications.
+   - <ins>Cons</ins>:
+      - Being a micro-framework, you may need to manually add additional libraries for specific tasks.
+
+2. **Python with `Django`:**
+   - <ins>Description</ins>:
+      - `Django` is a high-level Python web framework that follows the "batteries-included" philosophy.
+         - It comes with built-in features such as an ORM (Object-Relational Mapping), user authentication, and an admin panel.
+   - <ins>Pros</ins>:
+      - Comprehensive and feature-rich, rapid development, excellent for large-scale applications, follows best practices out of the box.
+   - <ins>Cons</ins>:
+      - Learning curve, may be overkill for small projects.
+
+3. **`Node.js` with `Express.js`:**
+   - <ins>Description</ins>:
+      - `Node.js` is a server-side JavaScript runtime, and `Express.js` is a minimalist and flexible web framework for `Node.js`.
+         - It allows you to build scalable and lightweight backend applications.
+  - <ins>Pros</ins>:
+      - Fast and efficient, great for building RESTful APIs, vast ecosystem of modules (`npm` packages), JavaScript can be used for both frontend and backend.
+   - <ins>Cons</ins>:
+      - Callback-based coding can lead to callback hell (but can be mitigated with modern JavaScript features or using `async`/`await`).
+
+4. **Ruby with `Ruby on Rails`:**
+    - <ins>Description</ins>:
+      - `Ruby on Rails` (RoR) is a full-stack web application framework for Ruby.
+         - It follows the convention over configuration (CoC) principle and emphasizes code simplicity and developer productivity.
+   - <ins>Pros</ins>:
+      - Rapid development, elegant and readable code, extensive libraries (gems), encourages best practices, good for building MVPs.
+   - <ins>Cons</ins>:
+      - Performance may not be as high as some other frameworks, may not be as well-suited for complex applications.
+
+5. **Java with `Spring Boot`:**
+   - <ins>Description</ins>:
+      - `Spring Boot` is a popular Java framework that simplifies the setup and configuration of `Spring` applications.
+         - It provides robust features for building web applications and RESTful APIs.
+   - <ins>Pros</ins>:
+      - Powerful and widely adopted, strong community support, enterprise-grade security features, modular architecture.
+   - <ins>Cons</ins>:
+      - Requires more boilerplate code compared to some other frameworks.
+
+6. **`Go` (Golang) with `Gin`:**
+   - <ins>Description</ins>:
+      - `Go` is a statically typed language known for its simplicity and performance.
+      - `Gin` is a lightweight and fast web framework for `Go`, ideal for building APIs and microservices.
+   - <ins>Pros</ins>:
+      - Fast compilation, excellent performance, small memory footprint, easy to learn.
+   - <ins>Cons</ins>:
+      - Smaller ecosystem compared to more established languages.
+
+7. **`C#` with `ASP.NET Core`:**
+  - <ins>Description</ins>:
+      - `ASP.NET Core` is a cross-platform, high-performance framework for building web applications and APIs using `C#`. It is known for its speed and scalability.
+   - <ins>Pros</ins>:
+      - Strongly typed language, great for building enterprise applications, extensive documentation, good performance.
+   - <ins>Cons</ins>:
+      - May require more configuration for simple projects.
+
+Each of these backend technologies has its strengths and weaknesses.
+
+
+For your project, considering that you already have proficiency in C# and Python, both `Flask` and `Django` are excellent choices.\
+`Flask` is more lightweight and flexible, ideal for smaller projects, while `Django` provides more built-in features and is better suited for larger applications with complex requirements.
+
+
+Ultimately, the best choice depends on your project's specific needs and your team's expertise.\
+If you prefer Python for both frontend and backend, `Flask` would be a good fit.\
+However, if you aim to build a more extensive and feature-rich application, `Django` might be the better option.
+&nbsp;
+
+<p align="right">(<a href="#top">Back to top</a>)</p>
+
+------
 
 <a name="js"></a>
 
