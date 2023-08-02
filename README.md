@@ -179,6 +179,7 @@ The project aims to cater to both web and desktop users, supporting both macOS a
 >>   - <ins>Visual Studio Code</ins>: Can be used for back-end development with `Flask` and `.NET Core`, providing a lightweight and efficient development environment.
 >>   - <ins>Visual Studio</ins>: A comprehensive IDE for Windows desktop app development with `.NET Core` and `C#`.
 
+&nbsp;
 
 --------------------
 
