@@ -27,7 +27,7 @@
 
 <p align="right">(<a href="#deskpy">Python version</a>)</p>
 
-## I.        JS-Based Tech Stacks 
+<h2> I. &nbsp; JS-Based Tech Stacks</h2>
 
 <a name="express"></a>
 ## 1) Electron.js + Node.js w/ Express.js + Youtube Data API + FFmpeg
