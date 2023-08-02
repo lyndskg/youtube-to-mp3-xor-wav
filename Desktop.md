@@ -1,14 +1,3 @@
-
-<a name=top></a>
-# how tf do we set this up 
-
-
-Eat buttz
-
-&nbsp;
-
------------------
-
 ## 1. Desktop App 
 
    
