@@ -80,12 +80,12 @@
 
 <a name="addl"></a>
 ### Additional Libraries and Frameworks:
-
-- **`PyQt`** or **`Tkinter`**: If you decide to build the frontend using *`Python`*, `PyQt` and `Tkinter` are popular choices for creating native-like desktop GUI applications.\
-  - `PyQt` provides bindings for the `Qt` framework, while `Tkinter` is Python's built-in GUI toolkit.
- 
-- **`Electron.js`**: If you prefer building the frontend using web technologies (*`HTML/CSS/JavaScript`*) and want to create a cross-platform desktop app, `Electron.js` is a great option.\
-- It allows you to package web applications as native-like desktop apps.
+>
+> - **`PyQt`** or **`Tkinter`**: If you decide to build the frontend using *`Python`*, `PyQt` and `Tkinter` are popular choices for creating native-like desktop GUI applications.
+>> - `PyQt` provides bindings for the `Qt` framework, while `Tkinter` is Python's built-in GUI toolkit.
+> 
+> - **`Electron.js`**: If you prefer building the frontend using web technologies (*`HTML/CSS/JavaScript`*) and want to create a cross-platform desktop app, `Electron.js` is a great option.\
+>> - It allows you to package web applications as native-like desktop apps.
 
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
