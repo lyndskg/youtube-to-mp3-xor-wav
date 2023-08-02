@@ -26,19 +26,10 @@
            <li><a href= "express">Express + Node + Electron JS</a></li>
         </ul>
      </li>
-     <li>
-        
-     </li>
-  </ol>
-      
-        
-     </li>
-      <ul>
-        <li><a href="#obj">Objectives</a></li>
-      </ul>
-    </li>
   </ol>
 </details>
+        
+
 
 
 <p align="right">(<a href="#deskpy">Python version</a>)</p>
