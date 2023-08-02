@@ -244,22 +244,6 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
 ---------------------
-  
-<a name="est"></a>
-### <ins>Time Estimate</ins>:
-Considering the phases and development times mentioned above, the estimated time of completion for the entire `ytconv3rt3r` project is approximately 20 weeks (*5 months*). 
-
-However, the timeline can be influenced by factors such as team size, resources, complexity of AI/ML integration, and any unforeseen challenges that may arise during development.
-&nbsp;
-**<ins>Note</ins>:** The timeline is a rough estimate and may vary depending on the specific circumstances and any additional features or enhancements you may decide to include during the development process.
-
-
-It's essential to plan and allocate resources accordingly to ensure the project's successful completion.
-
-
-<p align="right">(<a href="#yt">back to top</a>)</p>
-
----------------------
 
 <a name="impl"></a>
 ## Project Implementation Guide
@@ -615,6 +599,22 @@ By addressing various potential use cases and practical applications, `ytconv3rt
 - TODO
 
 - 
+<p align="right">(<a href="#yt">back to top</a>)</p>
+
+---------------------
+  
+<a name="est"></a>
+### <ins>Time Estimate</ins>:
+Considering the phases and development times mentioned above, the estimated time of completion for the entire `ytconv3rt3r` project is approximately 20 weeks (*5 months*). 
+
+However, the timeline can be influenced by factors such as team size, resources, complexity of AI/ML integration, and any unforeseen challenges that may arise during development.
+&nbsp;
+**<ins>Note</ins>:** The timeline is a rough estimate and may vary depending on the specific circumstances and any additional features or enhancements you may decide to include during the development process.
+
+
+It's essential to plan and allocate resources accordingly to ensure the project's successful completion.
+
+
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
 ---------------------
