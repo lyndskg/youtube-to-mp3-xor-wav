@@ -72,19 +72,21 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 
 ## Python-Based Tech Stacks 
 
-1. <strong><ins>Tech Stack 1 </ins>:<strong>
+1. <strong><ins>Tech Stack 1</ins>:<strong>
 
+Consists of Python with Flask for the backend, where you can build RESTful APIs, and HTML/CSS/JavaScript for the frontend.
+- `SQLite` is used as a lightweight, serverless database for development purposes.
+- It also includes integration with the Youtube Data API for fetching Youtube data and `FFmpeg` for audio conversion.
+
+  
 > - Front-end (UI): HTML/CSS/JavaScript
 > - Back-end: Python + Flask
 > - Database: SQLite
 > - Additional Libraries and Frameworks: Youtube Data API + FFmpeg
 > - IDE: Visual Studio Code (VS Code)
 >> - VS Code's versatility is valuable for integrating additional libraries and APIs like the Youtube Data API and FFmpeg.
->   
-> - Description: This tech stack consists of Python with Flask for the backend, where you can build RESTful APIs, and HTML/CSS/JavaScript for the frontend.
->> - SQLite is used as a lightweight, serverless database for development purposes.
->> - It also includes integration with the Youtube Data API for fetching Youtube data and FFmpeg for audio conversion.
->
+
+
 > -  Pros:
 >> - Flask allows for rapid development and easy integration with the Youtube Data API and FFmpeg.
 >> - SQLite is simple to set up and suitable for development and testing purposes.
