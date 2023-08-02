@@ -45,7 +45,7 @@
 
 
 
-<p align="right">(<a href="#deskpy">Python version</a>)</p>
+<p align="right">(<a href="#py">Python version</a>)</p>
 
 ------
 
@@ -62,7 +62,7 @@
       - `Python`
       - `C#`
    2. *Frameworks*:
-      -`Flask`: A lightweight and flexible Python web framework that can also be used for desktop app back-end functionality.
+      - `Flask`: A lightweight and flexible Python web framework that can also be used for desktop app back-end functionality.
       - `Django`: A high-level Python web framework that promotes rapid development and clean, pragmatic design.
       - `.NET Core`: A cross-platform, open-source framework for building modern applications for Windows, macOS, and Linux.
 
@@ -87,15 +87,17 @@
 > - **`Electron.js`**: If you prefer building the frontend using web technologies (*`HTML/CSS/JavaScript`*) and want to create a cross-platform desktop app, `Electron.js` is a great option.\
 >    - It allows you to package web applications as native-like desktop apps.
 
+&nbsp;
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
-
 ------
+
 
 <a name="js"></a>
 
 <h2> I. &nbsp; JS-Based Tech Stacks</h2>
+
 
 <a name="express"></a>
 ## 1) Electron.js + Node.js w/ Express.js + Youtube Data API + FFmpeg
@@ -109,7 +111,7 @@
 
 
 <a name="dIDE"></a>
-## **<ins>Recommended IDEs</ins>:**
+### **<ins>Recommended IDEs</ins>:**
 > 1. __<ins>Front-end</ins>: (*User Interface*)__
 >>   - __<ins>Visual Studio Code</ins>:__ A versatile code editor suitable for `React Native` development with its wide range of extensions and `React Native`-specific tooling.
 >>   - __<ins>IntelliJ IDEA</ins>:__ A robust IDE from JetBrains that supports `Flutter` development and offers powerful code analysis and debugging tools.
@@ -127,13 +129,14 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
+
 -----------------
 
-
-## Python-Based Tech Stacks 
+<a name="py"></a>
+## I, Python-Based Tech Stacks 
 
 <a name="flasql"></a>
-## 1.  <strong><ins>Tech Stack 1</ins>:<strong>
+<h2> 1.  <strong><ins>Python Stack 1</ins>: Flask + SQLite</strong></h2>
 
 Consists of Python with `Flask` for the backend, where you can build RESTful APIs, and *`HTML/CSS/JavaScript`* for the frontend.
 - `SQLite` is used as a lightweight, serverless database for development purposes.
@@ -141,22 +144,22 @@ Consists of Python with `Flask` for the backend, where you can build RESTful API
 
   
 > - **<ins>Front-end (UI)</ins>:**
->> - `HTML/CSS/JavaScript`
+>    - `HTML/CSS/JavaScript`
 >   
 > - **<ins>Back-end</ins>:**
 >> - `Python`
 >> - `Flask`
 >   
 > - **<ins>Database</ins>:**
->> - `SQLite`
+>    - `SQLite`
 >   
 > - **<ins>Additional Libraries, Frameworks and APIs</ins>:**
 >> - Youtube Data API
 >> - `FFmpeg`
 >> - `Node.js child_process module`: For running `FFmpeg` and other command-line utilities.
 >
-> - IDE: Visual Studio Code (VS Code)
->> - VS Code's versatility is valuable for integrating additional libraries and APIs like the Youtube Data API and FFmpeg.
+> - **<ins>IDE</ins>:** Visual Studio Code (VS Code)
+>    - VS Code's versatility is valuable for integrating additional libraries and APIs like the Youtube Data API and FFmpeg.
 >
 > - <strong><em><ins>Pros</ins></em>:</strong>
 >> - `Flask` allows for rapid development and easy integration with the Youtube Data API and `FFmpeg`.
@@ -276,7 +279,7 @@ Consider trying them out and selecting the one that feels most comfortable and e
 -----------------
 
 
-<a name="deskpy"></a>
+<a name="py"></a>
 <!---- Is this even necessary if downloading from website as dmg vs from App Store -----> 
 ## V1.1 In Python
 
