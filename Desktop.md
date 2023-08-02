@@ -143,18 +143,82 @@ Here's a revised tech stack recommendation tailored for your desktop app:
 ### **<ins>Frameworks</ins>:**
 
 
+If your project is intended to be a desktop app for macOS, the tech stack and tools you choose might change compared to web application development. Here are some considerations and adjustments you can make for a desktop app using PYTHON:
+
+Here's a revised tech stack recommendation tailored for your desktop app:
+
+Frameworks:
+
+### **Frontend:**
+
+Since you are building a desktop app for macOS, you'll need a framework that supports macOS app development.\
+For the frontend of your desktop app, you can use Python's built-in GUI libraries or other third-party frameworks that support macOS app development. 
+&nbsp;
+
+Some options include:
+>
+> - `PyQt`:
+>    - A set of Python bindings for the `Qt` application framework, which allows you to build cross-platform desktop applications, including macOS.
+>    - It provides a wide range of features and widgets for building a rich and interactive user interface.
+>
+> - `Tkinter`:
+>    - A built-in Python GUI library that provides basic functionalities to create simple desktop applications on macOS and other platforms.
+>    - Python's standard GUI library and comes bundled with Python.
+>    - It offers basic GUI functionalities and is a good choice for simple desktop applications.
+>
+> - `Kivy`:
+>    - An open-source Python library for developing multitouch applications.
+>    - It supports various platforms, including macOS, and is well-suited for creating touch-friendly interfaces.
+
+
+If you are comfortable with Python and would like to stick with it for your desktop app's development, that's a great choice and can simplify the entire process.\
+In this case, you won't need to use ASP.NET Core or any other technology outside of Python.
+
+
+### **Backend:**
+
+For the backend of your desktop app, you can still use Python with frameworks like `Flask` or `Django`, but the focus will shift from web-related tasks to app-specific functionalities.
+
+
+Both `Flask` and `Django` are excellent choices, depending on the complexity and requirements of your desktop app:
+>
+> - `Django`: A high-level web framework known for its simplicity and robustness.
+>    - It follows the "don't repeat yourself" (DRY) principle and provides many built-in features, such as an ORM for database interactions and a user authentication system.
+>
+> - `Flask`: A micro-framework that offers more flexibility and control over the project's structure.
+>    - It's lightweight and allows you to choose your preferred libraries and components, making it suitable for smaller desktop applications.
+
+&nbsp;
+
+### **Database:**
+
+Since you are building a desktop app, you might not need a full-fledged database system like `PostgreSQL` or `MySQL`
+
+
+Instead, you can use `SQLite`, a lightweight, embedded database that doesn't require a separate server.\
+`SQLite` is suitable for small to medium-sized desktop applications.
+ 
+
+Overall, the main difference is that you'll be developing a standalone desktop application that runs directly on macOS, rather than a web application that requires a web server and a browser to access.\
+The choice of framework and tools will be influenced by the specific requirements of desktop app development and macOS compatibility.
+
+
 
 ### **Packaging and Distribution:**
-When building desktop apps, you'll need to consider packaging and distributing your application to macOS users. Tools like PyInstaller or cx_Freeze can help you package your Python code into standalone executables for macOS.
+When building desktop apps, you'll need to consider packaging and distributing your application to macOS users. 
 
-To distribute your desktop app to macOS users, you can use tools like PyInstaller or cx_Freeze. These tools package your Python code into standalone executables for macOS, making it easy for users to install and run your app without requiring a Python interpreter.
+
+Tools like `PyInstaller` or `cx_Freeze` can help you package your Python code into standalone executables for macOS, making it easy for users to install and run your app without requiring a Python interpreter.
+
 
 
 ###  **Integration with macOS Features:**
 You can take advantage of macOS-specific features and integrations, such as using native macOS menus, notifications, and system functionalities.
 
 
-As you are targeting macOS, consider taking advantage of macOS-specific features and integrations to enhance the user experience. You can use libraries or modules that provide access to macOS functionalities like menus, notifications, and system services.
+As you are targeting macOS, consider taking advantage of macOS-specific features and integrations to enhance the user experience.\
+You can use libraries or modules that provide access to macOS functionalities like menus, notifications, and system services.
+
 
 ### **Deployment:**
 Consider how you will deploy the desktop app to your users.\
@@ -169,6 +233,7 @@ By sticking to Python for both frontend and backend development, you and your fr
 
 
 Python has a vast number of libraries and frameworks that can assist in various aspects of desktop app development, making it a versatile and powerful choice. 
+
 
 Just ensure that you follow best practices and design patterns specific to desktop application development and strive to create a secure and user-friendly experience.
 
