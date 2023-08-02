@@ -167,15 +167,6 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 
 &nbsp;
 
----------------------
-
-<a name="devenv"></a>
-### Development Environment:
-
-> - **Operating System:** macOS Ventura *(version 14.3.1)*
-> - **Architecture:** Apple arm64
-
-
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
 ---------------------
@@ -623,6 +614,17 @@ By addressing various potential use cases and practical applications, `ytconv3rt
 - TODO
 
 - 
+<p align="right">(<a href="#yt">back to top</a>)</p>
+
+---------------------
+
+<a name="devenv"></a>
+### Development Environment:
+
+> - **Operating System:** macOS Ventura *(version 14.3.1)*
+> - **Architecture:** Apple arm64
+
+
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
 ---------------------
