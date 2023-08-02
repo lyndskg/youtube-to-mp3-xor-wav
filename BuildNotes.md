@@ -39,6 +39,37 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 
 &nbsp;
 
+If your project is intended to be a desktop app for macOS, the tech stack and tools you choose might change compared to web application development. Here are some considerations and adjustments you can make for a desktop app:
+
+
+
+<!---- Is this even necessary if downloading from website as dmg vs from App Store -----> 
+1. **Desktop App Frameworks:**
+   Since you are building a desktop app for macOS, you'll need a framework that supports macOS app development. Some popular options include:
+   - **PyQt:** A set of Python bindings for the Qt application framework, which allows you to build cross-platform desktop applications, including macOS.
+   - **Tkinter:** This is a built-in Python GUI library that provides basic functionalities to create simple desktop applications on macOS and other platforms.
+
+2. **Backend Development:**
+   For the backend, you can still use Python with frameworks like Flask or Django to handle the application's logic and data processing, but the focus will shift from web-related tasks to app-specific functionalities.
+
+3. **Database:**
+   Since you are building a desktop app, you might not need a full-fledged database system like PostgreSQL or MySQL. Instead, you can use SQLite, a lightweight, embedded database that doesn't require a separate server. SQLite is suitable for small to medium-sized desktop applications.
+
+4. **Frontend (User Interface):**
+   For desktop apps, the frontend will be the user interface of the application. You can use the GUI libraries provided by the chosen desktop app framework (e.g., PyQt or Tkinter) to create the user interface using widgets and layouts.
+
+5. **Packaging and Distribution:**
+   When building desktop apps, you'll need to consider packaging and distributing your application to macOS users. Tools like PyInstaller or cx_Freeze can help you package your Python code into standalone executables for macOS.
+
+6. **Integration with macOS Features:**
+   You can take advantage of macOS-specific features and integrations, such as using native macOS menus, notifications, and system functionalities.
+
+7. **Deployment:**
+   Consider how you will deploy the desktop app to your users. You might choose to distribute it through the macOS App Store or provide it as a downloadable package from your website.
+
+Overall, the main difference is that you'll be developing a standalone desktop application that runs directly on macOS, rather than a web application that requires a web server and a browser to access. The choice of framework and tools will be influenced by the specific requirements of desktop app development and macOS compatibility.
+
+<!---- TODO: Windows?? -----> 
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
 -----------------
@@ -205,3 +236,78 @@ By using this approach, you'll be able to leverage the strengths of C# and Pytho
 The communication between the front-end and the backend can happen through HTTP requests, where the front-end sends requests to the Django API, which then communicates with the ASP.NET Core backend for data processing. The responses are sent back to the front-end through the Django API, which acts as a bridge between the two languages.
 
 Remember to define clear API contracts to ensure seamless communication between the front-end and the backend. Additionally, using this approach, you and your friend can work on the backends independently, with minimal dependencies between your respective codebases.
+
+
+
+-----------------
+## V4.1: DESKTOP APP IN PYTHON
+
+
+### DB OR NAH
+
+If your project is a desktop application, the need for a database will depend on the nature of the application and the data it deals with. Here are some factors to consider when deciding whether to use a database in your desktop app:
+
+1. **Data Storage and Management:** Does your desktop application involve storing and managing data? If your app handles user-generated content, settings, configurations, or any form of data that needs to persist between application sessions, using a database would be beneficial.
+
+2. **Offline Usage and Data Synchronization:** If your desktop app needs to work offline and synchronize data with a remote server or cloud storage when connected to the internet, a database can help facilitate this process.
+
+3. **Performance and Scalability:** Databases are efficient at handling and querying large datasets. If your desktop app deals with significant amounts of data or requires complex data operations, a database can enhance performance and scalability.
+
+4. **Security:** If your desktop application deals with sensitive data, using a database can provide a more secure way to store and manage this information compared to other storage options.
+
+5. **User Management:** If your desktop app involves user accounts and authentication, a database is essential for securely storing user credentials and managing user-related data.
+
+If your desktop application doesn't involve data storage, data manipulation, or any form of data management, you might not need a traditional database. In such cases, you could use simpler file-based storage solutions or in-memory data structures to fulfill your application's needs.
+
+Python provides various database options for desktop applications, ranging from SQLite (which is lightweight and doesn't require a separate server) to more robust databases like PostgreSQL and MySQL.
+
+In summary, consider the data-related requirements of your desktop application and weigh the benefits of using a database against the complexity it might introduce. If data storage, retrieval, or complex data operations are integral to your application, incorporating a database into your tech stack can significantly enhance its capabilities and flexibility.
+
+
+-----------------
+
+## V4.2: WEB APP IN PYTHON
+
+If you are comfortable with Python and would like to stick with it for both the backend and frontend of your project, that's absolutely possible and can simplify the development process. In that case, you won't need ASP.NET Core for the backend, and you can use Python-based frameworks for both frontend and backend development.
+
+Here's a revised tech stack recommendation for your project:
+
+**Frontend:**
+- **HTML, CSS, and JavaScript:** Use these fundamental web technologies for building the structure, style, and interactivity of your web application's frontend. You can use frameworks like Bootstrap or MaterializeCSS to expedite the frontend development process.
+
+**Backend:**
+- **Python Web Framework (Django or Flask):** Since you want to stick with Python, you have a couple of popular choices for the backend. Django and Flask are both excellent options:
+  - **Django:** This high-level web framework follows the "don't repeat yourself" (DRY) principle and includes many built-in features such as an ORM (Object-Relational Mapping) for database interactions, user authentication, and admin panel.
+  - **Flask:** Flask is a micro-framework that gives you more flexibility and control over your project's structure. It's lightweight and lets you choose your preferred libraries and components to build the application.
+
+**Database:**
+- **SQLite (for Development):** Both Django and Flask can work with SQLite, which is a lightweight, serverless database suitable for development and testing purposes. It requires minimal configuration and is a good choice when starting the project.
+- **PostgreSQL (for Production):** For a more robust and scalable solution in a production environment, consider using PostgreSQL. Django and Flask can seamlessly integrate with PostgreSQL, and it's an excellent open-source relational database.
+
+**Deployment:**
+- **PythonAnywhere or Heroku:** These platforms offer easy deployment options for Python web applications. PythonAnywhere provides a simple web hosting environment for Python applications, while Heroku offers more customization and scaling options.
+
+By using Python for both frontend and backend, you and your friend can leverage your Python expertise efficiently. Python has a vast number of libraries and frameworks that can assist in various aspects of web development, making it a versatile choice for building web applications. Just ensure that you are familiar with Python best practices for web development and follow proper security practices to keep your application secure. Happy coding!
+
+
+### IS DB NECESSARY
+
+Whether you need a database for your project depends on the requirements and functionality of your web application. A database is used to store and manage data, and it becomes essential when your application needs to save and retrieve information.
+
+Here are some considerations to help you decide if you need a database for your project:
+
+1. **Data Storage:** Determine if your web application requires data storage. For example, if you are building a blog, e-commerce site, social media platform, or any application where users need to create accounts, post content, or interact with each other, you'll likely need a database to store user information, posts, comments, etc.
+
+2. **User Authentication:** If your application has user accounts with login functionality, a database is necessary to store user credentials securely.
+
+3. **Stateful Operations:** If your application involves handling data that needs to persist across sessions, such as saving user preferences or progress in a game, a database is required.
+
+4. **Complex Queries and Filtering:** If your web app needs to perform complex data queries or filtering, a database can efficiently manage these operations.
+
+5. **Scalability:** Databases are essential for handling large-scale applications that require horizontal scaling to manage increased traffic and data storage.
+
+If your web application involves storing data or has any of the above characteristics, using a database is highly recommended. For Python web frameworks like Django and Flask, integrating with a database is relatively straightforward, and they both support various databases, including SQLite, PostgreSQL, MySQL, and more.
+
+However, if your project is relatively simple, and you don't need to store persistent data or perform complex data operations, you might get away without using a traditional database. In such cases, you can explore other lightweight storage options like using in-memory data structures or file-based storage, but keep in mind that these may have limitations and won't be suitable for more extensive or complex applications.
+
+Ultimately, assess your project's requirements, and if data storage and retrieval are necessary, go ahead and use a database. It's a fundamental component of most web applications and will provide you with the necessary capabilities to build a robust and scalable system.
