@@ -241,18 +241,20 @@ In summary, consider the data-related requirements of your desktop application a
 
 
 -----------------
+## Python-Based Tech Stacks 
 
-1. Tech Stack: Python + Flask (Backend) + HTML/CSS/JavaScript (Frontend) + SQLite (Database) + Youtube Data API + FFmpeg
-Description: This tech stack is the same as the first one, but it includes integration with the Youtube Data API for fetching Youtube data and FFmpeg for audio conversion.
-Pros:
-Flask allows for rapid development and easy integration with the Youtube Data API and FFmpeg.
-SQLite is simple to set up and suitable for development and testing purposes.
-Python provides a wide range of libraries and tools for various functionalities.
-Youtube Data API enables seamless integration with Youtube for fetching data.
-FFmpeg facilitates audio conversion, supporting various formats.
-Cons:
-SQLite may not be suitable for production-scale databases.
-Flask might require additional libraries for certain functionalities compared to Django.
+1. <strong><ins>Tech Stack</ins>:<strong> Python + Flask (Backend) + HTML/CSS/JavaScript (Frontend) + SQLite (Database) + Youtube Data API + FFmpeg
+> - Description: This tech stack consists of Python with Flask for the backend, where you can build RESTful APIs, and HTML/CSS/JavaScript for the frontend. SQLite is used as a lightweight, serverless database for development purposes.
+>> - It also includes integration with the Youtube Data API for fetching Youtube data and FFmpeg for audio conversion.
+>> -  Pros:
+>>> - Flask allows for rapid development and easy integration with the Youtube Data API and FFmpeg.
+>>> - SQLite is simple to set up and suitable for development and testing purposes.
+>>> - Python provides a wide range of libraries and tools for various functionalities.
+>>> - Youtube Data API enables seamless integration with Youtube for fetching data.
+>>> - FFmpeg facilitates audio conversion, supporting various formats.
+>> - Cons:
+>>> - SQLite may not be suitable for production-scale databases.
+>>> - Flask might require additional libraries for certain functionalities compared to Django.
 
 Visual Studio Code (VS Code): VS Code's versatility is valuable for integrating additional libraries and APIs like the Youtube Data API and FFmpeg.
 
