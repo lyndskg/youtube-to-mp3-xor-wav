@@ -6,6 +6,8 @@
 
 
 <h4><ins><strong><em>* a desktop- or web app-based youtube audio converter tool * </em></strong></ins></h4>
+
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -104,15 +106,21 @@
   </ol>
 </details>
 
-#### File hierarchy
-
-#### Current Tech Stacks
-<p align="right">[<a href="#stackz">Current Tech Stack(s)</a>]</p>
-
+<details>
+  <summary>File Hierarchy</summary>
+</details>
 
 
-#### Current Progress 
-<h4>[<a href="#curr">Current Progress</a>]</h4>
+<details>
+  <summary>Current Tech Stacks</summary>
+</details>
+
+<p align="right">[<a href="#stackz">View more details!</a>]</p>
+
+
+<details>
+  <summary>Progress</summary>
+</details>
 
 > Quick
 >
@@ -121,6 +129,9 @@
 > Summary
 
 <p align="right"><strong><ins>Note</ins>:</strong><em> Last updated</em>: 8/2/23</p>
+
+
+<p align="right">[<a href="#curr">View our progress and build notes!</a>]</p>
 
 
 ---------------------------
