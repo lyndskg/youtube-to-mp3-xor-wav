@@ -112,7 +112,7 @@
 
 
 #### Current Progress 
-<h4 align="right">[<a href="#curr">Current Progress</a>]</h4>
+<h4>[<a href="#curr">Current Progress</a>]</h4>
 
 > Quick
 >
