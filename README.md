@@ -22,32 +22,11 @@ desde <a name="yt"></a>
     </li>
     <li><a href="#tech">Technologies and Programming Languages</a></li>
     <li><a href="#stackz">Currently Used Tech Stacks</a></li>
-      <ul>
-        <li>
-          <a href="#desk">Desktop Application</a>
-          <ul> 
-            <li><a href="dstack">Tech Stack</a></li>
-            <li><a href="dIDE">Recommended IDEs</a></li>
-          </ul>
-          <li><a href="#web">Web Application</a></li>
-          <ul>
-            <li><a href="wstack">Tech Stack</a></li>
-            <li><a href="wIDE">Recommended IDEs</a></li>
-          </ul>
-          <li><a href="devenv">Development Environment</a></li>
-        </li> 
-      </ul>
-    </li>
+    <li><a href="devenv">Development Environment</a></li>
     <li><a href="#uiux">UI/UX Implementation Details</a></li>
     <li><a href="#feat">Key Features</a></li>
-    <li>
-      <a href="io">Potential I/O Specifications</a>
-      <ul>
-        <li><a href="#i">Input</a></li>
-        <li><a href="#o">Output</a></li>
-        <li><a href="#err">Error Handling</a></li>
-      </ul>
-    </li>
+    <li><a href="io">Potential I/O Specifications</a>
+    <li><a href="#err">Error Handling</a></li>
     <li><a href="#plus">Future Enhancements</a></li>
     <li><a href="bye">Conclusion</a></li>
   </ol>
