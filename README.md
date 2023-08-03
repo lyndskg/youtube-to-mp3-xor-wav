@@ -115,7 +115,7 @@ desde <a name="yt"></a>
 <details>
   <summary>Current Tech Stacks &nbsp; [<a href="#stackz">View more details!</a>]</p>
     <p>[<a href="#stackz">View more details!</a>]</p>
-  summary>
+  </summary>
 </details>
 
 <details>
