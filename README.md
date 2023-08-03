@@ -96,14 +96,14 @@
 </details>
 
 
-<p><a href="#stackz"></a></p>
 
-#### View our Current Tech Stack
+#### View our Tech Stack
+<p align="right">(<a href="#stackz">Current Tech Stack</a>)</p>
 
 
-<p><a href="#curr"></a></p>
 
-#### View our Current Progress
+#### View our Progress
+<p align="right">(<a href="#curr">Current Progress</a>)</p>
 > Quick
 >
 > Executive
