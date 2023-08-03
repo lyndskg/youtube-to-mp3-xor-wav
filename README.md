@@ -5,7 +5,7 @@
 <h4 align="center"><ins><strong><em>* a desktop- or web app-based youtube audio converter tool * </em></strong></ins></h4>
 
 
-<p align="center">[google.com](blah)</p>
+[google](google.com)
 
 <details>
   <summary>Table of Contents</summary>
@@ -137,6 +137,9 @@
 
 <a name="view"></a>
 ## Project Overview 
+
+
+[google](google.com)
 
 `ytconv3rt3r` is a versatile and user-friendly application that allows users to convert and download YouTube audio tracks into various audio file formats &mdash; including uncompressed audio (WAV), lossless compression (M4A), and lossy compression (MP3). 
 
