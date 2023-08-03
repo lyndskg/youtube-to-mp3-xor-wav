@@ -102,8 +102,11 @@
             <a href="#prereq">Prerequisites</a>
             <ul>
               <li><a href="#preweb">Web App</a></li>
-              <li><a href="#premac">macOS</a></li>
-              <li><a href="#prewindows">Windows</a></li>
+              <li><a href="#predesk">Desktop App</a></li>
+              <li><a href="#prefile">File System Permissions (<em>Desktop Only</em>)</a></li>
+              <li><a href="#preaiml">AI/ML Permissions</a></li>
+              <li><a href="#leg">Legal & Copyright Compliance</a></li>
+              <li><a href="#priv">Privacy & Data Security</a></li>
             </ul>
           </li>
           <li>
@@ -644,7 +647,6 @@ By continuously enhancing and expanding the `ytconv3rt3r` application with these
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
 ---------------------
-
   
 <a name="install"></a>
 ## User Installation
@@ -669,20 +671,37 @@ To ensure a smooth experience, users should meet the following prerequisites:
 **<ins>Note</ins>:** The desktop app versions of `ytconv3rt3r` might require you to have administrative privileges on your macOS or Windows system to install and run the application.
 
 
-<a name="premac"></a>
+<a name="predesk"></a>
 #### **Desktop App:**
-> - <ins>Operating System</ins>: `ytconv3rt3r` desktop app is available for macOS and Windows operating systems. Users should ensure that their device meets the minimum system requirements for the respective operating system:
->   - macOS: Compatible with macOS 10.12 (Sierra) and later versions.
->   - Windows: Compatible with Windows 7 and later versions.
-> - <ins>Disk Space</ins>: Sufficient free disk space is required on the user's device to install the desktop app and store converted audio files.
+> **<ins>Operating System</ins>:** `ytconv3rt3r` desktop app is available for macOS and Windows operating systems. Users should ensure that their device meets the minimum system requirements for the respective operating system:
+>  - **macOS**: Compatible with macOS 10.12 (Sierra) and later versions.
+>  - **Windows:** Compatible with Windows 7, 8, 8.1, 10 (64-bit version), and later versions.
+> **<ins>Disk Space</ins>:** Sufficient free disk space is required on the user's device to install the desktop app and store converted audio files.
 
-<a name="prewindows"></a>
-#### Desktop App (Windows):
-The desktop app version of `ytconv3rt3r` is compatible with Windows, and users should have the following prerequisites:
-> - <ins>Operating System</ins>: Windows 7, 8, 8.1, or 10 (64-bit version).
-> - <ins>System Requirements</ins>: Ensure your Windows system meets the minimum requirements for running `ytconv3rt3r` smoothly.
-> - <ins>Disk Space</ins>: Make sure you have sufficient free disk space to download and install the desktop app.
 
+<a name="prefile"></a>
+> **<ins>File System Permissions (*Desktop App*)</ins>:**
+> - *<ins>Read/Write Access</ins>* The desktop app requires appropriate permissions to read/write files on the user's local system. This is necessary to save the converted audio files to the specified destination folder.
+> - *<ins>Firewall and Internet Access</ins>:* Users may need to grant network access permissions to the `ytconv3rt3r` desktop app to communicate with external services, including YouTube API and, if applicable, AI/ML models for metadata generation.
+
+
+<a name="preaiml"></a>
+#### **Optional AI/ML Permissions:**
+
+If users choose to enable AI/ML assistance for metadata retrieval or generation, the application may interact with external AI/ML service providers. In such cases, users should review and comply with the terms of service and privacy policies of the AI/ML service used.
+
+
+<a name="leg"></a>
+#### **Legal and Copyright Compliance:**
+
+Users should ensure that they have the necessary rights and permissions to convert and download audio content from YouTube. ytconv3rt3r does not endorse or support the unauthorized use of copyrighted material. It is the user's responsibility to comply with copyright laws and respect intellectual property rights.
+
+
+<a name="priv"></a>
+#### **Privacy and Data Security:**
+
+Users' privacy and data security are essential to ytconv3rt3r. The application follows best practices to protect user information during the conversion process. Users should review the privacy policy to understand how data is collected, used, and protected.
+By meeting these system requirements and permissions, users can seamlessly use ytconv3rt3r and leverage its audio conversion capabilities to enjoy their favorite YouTube audio tracks in various formats with ease and convenience.
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
