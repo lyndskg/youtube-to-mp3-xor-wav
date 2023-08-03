@@ -21,11 +21,10 @@ desde <a name="yt"></a>
         <li><a href="#curr">Current Notes and Issues</a></li>
       </ul>
     </li>
-    <li><a href="#tech">Technologies and Programming Languages</a></li>
+    <li><a href="#feat">Key Features</a></li>
     <li><a href="#stackz">Currently Used Tech Stacks</a></li>
     <li><a href="devenv">Development Environment</a></li>
     <li><a href="#uiux">UI/UX Implementation Details</a></li>
-    <li><a href="#feat">Key Features</a></li>
     <li><a href="io">Potential I/O Specifications</a>
     <li><a href="#err">Error Handling</a></li>
     <li><a href="#plus">Future Enhancements</a></li>
@@ -35,7 +34,7 @@ desde <a name="yt"></a>
 
 
 <details>
-  <summary>II: Implementation Details</summary>
+  <summary><strong><em>II: Implementation Details</em></strong></summary>
   <ol>
     <li>
       <a href="#view">Project Overview</a>
@@ -89,7 +88,7 @@ desde <a name="yt"></a>
 
 
 <details>
-  <summary>III: Usage, Installation & Getting Started</summary>
+  <summary><strong><em>III: Usage, Installation & Getting Started</em></strong></summary>
   <ol>
     <li>
       <a href="#view">Project Overview</a>
@@ -139,7 +138,7 @@ desde <a name="yt"></a>
 
 
 <details>
-  <summary>PART IV: MISC</summary>
+  <summary><strong><em>IV: *Miscellaneous</em></strong></summary>
   <ol>
     <a href="#view">Project Overview</a>
     <li><a href="#tech">Technologies and Programming Languages</a></li>
