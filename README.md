@@ -116,7 +116,7 @@
   <summary>Current Tech Stacks</summary>
 </details>
 
-<p align="right">[<a href="#stackz">View more details!</a>]</p>
+<p>[<a href="#stackz">View more details!</a>]</p>
 
 
 <details>
@@ -129,10 +129,10 @@
 >
 > Summary
 
-<p align="right"><strong><ins>Note</ins>:</strong><em> Last updated</em>: 8/2/23</p>
+<p><strong><ins>Note</ins>:</strong><em> Last updated</em>: 8/2/23</p>
 
 
-<p align="right">[<a href="#curr">View our progress and build notes!</a>]</p>
+<p>[<a href="#curr">View our progress and build notes!</a>]</p>
 
 
 ---------------------------
