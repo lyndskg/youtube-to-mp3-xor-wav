@@ -466,19 +466,19 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 
 ### <ins>UI/UX Implementation Details</ins>:
 1. **Landing Page:**
-> - The landing page features a simple and clean design with a prominent input field for the YouTube video link.
-> - Clear and concise instructions guide users on how to use the application to convert and download audio tracks.
-> - Users are presented with audio format options (`WAV`, `M4A`, `MP3`) and a browse button to select the destination folder.
+  > - The landing page features a simple and clean design with a prominent input field for the YouTube video link.
+  > - Clear and concise instructions guide users on how to use the application to convert and download audio tracks.
+  > - Users are presented with audio format options (`WAV`, `M4A`, `MP3`) and a browse button to select the destination folder.
 2. **Conversion Progress:**
-> - During the conversion process, a progress bar or spinner informs users of the conversion status.
-> - Real-time updates show the percentage completed and the remaining time for larger files.
+  > - During the conversion process, a progress bar or spinner informs users of the conversion status.
+  > - Real-time updates show the percentage completed and the remaining time for larger files.
 3. **Metadata Editing Interface:**
-> - The metadata editing interface provides text input fields for artist, title, genre, album, and other relevant details.
-> - Where applicable, dropdown menus with suggested options for artist and genre are available for user convenience.
-> - Users can preview the current metadata and compare it with AI/ML-generated suggestions (if applicable) before finalizing.
+  > - The metadata editing interface provides text input fields for artist, title, genre, album, and other relevant details.
+  > - Where applicable, dropdown menus with suggested options for artist and genre are available for user convenience.
+  > - Users can preview the current metadata and compare it with AI/ML-generated suggestions (if applicable) before finalizing.
 4. __AI/ML Metadata Generation (*Optional*):__
-> - Users are presented with an option to enable AI/ML assistance for metadata generation or retrieval.
-> - If selected, the AI/ML-generated metadata suggestions are displayed for review and confirmation by the user.
+  > - Users are presented with an option to enable AI/ML assistance for metadata generation or retrieval.
+  > - If selected, the AI/ML-generated metadata suggestions are displayed for review and confirmation by the user.
 
 5. **Error Handling:**
 > - Clear error messages and alerts guide users in case of invalid URLs, unsupported formats, or other issues.
@@ -493,17 +493,17 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 ## Key Features
 
 1. __<ins>YouTube Audio Conversion</ins>:__
-> - The application allows users to convert YouTube audio tracks into different formats, including uncompressed audio (`WAV`), lossless compression (`M4A`), and lossy compression (`MP3`).
+  > - The application allows users to convert YouTube audio tracks into different formats, including uncompressed audio (`WAV`), lossless compression (`M4A`), and lossy compression (`MP3`).
 2. __<ins>Metadata Editing</ins>:__
-> - Users have the option to edit metadata for each audio track, such as artist, title, genre, and album, ensuring accurate and relevant information for their audio files.
+  > - Users have the option to edit metadata for each audio track, such as artist, title, genre, and album, ensuring accurate and relevant information for their audio files.
 3. __<ins>AI/ML Metadata Assistance</ins> (*optional*):__
-> - Users can leverage AI/ML assistance to automatically fetch or generate metadata for their audio tracks, streamlining the process and enhancing the user experience.
+  > - Users can leverage AI/ML assistance to automatically fetch or generate metadata for their audio tracks, streamlining the process and enhancing the user experience.
 4. __<ins>Web and Desktop Application</ins>:__
-> - `ytconv3rt3r` offers both web and desktop versions, catering to a wide range of users across different devices and operating systems.
+  > - `ytconv3rt3r` offers both web and desktop versions, catering to a wide range of users across different devices and operating systems.
 5. __<ins>Batch Processing</ins>:__
-> - Users can convert multiple YouTube audio tracks simultaneously, saving time and effort when processing large numbers of files.
+  > - Users can convert multiple YouTube audio tracks simultaneously, saving time and effort when processing large numbers of files.
 6. __<ins>Playlist Support</ins>:__
-> - The application supports converting an entire YouTube playlist, providing convenience for users who wish to download multiple audio tracks from a playlist.
+  > - The application supports converting an entire YouTube playlist, providing convenience for users who wish to download multiple audio tracks from a playlist.
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
@@ -512,35 +512,35 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 ## Basic Workflow Guide
 
 1. **User Inputs YouTube Video Link:**
-> - The user accesses the `ytconv3rt3r` application and inputs the YouTube video link they want to convert.
+  > - The user accesses the `ytconv3rt3r` application and inputs the YouTube video link they want to convert.
 2. **Select Desired Audio Format and Destination Folder:**
-> - The user selects the desired audio format (`WAV`, `M4A`, or `MP3`) for the conversion.
-> - The user chooses the destination folder where the converted audio file will be saved.
+  > - The user selects the desired audio format (`WAV`, `M4A`, or `MP3`) for the conversion.
+  > - The user chooses the destination folder where the converted audio file will be saved.
 3. **Audio Conversion and Download:**
-> - The application sends the YouTube video link to the back-end, which uses the YouTube API to fetch the video data.
-> - The back-end initiates the audio conversion process using `FFmpeg`, converting the audio to the selected format.
-> - The converted audio file is downloaded and saved to the specified destination folder.
+  > - The application sends the YouTube video link to the back-end, which uses the YouTube API to fetch the video data.
+  > - The back-end initiates the audio conversion process using `FFmpeg`, converting the audio to the selected format.
+  > - The converted audio file is downloaded and saved to the specified destination folder.
 4. __Manual Metadata Editing (*Optional*):__
-> - If the user wants to edit metadata manually, they can access the metadata editing interface.
-> - The user can modify artist, title, genre, and other details for the audio track.
+  > - If the user wants to edit metadata manually, they can access the metadata editing interface.
+  > - The user can modify artist, title, genre, and other details for the audio track.
 5. __AI/ML Metadata Generation (*Optional*):__
-> - For users who choose to use AI/ML assistance, the application automatically generates or retrieves metadata for the audio track.
-> - AI/ML models analyze the audio content and provide relevant metadata suggestions.
+  > - For users who choose to use AI/ML assistance, the application automatically generates or retrieves metadata for the audio track.
+  > - AI/ML models analyze the audio content and provide relevant metadata suggestions.
 6. **Feedback and Download Completion:**
-> - The application provides feedback on the conversion progress and notifies the user when the download is complete.
-> - If AI/ML-generated metadata is used, the user can review and confirm the suggested metadata before downloading.
+  > - The application provides feedback on the conversion progress and notifies the user when the download is complete.
+  > - If AI/ML-generated metadata is used, the user can review and confirm the suggested metadata before downloading.
 7. __Advanced Features: Batch Processing and Playlist Support (*Optional*):__
-> - The user can choose to process multiple YouTube video links simultaneously in batch mode.
-> - Playlist support allows the user to download the audio tracks from an entire YouTube playlist.
+  > - The user can choose to process multiple YouTube video links simultaneously in batch mode.
+  > - Playlist support allows the user to download the audio tracks from an entire YouTube playlist.
 8. **Testing, Bug Fixing, and Optimization:**
-> - The application undergoes extensive testing to identify and fix any bugs or issues.
-> - Performance optimizations are applied to ensure efficient and smooth operation.
+  > - The application undergoes extensive testing to identify and fix any bugs or issues.
+  > - Performance optimizations are applied to ensure efficient and smooth operation.
 9. **Documentation and Deployment:**
-> - Comprehensive documentation, including installation guides and API references, is prepared for users and developers.
-> - The web app is deployed to a reliable server or hosting platform for public access.
-> - The desktop app is packaged as a `.dmg` file for macOS and an installer for Windows.
+  > - Comprehensive documentation, including installation guides and API references, is prepared for users and developers.
+  > - The web app is deployed to a reliable server or hosting platform for public access.
+  > - The desktop app is packaged as a `.dmg` file for macOS and an installer for Windows.
 10. **Project Completion and Release:**
-> - The `ytconv3rt3r` project is completed and released to the public, providing users with a powerful and user-friendly tool for converting and downloading YouTube audio tracks in various formats with optional AI/ML-enhanced metadata generation.
+  > - The `ytconv3rt3r` project is completed and released to the public, providing users with a powerful and user-friendly tool for converting and downloading YouTube audio tracks in various formats with optional AI/ML-enhanced metadata generation.
 
 &nbsp; 
 <p align="right">(<a href="#yt">back to top</a>)</p>
@@ -601,36 +601,36 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 - Train models to identify the best possible audio format based on the video's content and user preferences.
 
 1. **<ins>Smart Playlists</ins>:**
-> - Implement an intelligent playlist feature that automatically organizes converted audio tracks based on metadata, genre, or user preferences.
-> - Users can create dynamic playlists that update automatically as new audio tracks are converted and downloaded.
+  > - Implement an intelligent playlist feature that automatically organizes converted audio tracks based on metadata, genre, or user preferences.
+  > - Users can create dynamic playlists that update automatically as new audio tracks are converted and downloaded.
 2. **<ins>Audio Quality Selection</ins>:**
-> - Allow users to choose the desired audio quality for conversion, providing options for high, medium, or low-quality audio files to cater to different preferences and storage limitations.
+  > - Allow users to choose the desired audio quality for conversion, providing options for high, medium, or low-quality audio files to cater to different preferences and storage limitations.
 3. **<ins>Video to Audio Converter</ins>:**
-> - Expand the application to support converting entire YouTube videos to audio files, allowing users to extract audio from videos, such as interviews, podcasts, or lectures.
+  > - Expand the application to support converting entire YouTube videos to audio files, allowing users to extract audio from videos, such as interviews, podcasts, or lectures.
 4. **<ins>Audio Preview</ins>:**
-> - Enable users to preview a short snippet of the converted audio before downloading, ensuring the desired quality and content before committing to the full download.
+  > - Enable users to preview a short snippet of the converted audio before downloading, ensuring the desired quality and content before committing to the full download.
 5. **<ins>Offline Mode</ins>:**
-> - Implement an offline mode for the desktop app, allowing users to convert YouTube audio tracks without an internet connection, increasing convenience and accessibility.
+  > - Implement an offline mode for the desktop app, allowing users to convert YouTube audio tracks without an internet connection, increasing convenience and accessibility.
 6. **<ins>Cross-platform Cloud Sync</ins>:**
-> - Introduce cloud synchronization capabilities, enabling users to access their converted audio files across multiple devices seamlessly.
+  > - Introduce cloud synchronization capabilities, enabling users to access their converted audio files across multiple devices seamlessly.
 7. **Integration with Music Services:**
-> - Integrate with popular music services or music players, allowing users to directly import converted audio tracks into their existing music libraries.
+  > - Integrate with popular music services or music players, allowing users to directly import converted audio tracks into their existing music libraries.
 8. **<ins>Audio Editing Tools</ins>:**
-> - Provide basic audio editing tools, such as trimming, fading, and volume adjustment, to enable users to make minor adjustments to their converted audio tracks.
+  > - Provide basic audio editing tools, such as trimming, fading, and volume adjustment, to enable users to make minor adjustments to their converted audio tracks.
 9. **<ins>Language Support</ins>:**
-> - Extend language support for the application's user interface to cater to a global audience, making it accessible to users who prefer different languages.
+  > - Extend language support for the application's user interface to cater to a global audience, making it accessible to users who prefer different languages.
 10. **<ins>User Accounts and History</ins>:**
-> - Implement user accounts that store conversion history, enabling users to access their conversion records and easily re-download previously converted tracks.
+  > - Implement user accounts that store conversion history, enabling users to access their conversion records and easily re-download previously converted tracks.
 11. **<ins>Social Sharing</ins>:**
-> - Introduce social sharing capabilities, allowing users to share their converted audio tracks or playlists on social media platforms or with friends and followers.
+  > - Introduce social sharing capabilities, allowing users to share their converted audio tracks or playlists on social media platforms or with friends and followers.
 12. **<ins>Audio Analysis and Recommendations</ins>:**
-> - Utilize AI/ML to analyze user preferences and suggest related audio tracks or genres based on their conversion history, providing personalized music recommendations.
+  > - Utilize AI/ML to analyze user preferences and suggest related audio tracks or genres based on their conversion history, providing personalized music recommendations.
 13. **<ins>Audio Effects and Filters</ins>:**
-> - Offer a selection of audio effects and filters that users can apply to their converted audio tracks to enhance the listening experience or achieve specific creative effects.
+  > - Offer a selection of audio effects and filters that users can apply to their converted audio tracks to enhance the listening experience or achieve specific creative effects.
 14. **<ins>Online Audio Editing</ins>:**
-> - Provide an online audio editing feature, allowing users to perform basic audio editing tasks without the need to download the audio file first.
+  > - Provide an online audio editing feature, allowing users to perform basic audio editing tasks without the need to download the audio file first.
 15. **<ins>Collaboration and Sharing</ins>:**
-> - Enable users to collaborate on playlist creation and sharing, allowing multiple users to contribute to a playlist and share it with others.
+  > - Enable users to collaborate on playlist creation and sharing, allowing multiple users to contribute to a playlist and share it with others.
 
 &nbsp;
 
@@ -645,14 +645,8 @@ By continuously enhancing and expanding the `ytconv3rt3r` application with these
 <a name="install"></a>
 ## User Installation
 
-**<ins>Note</ins>:** The desktop app versions of `ytconv3rt3r` might require you to have administrative privileges on your macOS or Windows system to install and run the application.
-
-
 <a name="prereq"></a>
 ### System Prerequisites:
-
-**<ins>Note</ins>:** The web app version does not require any additional software installation, while the desktop app versions (for macOS and Windows) require you to download and install the respective application.
-
 
 Before using `ytconv3rt3r`, users should be aware of the following system requirements and permissions for both the web and desktop versions:
 
@@ -666,6 +660,9 @@ To ensure a smooth experience, users should meet the following prerequisites:
 >   - Supported/recommended browsers include Google Chrome, Mozilla Firefox, Safari, Microsoft Edge, or any other browser with up-to-date JavaScript support.
 >     - Users should ensure that JavaScript is enabled in their browser settings.
 > 3. <ins>Operating System</ins>: The web app is platform-independent and can be accessed from devices running various operating systems, including Windows, macOS, Linux, and others.
+
+
+**<ins>Note</ins>:** The desktop app versions of `ytconv3rt3r` might require you to have administrative privileges on your macOS or Windows system to install and run the application.
 
 
 <a name="premac"></a>
