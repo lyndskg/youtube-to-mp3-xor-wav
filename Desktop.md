@@ -14,6 +14,7 @@
    3. <a href="#djangosql">Django + SQLite</a>
    4. <a href="#postdjango">Django + PostgreSQL</a>
 3. C#
+4. Swift
    
 <details>
   <summary>Table of Contents</summary>
@@ -39,6 +40,17 @@
            <li><a href= "postdjango">Django + PostgreSQL</a></li>
         </ul>
      </li>
+     <li><a href="hybrid">C++/Python Hybrid Tech Stacks</a></li>
+     <li>
+        <a href="swifty">Swift Tech Stacks</a>
+        <ul>
+           <li><a href= "swiftui">SwiftUI</a></li>
+           <li><a href= "swift">Swift</a></li>
+           <li><a href= "core">Core Data</a></li>
+           <li><a href= "combine">Combine</a></li>
+        </ul>
+     </li>
+     <li><a href="csharp">C# Tech Stacks</a></li>
   </ol>
 </details>
         
@@ -214,7 +226,8 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 -----------------
 
 <a name="py"></a>
-## I. Python-Based Tech Stacks 
+
+<h2>II. &nbsp; Python-Based Tech Stacks</h2>
 
 ### **Front-end: (UI)** 
 
@@ -222,7 +235,7 @@ Since you are building a desktop app for macOS, you'll need a framework that sup
 For the frontend of your desktop app, you can use Python's built-in GUI libraries or other third-party frameworks that support macOS app development. 
 &nbsp;
 
-<em>Some options include</em>:
+<em>Some options <strong>include</strong></em>:
 > - `PyQt`:
 >    - A set of Python bindings for the `Qt` application framework, which allows you to build cross-platform desktop applications, including macOS.
 >    - It provides a wide range of features and widgets for building a rich and interactive user interface.
@@ -482,8 +495,7 @@ Integrating the Youtube Data API and `FFmpeg` will enable you to work with Youtu
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
-
-------
+&nbsp;
 
 ### IDEs:
 
@@ -501,81 +513,85 @@ Consider trying them out and selecting the one that feels most comfortable and e
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
 -----------------
+<a name="hybrid"></a>
+<h2>III. &nbsp; C++/Python-Based Hybrid Tech Stacks</h2>
 
-
-<a name="py"></a>
-<!---- Is this even necessary if downloading from website as dmg vs from App Store -----> 
-## V1.1 In Python
-
-
-
-<!---- TODO: Windows?? -----> 
 
 &nbsp;
 
-<p align="right">(<a href="#yt">back to top</a>)</p>
+<p align="right">(<a href="#top">Back to top</a>)</p>
+
 
 -----------------
-## Python or C# (Back-end)
+<a name="swift"></a>
+<h2>IV. &nbsp; Swift-Based Tech Stacks</h2>
+
+A strong choice for building a macOS desktop app efficiently while achieving a native look and feel.
+
+Offers a native-looking and native-like user interface with `SwiftUI`, efficient data processing and business logic with `Swift`, and seamless data storage with `Core Data`. 
+
+`Combine` enhances your application's reactivity and handling of asynchronous events. 
+
+While some components like `SwiftUI` and `Combine` may have a learning curve, they provide significant benefits in terms of code reusability, maintainability, and performance. For efficient development, `Xcode` is the go-to IDE for Swift on macOS.
+
+Since you have experience with `C++`, `C#`, `Python`, and `JavaScript`, `Swift`'s syntax and concepts may be relatively familiar, allowing you to adapt quickly. The integration of `SwiftUI` and `Core Data` within the native app ecosystem makes this tech stack a strong choice for building a macOS desktop app efficiently while achieving a native look and feel.
 
 
-**C# for Backend:**
-1. **Strongly Typed Language:** C# is a statically-typed language, which means variables and data types must be defined at compile time. This helps catch errors early in the development process and makes the code more robust.
+> **<ins>Front-end</ins>: (*User Interface*)** 
+> `SwiftUI`:
+> - **<ins>Description</ins>:** `SwiftUI` is Apple's modern UI framework that allows you to build native-looking and native-like user interfaces for macOS apps.
+>  - It uses a declarative syntax and provides a wide range of built-in components and layouts to create visually appealing and responsive UIs.
+ - **<ins>Pros</ins>:** `SwiftUI` simplifies UI development, offers real-time previews, and encourages code reusability.
+>   - It integrates seamlessly with other Swift code and provides strong support for dark mode, accessibility, and localization.
+>  - **<ins>Cons</ins>:** As a relatively new framework, `SwiftUI` documentation and community resources may be limited compared to `UIKit`/`AppKit`. The learning curve can be steep if you are new to `SwiftUI`. 
+>   
+> **<ins>Back-end</ins>: (*Data Processing & Business Logic*)**
+> `Swift`:
+>  - **<ins>Description</ins>:** For the backend and business logic, `Swift` itself is a suitable choice.
+>   - You can write backend logic in `Swift`, making use of its strong type system and performance benefits.
+>  - **<ins>Pros</ins>:** Using `Swift` for the backend ensures consistency in the language across the entire project.
+>     - `Swift`'s safety features help prevent common programming errors.
+>  - **<ins>Cons</ins>:** Depending on the complexity of the backend logic,`Swift` may require additional support from libraries and frameworks for specific tasks.
 
-2. **Performance:** C# is often considered faster than Python, especially in computationally intensive tasks. It has well-optimized runtimes like .NET Core and can efficiently handle large-scale applications.
 
-3. **ASP.NET Core:** C# is commonly used with ASP.NET Core, a powerful and mature web framework for building high-performance web applications and APIs. ASP.NET Core provides great support for creating RESTful APIs and is well-suited for enterprise-level projects.
+> **<ins>Database</ins>: (*Data Storage*)**
+> `Core Data`
+> - **<ins>Description</ins>:** `Core Data` is Apple's framework for data storage, allowing you to manage the model layer of your application efficiently.
+>   - It provides support for persistent storage, data retrieval, and change tracking.
+> **<ins>Pros</ins>:** `Core Data` is integrated with `SwiftUI` and is optimized for macOS apps.
+> -  It can handle complex data structures and relationships, and it offers built-in support for data synchronization with iCloud.
+> **<ins>Cons</ins>:** `Core Data` can be challenging for beginners, and there is a learning curve to understand its concepts and use it effectively
+> **<ins>APIs, Frameworks, and Libraries</ins>:**
+> `Combine`:
+> - **<ins>Description</ins>:** `Combine` is Apple's framework for reactive programming in `Swift`.
+>    - It allows you to work with asynchronous data streams, enabling better handling of UI updates and data processing.
+> **<ins>Pros</ins>:** `Combine` provides a declarative approach to handling asynchronous events, making code more readable and maintainable.
+> - It works well with `SwiftUI` and other Apple frameworks.
+> **<ins>Cons</ins>:**
+> - `Combine` is relatively new and may not have as many resources and community support as other frameworks.
+> **<ins>Tools/Toolkits and Channels</ins>:**
+> `Xcode`
+> **<ins>Description</ins>:** `Xcode` is the official IDE for macOS and iOS development.
+>  - It offers a complete development environment for `Swift`, including code editor, interface builder, debugging tools, and performance analysis.
+> **<ins>Pros</ins>:**: Xcode is highly optimized for Swift development, offering features like real-time previews, SwiftUI Canvas, and an extensive set of debugging tools.
+> **<ins>Cons</ins>:** If you are not familiar with Xcode, there may be a learning curve to navigate its interface and tools efficiently.
 
-4. **Windows Ecosystem:** If your project is primarily focused on the Windows platform or needs deep integration with Microsoft technologies, C# is a natural choice. Microsoft's Azure cloud platform also provides excellent support for C# applications.
 
-**Python for Backend:**
-1. **Simplicity and Readability:** Python's syntax and structure make it easy to read and write code, which can lead to increased development speed and reduced maintenance efforts.
+<p align="right">(<a href="#top">Back to top</a>)</p>
+<p align="right">(<a href="#top">Back to top</a>)</p>
 
-2. **Large Community and Libraries:** Python has a vast community of developers and a rich ecosystem of libraries and frameworks like Django, Flask, and FastAPI, which make backend development faster and more convenient.
+-----------------
+<a name="csharp"></a>
+## C# Tech Stacks
 
-3. **Data Science and AI/ML:** Python has become a dominant language in data science, machine learning, and artificial intelligence fields. If your project involves heavy data processing, Python's data-related libraries can be very beneficial.
 
-4. **Cross-Platform Support:** While historically associated with Unix-based systems, Python is now cross-platform and works well on Windows, macOS, and Linux, making it suitable for various environments.
-
-In conclusion, if your project requires high performance, has a strong focus on the Windows ecosystem, and you have experience with C# and ASP.NET Core, C# could be the better choice. On the other hand, if you prioritize ease of development, a rich library ecosystem, and want to leverage Python's data-related strengths, Python might be more suitable. Keep in mind that both languages can be used effectively for backend development, and the "better" choice depends on your project's specific needs and your team's expertise.
-
+&nbsp;
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
 -----------------
 
-## V3: HTML-CSS-JS FRONTEND
-
-If you prefer using HTML, CSS, and JavaScript for the front-end, you can modify the recommended tech stack to accommodate your choice. Here's an updated suggestion:
-
-**Tech Stack Recommendation:**
-Since your project involves both C# and Python, and you want to use HTML, CSS, and JavaScript for the front-end, you'll need a tech stack that supports all these requirements. One option is to use ASP.NET Core (C#) for the backend and Django (Python) for the API services, while building the front-end separately using HTML, CSS, and JavaScript.
-
-Here's how you can structure the tech stack:
-
-1. **Front-End:**
-   - **HTML**: Markup language for structuring the content of your web pages.
-   - **CSS**: Styling language for designing the layout and appearance of your web pages.
-   - **JavaScript**: Programming language for adding interactivity and dynamic elements to your front-end.
-
-2. **Backend API:**
-   - **ASP.NET Core (C#)**: Use C# and ASP.NET Core to build the backend API that will handle data processing, business logic, and interact with the database.
-
-3. **API Integration:**
-   - **Django (Python)**: Develop a separate Django application that will act as a middleware API. This API will receive requests from the front-end and communicate with the ASP.NET Core backend for data exchange.
-
-By using this approach, you'll be able to leverage the strengths of C# and Python in the backend while having the flexibility to design and implement the front-end using standard web technologies like HTML, CSS, and JavaScript.
-
-The communication between the front-end and the backend can happen through HTTP requests, where the front-end sends requests to the Django API, which then communicates with the ASP.NET Core backend for data processing. The responses are sent back to the front-end through the Django API, which acts as a bridge between the two languages.
-
-Remember to define clear API contracts to ensure seamless communication between the front-end and the backend. Additionally, using this approach, you and your friend can work on the backends independently, with minimal dependencies between your respective codebases.
-
-<p align="right">(<a href="#top">Back to top</a>)</p>
-
------------------
-## V4.1: DESKTOP APP IN PYTHON
-
-
+<a name="db"></a>
 ### DB OR NAH
 
 If your project is a desktop application, the need for a database will depend on the nature of the application and the data it deals with. Here are some factors to consider when deciding whether to use a database in your desktop app:
@@ -596,30 +612,5 @@ Python provides various database options for desktop applications, ranging from 
 
 In summary, consider the data-related requirements of your desktop application and weigh the benefits of using a database against the complexity it might introduce. If data storage, retrieval, or complex data operations are integral to your application, incorporating a database into your tech stack can significantly enhance its capabilities and flexibility.
 
-
-<p align="right">(<a href="#top">Back to top</a>)</p>
------------------
-
-### IS DB NECESSARY
-
-Whether you need a database for your project depends on the requirements and functionality of your web application. A database is used to store and manage data, and it becomes essential when your application needs to save and retrieve information.
-
-Here are some considerations to help you decide if you need a database for your project:
-
-1. **Data Storage:** Determine if your web application requires data storage. For example, if you are building a blog, e-commerce site, social media platform, or any application where users need to create accounts, post content, or interact with each other, you'll likely need a database to store user information, posts, comments, etc.
-
-2. **User Authentication:** If your application has user accounts with login functionality, a database is necessary to store user credentials securely.
-
-3. **Stateful Operations:** If your application involves handling data that needs to persist across sessions, such as saving user preferences or progress in a game, a database is required.
-
-4. **Complex Queries and Filtering:** If your web app needs to perform complex data queries or filtering, a database can efficiently manage these operations.
-
-5. **Scalability:** Databases are essential for handling large-scale applications that require horizontal scaling to manage increased traffic and data storage.
-
-If your web application involves storing data or has any of the above characteristics, using a database is highly recommended. For Python web frameworks like Django and Flask, integrating with a database is relatively straightforward, and they both support various databases, including SQLite, PostgreSQL, MySQL, and more.
-
-However, if your project is relatively simple, and you don't need to store persistent data or perform complex data operations, you might get away without using a traditional database. In such cases, you can explore other lightweight storage options like using in-memory data structures or file-based storage, but keep in mind that these may have limitations and won't be suitable for more extensive or complex applications.
-
-Ultimately, assess your project's requirements, and if data storage and retrieval are necessary, go ahead and use a database. It's a fundamental component of most web applications and will provide you with the necessary capabilities to build a robust and scalable system.
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
