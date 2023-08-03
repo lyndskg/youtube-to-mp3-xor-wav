@@ -95,10 +95,10 @@
   </ol>
 </details>
 
+<a href="#stackz"></a>
+#### View our Current Tech Stack
 
-#### <a href="#stackz">View our Current Tech Stack</a>
-
-#### <a href="#curr">View our Progress</a>
+#### <a href="#curr">View our CCurrent Progress</a>
 > Quick
 >
 > Executive
