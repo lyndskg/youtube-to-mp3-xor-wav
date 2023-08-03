@@ -2,11 +2,10 @@
 
 <h1 align="center">ytconv3rt3r</h1>
 
-<p align="center">Project Description</p>
-
-
 <h4 align="center"><ins><strong><em>* a desktop- or web app-based youtube audio converter tool * </em></strong></ins></h4>
 
+
+<p align="center">Project Description</p>
 
 <details>
   <summary>Table of Contents</summary>
