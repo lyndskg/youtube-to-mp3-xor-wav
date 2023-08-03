@@ -122,19 +122,13 @@ desde <a name="yt"></a>
   <summary>Progress &nbsp; [<a href="#curr">view our progress, logs, and other documentation</a>]</summary>
     <p><strong><ins>Note</ins>:</strong><em> Last updated</em>: 8/2/23</p>
      <ol>
-       <li><a href="080513"></a></li>
-       <li><a href="080413"></a></li>
-       <li><a href="080313"></a></li>
-       <li><a href="080213"></a></li>
+       <li><a href="080523">8/5/23</a></li>
+       <li><a href="080423">8/4/23</a></li>
+       <li><a href="080323">8/3/23</a></li>
+       <li><a href="080223">8/2/23</a></li>
      </ol>
   </summary>
 </details>
-
-
-<p><strong><ins>Note</ins>:</strong><em> Last updated</em>: 8/2/23</p>
-
-
-<p>[<a href="#curr">View our progress and build notes!</a>]</p>
 
 
 ---------------------------
