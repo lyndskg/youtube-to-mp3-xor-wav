@@ -113,11 +113,14 @@
 
 
 <details>
-  <h1>Current Tech Stacks &nbsp; [<a href="#stackz">View more details!</a>]</p>
+  <summary>Current Tech Stacks &nbsp; [<a href="#stackz">View more details!</a>]</p>
     <p>[<a href="#stackz">View more details!</a>]</p>
-  </h1>
+  summary>
 </details>
 
+<details>
+  <summary>Current Tech Stacks</summary>  <p>[<a href="#stackz">View more details!</a>]</p>
+</details>
 
 <details>
   <summary>Progress &nbsp; [<a href="#curr">View our progress and build notes!</a>]</summary>
