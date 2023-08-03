@@ -113,14 +113,16 @@
 
 
 <details>
-  <summary>Current Tech Stacks</summary>
+  <summary>Current Tech Stacks
+    <p>[<a href="#stackz">View more details!</a>]</p>
+  </summary>
 </details>
-
-<p>[<a href="#stackz">View more details!</a>]</p>
 
 
 <details>
   <summary>Progress</summary>
+    <p><strong><ins>Note</ins>:</strong><em> Last updated</em>: 8/2/23</p>
+    <p>[<a href="#curr">View our progress and build notes!</a>]</p>
 </details>
 
 > Quick
