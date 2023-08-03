@@ -113,16 +113,19 @@ desde <a name="yt"></a>
 
 
 <details>
-  <summary>Current Tech Stacks &nbsp; [<a href="#stackz">View more details!</a>]</p>
-    <p>[<a href="#stackz">View more details!</a>]</p>
+  <summary>Current Tech Stacks &nbsp; [<a href="#stackz">view more details</a>]</p>
   </summary>
 </details>
 
 
 <details>
-  <summary>Progress &nbsp; [<a href="#curr">View our progress and build notes!</a>]</summary>
+  <summary>Progress &nbsp; [<a href="#curr">view our progress, logs, and other documentation</a>]</summary>
     <p><strong><ins>Note</ins>:</strong><em> Last updated</em>: 8/2/23</p>
      <ol>
+       <li><a href="080513"></a></li>
+       <li><a href="080413"></a></li>
+       <li><a href="080313"></a></li>
+       <li><a href="080213"></a></li>
      </ol>
   </summary>
 </details>
