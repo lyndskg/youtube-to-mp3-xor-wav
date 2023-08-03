@@ -46,7 +46,7 @@ desde <a name="yt"></a>
     </li>
     <li><a href="#uiux">UI/UX Implementation Details</a></li>
     <li><a href="#feat">Key Features</a></li>
-    <li><a href="web">Web Application></a></li>
+    <li><a href="web">Web Application</a></li>
     <li><a href="#flow">Basic Workflow Guide</a></li>
     <li><a href="#impl">Project Implementation Guide</a></li>
     <li>
