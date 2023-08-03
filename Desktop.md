@@ -216,28 +216,13 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 <a name="py"></a>
 ## I. Python-Based Tech Stacks 
 
-If your project is intended to be a desktop app for macOS, the tech stack and tools you choose might change compared to web application development. Here are some considerations and adjustments you can make for a desktop app using PYTHON:
-
-
-Here's a revised tech stack recommendation tailored for your desktop app:
-
-### **<ins>Frameworks</ins>:**
-
-
-If your project is intended to be a desktop app for macOS, the tech stack and tools you choose might change compared to web application development. Here are some considerations and adjustments you can make for a desktop app using PYTHON:
-
-Here's a revised tech stack recommendation tailored for your desktop app:
-
-Frameworks:
-
-### **Frontend:**
+### **Front-end: (UI)** 
 
 Since you are building a desktop app for macOS, you'll need a framework that supports macOS app development.\
 For the frontend of your desktop app, you can use Python's built-in GUI libraries or other third-party frameworks that support macOS app development. 
 &nbsp;
 
-Some options include:
->
+<em>Some options include</em>:
 > - `PyQt`:
 >    - A set of Python bindings for the `Qt` application framework, which allows you to build cross-platform desktop applications, including macOS.
 >    - It provides a wide range of features and widgets for building a rich and interactive user interface.
@@ -253,13 +238,11 @@ Some options include:
 
 
 If you are comfortable with Python and would like to stick with it for your desktop app's development, that's a great choice and can simplify the entire process.\
-In this case, you won't need to use ASP.NET Core or any other technology outside of Python.
+In this case, you won't need to use `ASP.NET Core` or any other technology outside of Python.
 
 
-### **Backend:**
-
+### **Back-end:**
 For the backend of your desktop app, you can still use Python with frameworks like `Flask` or `Django`, but the focus will shift from web-related tasks to app-specific functionalities.
-
 
 Both `Flask` and `Django` are excellent choices, depending on the complexity and requirements of your desktop app:
 >
@@ -273,7 +256,7 @@ Both `Flask` and `Django` are excellent choices, depending on the complexity and
 
 ### **Database:**
 
-Since you are building a desktop app, you might not need a full-fledged database system like `PostgreSQL` or `MySQL`
+Since you are building a desktop app, you might not need a full-fledged database system like `PostgreSQL` or `MySQL`.
 
 
 Instead, you can use `SQLite`, a lightweight, embedded database that doesn't require a separate server.\
@@ -298,7 +281,7 @@ You can take advantage of macOS-specific features and integrations, such as usin
 
 
 As you are targeting macOS, consider taking advantage of macOS-specific features and integrations to enhance the user experience.\
-You can use libraries or modules that provide access to macOS functionalities like menus, notifications, and system services.
+You can use libraries or modules that provide access to macOS functionalities (*e.g.*, menus, notifications, and system services).
 
 
 ### **Deployment:**
@@ -504,12 +487,12 @@ Integrating the Youtube Data API and `FFmpeg` will enable you to work with Youtu
 
 ### IDEs:
 
-For the frontend development using web technologies (HTML, CSS, and JavaScript), Visual Studio Code and PyCharm are both excellent options, providing robust support for web development and a range of extensions to enhance productivity.
+For the frontend development using web technologies (HTML, CSS, and JavaScript), `Visual Studio Code` and `PyCharm` are both excellent options, providing robust support for web development and a range of extensions to enhance productivity.
 
 
 
 Ultimately, the choice of IDE depends on your personal preferences and the features you prioritize.\
-Both Visual Studio Code and PyCharm are widely used in the Python development community, and they each have strengths that make them suitable for different scenarios.\
+Both `Visual Studio Code` and `PyCharm` are widely used in the Python development community, and they each have strengths that make them suitable for different scenarios.\
 Consider trying them out and selecting the one that feels most comfortable and efficient for your workflow.
 
 &nbsp;
