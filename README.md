@@ -95,8 +95,8 @@
   </ol>
 </details>
 
-#### <a href="#stackz">View our Current Tech Stack</a>
 
+#### <a href="#stackz">View our Current Tech Stack</a>
 
 #### <a href="#curr">View our Progress</a>
 > Quick
