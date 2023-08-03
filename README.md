@@ -2,7 +2,7 @@
 
 # ytconv3rt3r
 
-<p style="text-align: center;"><h4><ins><strong><em>a desktop- or web app-based youtube audio converter tool</em></strong></ins></h4></p>
+<p style="text-align: center;"><h4><ins><strong><em>* a desktop- or web app-based youtube audio converter tool * </em></strong></ins></h4></p>
 
 
 <details>
