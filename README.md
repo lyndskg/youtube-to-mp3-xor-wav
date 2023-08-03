@@ -51,35 +51,43 @@
         <li><a href="#i">Input</a></li>
         <li><a href="#o">Output</a></li>
         <li><a href="#err">Error Handling</a></li>
-        <li><a href="#sys">System Requirements</a></li>
-        <li><a href="#user">User Requirements</a></li>
       </ul>
     </li>
     <li><a href="#plus">Future Enhancements</a></li>
     <li>
-      <a href="#usage">Usage</a>
+      <a href="#install">Installation</a>
       <ul>
-        <ul>
-          <li><a href="#install">User installation Details</a>
+        <li>
+          <a href="#prereq">Prerequisites></a>
+          <ul>
+            <li><a href="#preweb">Web App></a></li>
+            <li><a href="#premac">macOS></a></li>
+            <li><a href="#prewindows">Windows></a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="guide">User Installation Guide</a>
+          <ul>
+            <li><a href="#webinst">Web App Installation></a></li>
+            <li><a href="#instmac">macOS App Installation></a></li>
             <ul>
-              <li><a href="#climac">macOS via CLI</a></li>
-              <li><a href="#gitmac">macOS via Git</a></li>
+              <li><a href="#climac">macOS via CLI></a></li>
+              <li><a href="#gitmac">macOS via Git></a></li>
             </ul>
-          <li><a href="#instwindows">Windows</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="#prereq">Prerequisites</a>
-        <ul>
-          <li><a href="preweb"></a>Web</li>
-          <li><a href="premac"></a>macOS</li>
-          <li><a href="prewindows"></a>Windows</li>
-        </ul>
-      </li>
-      <li><a href="use-case">Potential Use Cases</a></li>
-      <li><a href="appl">Practical Applications</a></li>
+            <li><a href="#instwindows">Windows App Installation</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
+    <li>
+      <a href="usage">Usage</a>
+      <ul>
+        <li><a href="use-case">Potential Use Cases</a></li>
+        <li><a href="appl">Practical Applications</a></li>
+      </ul>
+    </li>
+    <li><a href="#sys">System Requirements</a></li>
+    <li><a href="#user">User Requirements</a></li>
     <li>
       <a href="give">Contributions</a>
       <ul>
@@ -528,21 +536,6 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 
 ---------------------
 
-<a name="user"></a>
-### User Requirements and/or Permissions:
-> - Users should have access to YouTube to provide video links.
-> - Users may require appropriate permissions to read/write files in the selected destination folder.
-
-<a name="sys"></a>
-### System Requirements and/or Permissions:
-> - **Web App:** Modern web browser with JavaScript enabled.
-> - **Desktop App:** Compatible with macOS and Windows operating systems.
-
-
-<p align="right">(<a href="#yt">back to top</a>)</p>
-
----------------------
-
 <a name="plus"></a>
 ## Future Enhancements (using AI/ML):
 
@@ -589,17 +582,57 @@ By continuously enhancing and expanding the `ytconv3rt3r` application with these
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
 ---------------------
-<a name="usage"></a>
-## Usage
 
+  
 <a name="install"></a>
-## User Installation Details:
-
+## User Installation
 
 **<ins>Note</ins>:** The desktop app versions of `ytconv3rt3r` might require you to have administrative privileges on your macOS or Windows system to install and run the application.
 
+<a name="prereq"></a>
+### System Prerequisites:
+
+**<ins>Note</ins>:** The web app version does not require any additional software installation, while the desktop app versions (for macOS and Windows) require you to download and install the respective application.
+
+
+Before using `ytconv3rt3r`, users should be aware of the following system requirements and permissions for both the web and desktop versions:
+
+<a name="preweb"></a>
+#### **Web App:**
+To ensure a smooth experience, users should meet the following prerequisites:
+> 1. <ins>Internet Access</ins>: Users need an active internet connection to access and use the web-based version of `ytconv3rt3r`.
+>   - The application communicates with the YouTube API to fetch video data and perform audio conversion.
+> 2. <ins>Web Browser</ins>: `ytconv3rt3r` is compatible with modern web browsers that support JavaScript.
+>   - Ensure you have a modern web browser installed on your device.
+>   - Supported/recommended browsers include Google Chrome, Mozilla Firefox, Safari, Microsoft Edge, or any other browser with up-to-date JavaScript support.
+>     - Users should ensure that JavaScript is enabled in their browser settings.
+> 3. <ins>Operating System</ins>: The web app is platform-independent and can be accessed from devices running various operating systems, including Windows, macOS, Linux, and others.
+
+
+<a name="premac"></a>
+#### **Desktop App:**
+> - <ins>Operating System</ins>: `ytconv3rt3r` desktop app is available for macOS and Windows operating systems. Users should ensure that their device meets the minimum system requirements for the respective operating system:
+>   - macOS: Compatible with macOS 10.12 (Sierra) and later versions.
+>   - Windows: Compatible with Windows 7 and later versions.
+> - <ins>Disk Space</ins>: Sufficient free disk space is required on the user's device to install the desktop app and store converted audio files.
+
+<a name="prewindows"></a>
+#### Desktop App (Windows):
+The desktop app version of `ytconv3rt3r` is compatible with Windows, and users should have the following prerequisites:
+> - <ins>Operating System</ins>: Windows 7, 8, 8.1, or 10 (64-bit version).
+> - <ins>System Requirements</ins>: Ensure your Windows system meets the minimum requirements for running `ytconv3rt3r` smoothly.
+> - <ins>Disk Space</ins>: Make sure you have sufficient free disk space to download and install the desktop app.
+
+
+<p align="right">(<a href="#yt">back to top</a>)</p>
+
+------
+
+<a name="guide"></a>
+### Installation Guides:
+
 <a name="webinst"></a>
-### **Web App:**
+#### **Web App:**
 Can be accessed via any modern web browser with JavaScript enabled.
  
 No installation is required for the web app, and users can simply follow these steps to start using it:
@@ -609,13 +642,13 @@ No installation is required for the web app, and users can simply follow these s
 
 
 <a name="instmac"></a>
-### **Desktop App (macOS):**
+#### **Desktop App (macOS):**
 The desktop app version of `ytconv3rt3r`is available for macOS users.
 
 To install and use the `ytconv3rt3r` desktop app on macOS, you have the following options:
 
 <a name="climac"></a>
-#### 1. <ins>Command Line Installation</ins>:
+##### 1. <ins>Command Line Installation</ins>:
 > - Open Terminal on your macOS system.
 > - Use the package manager Homebrew to install `ytconv3rt3r` by running the following command:
 >   ```
@@ -624,7 +657,7 @@ To install and use the `ytconv3rt3r` desktop app on macOS, you have the followin
 > - Once the installation is complete, you can launch the `ytconv3rt3r` desktop app from the Applications folder or by searching for `ytconv3rt3r` in Spotlight.
 
 <a name="gitmac"></a>
-#### 2. <ins>Github Installation</ins>:
+##### 2. <ins>Github Installation</ins>:
 >  - Visit the `ytconv3rt3r` GitHub repository (TODO: Add GitHub repository URL here).
 >  - Download the latest release of the macOS desktop app (usually available as a `.dmg` file).
 >  - Open the downloaded `.dmg` file and drag the `ytconv3rt3r` application to the Applications folder.
@@ -634,7 +667,7 @@ To install and use the `ytconv3rt3r` desktop app on macOS, you have the followin
 
 
 <a name="instwindows"></a>
-### **Desktop App (Windows):**
+#### **Desktop App (Windows):**
 The desktop app version of `ytconv3rt3r`is available for Windows users.
 
 
@@ -644,41 +677,17 @@ To install and use the `ytconv3rt3r` desktop app on Windows, follow these steps:
 > 3. Run the downloaded installer and follow the on-screen instructions to install `ytconv3rt3r` on your Windows system.
 > 4. Once the installation is complete, you can launch `ytconv3rt3r` from the Start menu or by searching for "`ytconv3rt3r`" in the search bar.
 
-&nbsp;
-
---- 
-<a name="prereq"></a>
-## Prerequisites:
-
-**<ins>Note</ins>:** The web app version does not require any additional software installation, while the desktop app versions (for macOS and Windows) require you to download and install the respective application.
-
-
-<a name="preweb"></a>
-### **Web App:**
-To ensure a smooth experience, users should meet the following prerequisites:
-1. <ins>Web Browser</ins>: Ensure you have a modern web browser installed on your device. Supported browsers include Google Chrome, Mozilla Firefox, Safari, Microsoft Edge, or any other browser with up-to-date JavaScript support.
-2. <ins>Internet Connection</ins>: The web app requires an active internet connection to access YouTube and perform audio conversions.
-
-<a name="premac"></a>
-### **Desktop App (macOS):**
-The desktop app version of `ytconv3rt3r` is compatible with macOS, and users should have the following prerequisites:
-- <ins>Operating System</ins>: macOS 10.12 (Sierra) or later.
-- <ins>System Requirements</ins>: Ensure your macOS system meets the minimum requirements for running `ytconv3rt3r` smoothly.
-- <ins>Disk Space</ins>: Make sure you have sufficient free disk space to download and install the desktop app.
-
-<a name="prewindows"></a>
-### Desktop App (Windows):
-The desktop app version of `ytconv3rt3r` is compatible with Windows, and users should have the following prerequisites:
-- <ins>Operating System</ins>: Windows 7, 8, 8.1, or 10 (64-bit version).
-- <ins>System Requirements</ins>: Ensure your Windows system meets the minimum requirements for running `ytconv3rt3r` smoothly.
-- <ins>Disk Space</ins>: Make sure you have sufficient free disk space to download and install the desktop app.
-
 
 &nbsp;
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
-------
+---------------
+
+<a name="usage"></a>
+## Usage
+
+By addressing various potential use cases and practical applications, `ytconv3rt3r` becomes a valuable tool for a diverse range of users and industries, catering to their unique needs for audio content conversion and management.
 
 <a name="use-case"></a>
 ### Potential Use Cases: 
@@ -729,8 +738,6 @@ Platforms aggregating audio content from various sources, including YouTube, can
 8. **Personal Music Backups:**\
 Individual users can use the application to create backups of their favorite music from YouTube in different formats, ensuring access even if the original content is no longer available.
 
-
-By addressing various potential use cases and practical applications, `ytconv3rt3r` becomes a valuable tool for a diverse range of users and industries, catering to their unique needs for audio content conversion and management.
 &nbsp;
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
