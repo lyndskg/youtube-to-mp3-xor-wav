@@ -5,7 +5,7 @@
 <p align="center">Project Description</p>
 
 
-<h4><ins><strong><em>* a desktop- or web app-based youtube audio converter tool * </em></strong></ins></h4>
+<h4 alighn="center"><ins><strong><em>* a desktop- or web app-based youtube audio converter tool * </em></strong></ins></h4>
 
 
 <details>
