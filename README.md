@@ -106,13 +106,13 @@
 
 #### File hierarchy
 
-#### View our Tech Stack(s)
+#### Current Tech Stacks
 <p align="right">[<a href="#stackz">Current Tech Stack(s)</a>]</p>
 
 
 
-#### View our Progress
-<p align="right">[<a href="#curr">Current Progress</a>]</p>
+#### Current Progress 
+<h4 align="right">[<a href="#curr">Current Progress</a>]</h4>
 
 > Quick
 >
