@@ -185,9 +185,6 @@
 <a name="view"></a>
 ## Project Overview 
 
-
-[google](google.com)
-
 `ytconv3rt3r` is a versatile and user-friendly application that allows users to convert and download YouTube audio tracks into various audio file formats &mdash; including uncompressed audio (WAV), lossless compression (M4A), and lossy compression (MP3). 
 
 Users will have the option to edit metadata for each audio track &mdash; including artist, title, genre, and other relevant details (which is especially crucial for users who use mixing/DJing software like `RekordBox` or `Serato`). 
