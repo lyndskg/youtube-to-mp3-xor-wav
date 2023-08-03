@@ -111,7 +111,7 @@
 
 
 #### View our Progress
-<p align="right">(<a href="#curr">Current Progress</a>)</p>
+<p align="right">[<a href="#curr">Current Progress</a>]</p>
 
 > Quick
 >
