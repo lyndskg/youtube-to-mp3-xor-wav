@@ -62,21 +62,21 @@ desde <a name="yt"></a>
       <a href="#install">Installation</a>
       <ul>
         <li>
-          <a href="#prereq">Prerequisites></a>
+          <a href="#prereq">Prerequisites</a>
           <ul>
-            <li><a href="#preweb">Web App></a></li>
-            <li><a href="#premac">macOS></a></li>
-            <li><a href="#prewindows">Windows></a></li>
+            <li><a href="#preweb">Web App</a></li>
+            <li><a href="#premac">macOS</a></li>
+            <li><a href="#prewindows">Windows</a></li>
           </ul>
         </li>
         <li>
           <a href="guide">User Installation Guide</a>
           <ul>
-            <li><a href="#webinst">Web App Installation></a></li>
-            <li><a href="#instmac">macOS App Installation></a></li>
+            <li><a href="#webinst">Web App Installation</a></li>
+            <li><a href="#instmac">macOS App Installation</a></li>
             <ul>
-              <li><a href="#climac">macOS via CLI></a></li>
-              <li><a href="#gitmac">macOS via Git></a></li>
+              <li><a href="#climac">macOS via CLI</a></li>
+              <li><a href="#gitmac">macOS via Git</a></li>
             </ul>
             <li><a href="#instwindows">Windows App Installation</a></li>
           </ul>
