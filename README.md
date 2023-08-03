@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/lyndsey791/">LinkedIn</a> | <a href="https://www.sorry-this-site-doesnt-exist-yet./">Website</a> |<a href="https://github.com/lyndskg/">GitHub</a> 
+  <a href="https://www.linkedin.com/in/lyndsey791/">LinkedIn</a> | <a href="https://www.sorry-this-site-doesnt-exist-yet./">Website</a> |    <a href="https://github.com/lyndskg/">GitHub</a> 
 </p>
 
 <p align="center">
