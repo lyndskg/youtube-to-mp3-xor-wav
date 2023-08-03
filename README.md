@@ -97,10 +97,12 @@
 
 
 <p><a href="#stackz"></a></p>
+
 #### View our Current Tech Stack
 
 
 <p><a href="#curr"></a></p>
+
 #### View our Current Progress
 > Quick
 >
