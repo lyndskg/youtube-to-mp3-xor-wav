@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/lyndsey791/">LinkedIn</a> | <a href="https://www.google.com/">Google</a> 
+  <a href="https://www.linkedin.com/in/lyndsey791/">LinkedIn</a> | <a href="https://www.idklynds.com/">Website</a> 
 </p>
 
 <p align="center">
