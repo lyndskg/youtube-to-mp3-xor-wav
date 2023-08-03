@@ -10,7 +10,7 @@
 </p>
 
 ### <ins>Table of Contents</ins>
-- 
+>
   <details>
     <summary>I: Overview & Features</summary>
     <ol>
@@ -31,7 +31,7 @@
       <li><a href="bye">Conclusion</a></li>
     </ol>
   </details>
-- 
+>
   <details>
     <summary><strong><em>II: Implementation Details</em></strong></summary>
     <ol>
@@ -83,7 +83,7 @@
       <li><a href="#plus">Future Enhancements</a></li>
     </ol>
   </details>
-- 
+>
   <details>
     <summary><strong><em>III: Usage, Installation & Getting Started</em></strong></summary>
     <ol>
@@ -131,7 +131,7 @@
       <li><a href="#user">User Requirements</a></li>
     </ol>
   </details>
--
+>
   <details>
     <summary><strong><em>IV: *Miscellaneous</em></strong></summary>
     <ol>
