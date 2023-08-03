@@ -97,8 +97,8 @@
 
 
 
-#### View our Tech Stack
-<p align="right">(<a href="#stackz">Current Tech Stack</a>)</p>
+#### View our Tech Stack(s)
+<p align="right">(<a href="#stackz">Current Tech Stack(s)</a>)</p>
 
 
 
@@ -182,7 +182,7 @@ The project aims to cater to both web and desktop users, supporting both macOS a
 ## Technologies and Programming Languages
 
 <a name="stackz"></a>
-## Currently Used Tech Stacks: 
+### Currently Used Tech Stack(s): 
 
 > Web:
 >
@@ -190,6 +190,7 @@ The project aims to cater to both web and desktop users, supporting both macOS a
 >
 > Windows:
 
+------
 
 <a name="desk"></a>
 ### Desktop Application
