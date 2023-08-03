@@ -120,7 +120,7 @@
 
 
 <details>
-  <summary>Progress  [<a href="#curr">View our progress and build notes!</a>]</summary>
+  <summary>Progress  &nbsp; [<a href="#curr">View our progress and build notes!</a>]</summary>
     <p><strong><ins>Note</ins>:</strong><em> Last updated</em>: 8/2/23</p>
     <p>[<a href="#curr">View our progress and build notes!</a>]</p>
 </details>
