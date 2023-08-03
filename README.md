@@ -12,7 +12,7 @@
 ### <ins>Table of Contents</ins>
 -
   <details>
-    <summary>I: Overview & Features</summary>
+    <summary><strong><em>I: Overview & Features</em></strong></summary>
     <ol>
       <li>
         <a href="#view">Project Overview</a>
@@ -133,7 +133,7 @@
   </details>
 -
   <details>
-    <summary><strong><em>IV: *Miscellaneous</em></strong></summary>
+    <summary><strong><em>IV: Miscellaneous</em></strong></summary>
     <ol>
       <a href="#view">Project Overview</a>
       <li><a href="#tech">Technologies and Programming Languages</a></li>
