@@ -9,7 +9,8 @@ desde <a name="yt"></a>
   <a href="https://www.linkedin.com/in/lyndsey791/">LinkedIn</a>  |  <a href="https://www.sorry-this-site-doesnt-exist-yet./">Website</a>  |     <a href="https://github.com/lyndskg/">GitHub</a>  |  <a href="#contact">Contact Info</a>
 </p>
 
-### Table of Contents
+### <ins>Table of Contents</ins>
+
 <details>
   <summary>PART I: OVERVIEW & FEATURES</summary>
   <ol>
