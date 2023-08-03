@@ -138,8 +138,13 @@
       <a href="#view">Project Overview</a>
       <li><a href="#tech">Technologies and Programming Languages</a></li>
       <li><a href="#stackz">Currently Used Tech Stacks</a></li>
-      <li><a href="devenv">Development Environment</a></li>
-      <li><a href="est">Time Estimate</a></li>
+      <li>
+        <a href="misc">Miscellaneous</a>
+          <ul>
+            <li><a href="devenv">Development Environment</a></li>
+            <li><a href="est">Time Estimate</a></li>
+          </ul>
+      </li>
       <li><a href="give">Contributions</a></li>
         <ul>
           <li><a href="coc">Code of Conduct</a></li>
@@ -147,8 +152,7 @@
           <li><a href="howtogive">How?</a></li>
           <li><a href="whygive">Why?</a></li>
         </ul>
-      </li>
-      <li><a href="bye">Conclusion</a></li>
+      </li>><a href="bye">Conclusion</a></li>
       <li><a href="#contact">Contact</a></li>
       <li><a href="#ack">Acknowledgments</a></li>
     </ol>
@@ -799,9 +803,12 @@ Individual users can use the application to create backups of their favorite mus
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
 ---------------------
-  
+
+<a name="misc"></a>
+### <ins>Miscellaneous</ins>:
+
 <a name="est"></a>
-### <ins>Time Estimate</ins>:
+#### <ins>Time Estimate</ins>:
 Considering the phases and development times mentioned above, the estimated time of completion for the entire `ytconv3rt3r` project is approximately 20 weeks (*5 months*). 
 
 However, the timeline can be influenced by factors such as team size, resources, complexity of AI/ML integration, and any unforeseen challenges that may arise during development.
@@ -813,7 +820,7 @@ However, the timeline can be influenced by factors such as team size, resources,
 ---------------------
 
 <a name="devenv"></a>
-### Development Environment:
+#### Development Environment:
 
 > - **Operating System:** macOS Ventura *(version 14.3.1)*
 > - **Architecture:** Apple arm64
