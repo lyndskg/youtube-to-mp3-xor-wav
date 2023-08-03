@@ -10,6 +10,7 @@
 </p>
 
 ### <ins>Table of Contents</ins>
+-
   <details>
     <summary>I: Overview & Features</summary>
     <ol>
