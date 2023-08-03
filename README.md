@@ -391,11 +391,11 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 <a name="uiux"></a>
 ## UI/UX
 
-The UI/UX should be intuitive and straightforward, featuring a simple input field for the YouTube video link and options for choosing the desired audio format and metadata editing. 
-
-Users can choose between different audio formats and set the destination folder. 
-
-Provide feedback on the conversion progress and allow users to view and edit metadata before downloading.
+> The UI/UX should be intuitive and straightforward, featuring a simple input field for the YouTube video link and options for choosing the desired audio format and metadata editing. 
+>
+> Users can choose between different audio formats and set the destination folder. 
+>
+> Provide feedback on the conversion progress and allow users to view and edit metadata before downloading.
 
 
 ### <ins>UI/UX Implementation Details</ins>:
