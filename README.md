@@ -1,4 +1,4 @@
-desde <a name="yt"></a>
+<a name="yt"></a>
 
 <h1 align="center">ytconv3rt3r</h1>
 
@@ -11,153 +11,153 @@ desde <a name="yt"></a>
 
 ### <ins>Table of Contents</ins>
 
-<details>
-  <summary>I: Overview & Features</summary>
-  <ol>
-    <li>
-      <a href="#view">Project Overview</a>
-      <ul>
-        <li><a href="#obj">Objectives</a></li>
-        <li><a href="#curr">Current Notes and Issues</a></li>
-      </ul>
-    </li>
-    <li><a href="#feat">Key Features</a></li>
-    <li><a href="#stackz">Currently Used Tech Stacks</a></li>
-    <li><a href="devenv">Development Environment</a></li>
-    <li><a href="#uiux">UI/UX Implementation Details</a></li>
-    <li><a href="io">Potential I/O Specifications</a>
-    <li><a href="#err">Error Handling</a></li>
-    <li><a href="#plus">Future Enhancements</a></li>
-    <li><a href="bye">Conclusion</a></li>
-  </ol>
-</details>
+  <details>
+    <summary>I: Overview & Features</summary>
+    <ol>
+      <li>
+        <a href="#view">Project Overview</a>
+        <ul>
+          <li><a href="#obj">Objectives</a></li>
+          <li><a href="#curr">Current Notes and Issues</a></li>
+        </ul>
+      </li>
+      <li><a href="#feat">Key Features</a></li>
+      <li><a href="#stackz">Currently Used Tech Stacks</a></li>
+      <li><a href="devenv">Development Environment</a></li>
+      <li><a href="#uiux">UI/UX Implementation Details</a></li>
+      <li><a href="io">Potential I/O Specifications</a>
+      <li><a href="#err">Error Handling</a></li>
+      <li><a href="#plus">Future Enhancements</a></li>
+      <li><a href="bye">Conclusion</a></li>
+    </ol>
+  </details>
 
 
-<details>
-  <summary><strong><em>II: Implementation Details</em></strong></summary>
-  <ol>
-    <li>
-      <a href="#view">Project Overview</a>
-      <ul>
-        <li><a href="#obj">Objectives</a></li>
-        <li><a href="#curr">Current Notes and Issues</a></li>
-      </ul>
-    </li>
-    <li><a href="#tech">Technologies and Programming Languages</a></li>
-    <li><a href="#stackz">Currently Used Tech Stacks</a></li>
-      <ul>
-        <li>
-          <a href="#desk">Desktop Application</a>
-          <ul> 
-            <li><a href="dstack">Tech Stack</a></li>
-            <li><a href="dIDE">Recommended IDEs</a></li>
-          </ul>
-          <li><a href="#web">Web Application</a></li>
-          <ul>
-            <li><a href="wstack">Tech Stack</a></li>
-            <li><a href="wIDE">Recommended IDEs</a></li>
-          </ul>
-          <li><a href="devenv">Development Environment</a></li>
-        </li> 
-      </ul>
-    </li>
-    <li>
-      <a href="#map">Roadmap</a>
-      <ul>
-        <li><a href="todo">To-Do List</a></li>
-        <li><a href="est">Time Estimate</a></li>
-      </ul> 
-    </li>
-    <li><a href="#uiux">UI/UX Implementation Details</a></li>
-    <li><a href="#feat">Key Features</a></li>
-    <li><a href="web">Web Application</a></li>
-    <li><a href="#flow">Basic Workflow Guide</a></li>
-    <li><a href="#impl">Project Implementation Guide</a></li>
-    <li>
-      <a href="io">Potential I/O Specifications</a>
-      <ul>
-        <li><a href="#i">Input</a></li>
-        <li><a href="#o">Output</a></li>
-        <li><a href="#err">Error Handling</a></li>
-      </ul>
-    </li>
-    <li><a href="#plus">Future Enhancements</a></li>
-  </ol>
-</details>
-
-
-
-<details>
-  <summary><strong><em>III: Usage, Installation & Getting Started</em></strong></summary>
-  <ol>
-    <li>
-      <a href="#view">Project Overview</a>
-      <ul>
-        <li><a href="#obj">Objectives</a></li>
-      </ul>
-    </li>
-    <li><a href="#feat">Key Features</a></li>
-    <li><a href="io">Potential I/O Specifications</a>
-    <li><a href="#err">Error Handling</a></li>
-    <li><a href="#install">Installation</a>
-      <ul>
-        <li>
-          <a href="#prereq">Prerequisites</a>
-          <ul>
-            <li><a href="#preweb">Web App</a></li>
-            <li><a href="#premac">macOS</a></li>
-            <li><a href="#prewindows">Windows</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="guide">User Installation Guide</a>
-          <ul>
-            <li><a href="#webinst">Web App Installation</a></li>
-            <li><a href="#instmac">macOS App Installation</a></li>
-            <ul>
-              <li><a href="#climac">macOS via CLI</a></li>
-              <li><a href="#gitmac">macOS via Git</a></li>
+  <details>
+    <summary><strong><em>II: Implementation Details</em></strong></summary>
+    <ol>
+      <li>
+        <a href="#view">Project Overview</a>
+        <ul>
+          <li><a href="#obj">Objectives</a></li>
+          <li><a href="#curr">Current Notes and Issues</a></li>
+        </ul>
+      </li>
+      <li><a href="#tech">Technologies and Programming Languages</a></li>
+      <li><a href="#stackz">Currently Used Tech Stacks</a></li>
+        <ul>
+          <li>
+            <a href="#desk">Desktop Application</a>
+            <ul> 
+              <li><a href="dstack">Tech Stack</a></li>
+              <li><a href="dIDE">Recommended IDEs</a></li>
             </ul>
-            <li><a href="#instwindows">Windows App Installation</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <a href="usage">Usage</a>
-      <ul>
-        <li><a href="use-case">Potential Use Cases</a></li>
-        <li><a href="appl">Practical Applications</a></li>
-      </ul>
-    </li>
-    <li><a href="#sys">System Requirements</a></li>
-    <li><a href="#user">User Requirements</a></li>
-  </ol>
-</details>
-
-
-
-<details>
-  <summary><strong><em>IV: *Miscellaneous</em></strong></summary>
-  <ol>
-    <a href="#view">Project Overview</a>
-    <li><a href="#tech">Technologies and Programming Languages</a></li>
-    <li><a href="#stackz">Currently Used Tech Stacks</a></li>
-    <li><a href="devenv">Development Environment</a></li>
-    <li><a href="est">Time Estimate</a></li>
-    <li><a href="give">Contributions</a></li>
-      <ul>
-        <li><a href="coc">Code of Conduct</a></li>
-        <li><a href="whattogive">What?</a></li>
-        <li><a href="howtogive">How?</a></li>
-        <li><a href="whygive">Why?</a></li>
-      </ul>
-    </li>
-    <li><a href="bye">Conclusion</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#ack">Acknowledgments</a></li>
-  </ol>
-</details>
+            <li><a href="#web">Web Application</a></li>
+            <ul>
+              <li><a href="wstack">Tech Stack</a></li>
+              <li><a href="wIDE">Recommended IDEs</a></li>
+            </ul>
+            <li><a href="devenv">Development Environment</a></li>
+          </li> 
+        </ul>
+      </li>
+      <li>
+        <a href="#map">Roadmap</a>
+        <ul>
+          <li><a href="todo">To-Do List</a></li>
+          <li><a href="est">Time Estimate</a></li>
+        </ul> 
+      </li>
+      <li><a href="#uiux">UI/UX Implementation Details</a></li>
+      <li><a href="#feat">Key Features</a></li>
+      <li><a href="web">Web Application</a></li>
+      <li><a href="#flow">Basic Workflow Guide</a></li>
+      <li><a href="#impl">Project Implementation Guide</a></li>
+      <li>
+        <a href="io">Potential I/O Specifications</a>
+        <ul>
+          <li><a href="#i">Input</a></li>
+          <li><a href="#o">Output</a></li>
+          <li><a href="#err">Error Handling</a></li>
+        </ul>
+      </li>
+      <li><a href="#plus">Future Enhancements</a></li>
+    </ol>
+  </details>
+  
+  
+  
+  <details>
+    <summary><strong><em>III: Usage, Installation & Getting Started</em></strong></summary>
+    <ol>
+      <li>
+        <a href="#view">Project Overview</a>
+        <ul>
+          <li><a href="#obj">Objectives</a></li>
+        </ul>
+      </li>
+      <li><a href="#feat">Key Features</a></li>
+      <li><a href="io">Potential I/O Specifications</a>
+      <li><a href="#err">Error Handling</a></li>
+      <li><a href="#install">Installation</a>
+        <ul>
+          <li>
+            <a href="#prereq">Prerequisites</a>
+            <ul>
+              <li><a href="#preweb">Web App</a></li>
+              <li><a href="#premac">macOS</a></li>
+              <li><a href="#prewindows">Windows</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="guide">User Installation Guide</a>
+            <ul>
+              <li><a href="#webinst">Web App Installation</a></li>
+              <li><a href="#instmac">macOS App Installation</a></li>
+              <ul>
+                <li><a href="#climac">macOS via CLI</a></li>
+                <li><a href="#gitmac">macOS via Git</a></li>
+              </ul>
+              <li><a href="#instwindows">Windows App Installation</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="usage">Usage</a>
+        <ul>
+          <li><a href="use-case">Potential Use Cases</a></li>
+          <li><a href="appl">Practical Applications</a></li>
+        </ul>
+      </li>
+      <li><a href="#sys">System Requirements</a></li>
+      <li><a href="#user">User Requirements</a></li>
+    </ol>
+  </details>
+  
+  
+  
+  <details>
+    <summary><strong><em>IV: *Miscellaneous</em></strong></summary>
+    <ol>
+      <a href="#view">Project Overview</a>
+      <li><a href="#tech">Technologies and Programming Languages</a></li>
+      <li><a href="#stackz">Currently Used Tech Stacks</a></li>
+      <li><a href="devenv">Development Environment</a></li>
+      <li><a href="est">Time Estimate</a></li>
+      <li><a href="give">Contributions</a></li>
+        <ul>
+          <li><a href="coc">Code of Conduct</a></li>
+          <li><a href="whattogive">What?</a></li>
+          <li><a href="howtogive">How?</a></li>
+          <li><a href="whygive">Why?</a></li>
+        </ul>
+      </li>
+      <li><a href="bye">Conclusion</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#ack">Acknowledgments</a></li>
+    </ol>
+  </details>
 
 
 
