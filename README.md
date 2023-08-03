@@ -9,8 +9,53 @@ desde <a name="yt"></a>
   <a href="https://www.linkedin.com/in/lyndsey791/">LinkedIn</a>  |  <a href="https://www.sorry-this-site-doesnt-exist-yet./">Website</a>  |     <a href="https://github.com/lyndskg/">GitHub</a>  |  <a href="#contact">Contact Info</a>
 </p>
 
+### Table of Contents
 <details>
-  <summary>Table of Contents</summary>
+  <summary>PART I: OVERVIEW & FEATURES</summary>
+  <ol>
+    <li>
+      <a href="#view">Project Overview</a>
+      <ul>
+        <li><a href="#obj">Objectives</a></li>
+        <li><a href="#curr">Current Notes and Issues</a></li>
+      </ul>
+    </li>
+    <li><a href="#tech">Technologies and Programming Languages</a></li>
+    <li><a href="#stackz">Currently Used Tech Stacks</a></li>
+      <ul>
+        <li>
+          <a href="#desk">Desktop Application</a>
+          <ul> 
+            <li><a href="dstack">Tech Stack</a></li>
+            <li><a href="dIDE">Recommended IDEs</a></li>
+          </ul>
+          <li><a href="#web">Web Application</a></li>
+          <ul>
+            <li><a href="wstack">Tech Stack</a></li>
+            <li><a href="wIDE">Recommended IDEs</a></li>
+          </ul>
+          <li><a href="devenv">Development Environment</a></li>
+        </li> 
+      </ul>
+    </li>
+    <li><a href="#uiux">UI/UX Implementation Details</a></li>
+    <li><a href="#feat">Key Features</a></li>
+    <li>
+      <a href="io">Potential I/O Specifications</a>
+      <ul>
+        <li><a href="#i">Input</a></li>
+        <li><a href="#o">Output</a></li>
+        <li><a href="#err">Error Handling</a></li>
+      </ul>
+    </li>
+    <li><a href="#plus">Future Enhancements</a></li>
+    <li><a href="bye">Conclusion</a></li>
+  </ol>
+</details>
+
+
+<details>
+  <summary>PART II: IMPLEMENTATION DETAILS</summary>
   <ol>
     <li>
       <a href="#view">Project Overview</a>
@@ -58,8 +103,31 @@ desde <a name="yt"></a>
       </ul>
     </li>
     <li><a href="#plus">Future Enhancements</a></li>
+  </ol>
+</details>
+
+
+
+<details>
+  <summary>PART III: USAGE, INSTALLATION & GETTING STARTED</summary>
+  <ol>
     <li>
-      <a href="#install">Installation</a>
+      <a href="#view">Project Overview</a>
+      <ul>
+        <li><a href="#obj">Objectives</a></li>
+        <li><a href="#curr">Current Notes and Issues</a></li>
+      </ul>
+    </li>
+    <li><a href="#feat">Key Features</a></li>
+    <li>
+      <a href="io">Potential I/O Specifications</a>
+      <ul>
+        <li><a href="#i">Input</a></li>
+        <li><a href="#o">Output</a></li>
+        <li><a href="#err">Error Handling</a></li>
+      </ul>
+    </li>
+    <li><a href="#install">Installation</a>
       <ul>
         <li>
           <a href="#prereq">Prerequisites</a>
@@ -92,8 +160,23 @@ desde <a name="yt"></a>
     </li>
     <li><a href="#sys">System Requirements</a></li>
     <li><a href="#user">User Requirements</a></li>
+  </ol>
+</details>
+
+
+
+<details>
+  <summary>PART IV: MISC</summary>
+  <ol>
     <li>
-      <a href="give">Contributions</a>
+    <a href="#view">Project Overview</a>
+        <li><a href="#curr">Current Notes and Issues</a></li>
+    </li>
+    <li><a href="#tech">Technologies and Programming Languages</a></li>
+    <li><a href="#stackz">Currently Used Tech Stacks</a></li>
+    <li><a href="devenv">Development Environment</a></li>
+    <li><a href="est">Time Estimate</a></li>
+    <li><a href="give">Contributions</a></li>
       <ul>
         <li><a href="coc">Code of Conduct</a></li>
         <li><a href="whattogive">What?</a></li>
@@ -106,6 +189,8 @@ desde <a name="yt"></a>
     <li><a href="#ack">Acknowledgments</a></li>
   </ol>
 </details>
+
+
 
 <details>
   <summary>File Hierarchy</summary>
