@@ -2,7 +2,8 @@
 
 <h1 align="center">ytconv3rt3r</h1>
 
-<p style="text-align: center;"><h4><ins><strong><em>* a desktop- or web app-based youtube audio converter tool * </em></strong></ins></h4></p>
+<p align="center"><h4><ins><strong><em>* a desktop- or web app-based youtube audio converter tool * </em></strong></ins></h4></p>
+
 
 
 <details>
