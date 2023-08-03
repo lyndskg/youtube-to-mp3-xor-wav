@@ -5,7 +5,7 @@
 <h4 align="center"><ins><strong><em>* a desktop- or web app-based youtube audio converter tool * </em></strong></ins></h4>
 
 
-<p align="center">(blah)[google.com]</p>
+<p align="center">[google.com](blah)</p>
 
 <details>
   <summary>Table of Contents</summary>
