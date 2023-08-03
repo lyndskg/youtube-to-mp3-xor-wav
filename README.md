@@ -12,7 +12,7 @@ desde <a name="yt"></a>
 ### <ins>Table of Contents</ins>
 
 <details>
-  <summary>PART I: OVERVIEW & FEATURES</summary>
+  <summary>I: Overview & Features</summary>
   <ol>
     <li>
       <a href="#view">Project Overview</a>
@@ -35,7 +35,7 @@ desde <a name="yt"></a>
 
 
 <details>
-  <summary>PART II: IMPLEMENTATION DETAILS</summary>
+  <summary>II: Implementation Details</summary>
   <ol>
     <li>
       <a href="#view">Project Overview</a>
@@ -89,24 +89,17 @@ desde <a name="yt"></a>
 
 
 <details>
-  <summary>PART III: USAGE, INSTALLATION & GETTING STARTED</summary>
+  <summary>III: Usage, Installation & Getting Started</summary>
   <ol>
     <li>
       <a href="#view">Project Overview</a>
       <ul>
         <li><a href="#obj">Objectives</a></li>
-        <li><a href="#curr">Current Notes and Issues</a></li>
       </ul>
     </li>
     <li><a href="#feat">Key Features</a></li>
-    <li>
-      <a href="io">Potential I/O Specifications</a>
-      <ul>
-        <li><a href="#i">Input</a></li>
-        <li><a href="#o">Output</a></li>
-        <li><a href="#err">Error Handling</a></li>
-      </ul>
-    </li>
+    <li><a href="io">Potential I/O Specifications</a>
+    <li><a href="#err">Error Handling</a></li>
     <li><a href="#install">Installation</a>
       <ul>
         <li>
@@ -148,10 +141,7 @@ desde <a name="yt"></a>
 <details>
   <summary>PART IV: MISC</summary>
   <ol>
-    <li>
     <a href="#view">Project Overview</a>
-        <li><a href="#curr">Current Notes and Issues</a></li>
-    </li>
     <li><a href="#tech">Technologies and Programming Languages</a></li>
     <li><a href="#stackz">Currently Used Tech Stacks</a></li>
     <li><a href="devenv">Development Environment</a></li>
