@@ -544,47 +544,50 @@ A strong choice for building a macOS desktop app efficiently while achieving a n
 Since you have experience with `C++`, `C#`, `Python`, and `JavaScript`, `Swift`'s syntax and concepts may be relatively familiar, allowing you to adapt quickly. The integration of `SwiftUI` and `Core Data` within the native app ecosystem makes this tech stack a strong choice for building a macOS desktop app efficiently while achieving a native look and feel.
 
 &nbsp;
-> **<ins>Front-end</ins>: (*User Interface*)** 
-> `SwiftUI`:
+**<ins>Front-end</ins>: (*User Interface*)** 
+> `SwiftUI`
 > - **<ins>Description</ins>:** `SwiftUI` is Apple's modern UI framework that allows you to build native-looking and native-like user interfaces for macOS apps.
->  - It uses a declarative syntax and provides a wide range of built-in components and layouts to create visually appealing and responsive UIs.
- - **<ins>Pros</ins>:** `SwiftUI` simplifies UI development, offers real-time previews, and encourages code reusability.
->   - It integrates seamlessly with other Swift code and provides strong support for dark mode, accessibility, and localization.
->  - **<ins>Cons</ins>:** As a relatively new framework, `SwiftUI` documentation and community resources may be limited compared to `UIKit`/`AppKit`. The learning curve can be steep if you are new to `SwiftUI`. 
->   
-> **<ins>Back-end</ins>: (*Data Processing & Business Logic*)**
+>    - It uses a declarative syntax and provides a wide range of built-in components and layouts to create visually appealing and responsive UIs.
+> - **<ins>Pros</ins>:** `SwiftUI` simplifies UI development, offers real-time previews, and encourages code reusability.
+>    - It integrates seamlessly with other Swift code and provides strong support for dark mode, accessibility, and localization.
+> - **<ins>Cons</ins>:** As a relatively new framework, `SwiftUI` documentation and community resources may be limited compared to `UIKit`/`AppKit`. The learning curve can be steep if you are new to `SwiftUI`. 
+
+
+**<ins>Back-end</ins>: (*Data Processing & Business Logic*)**
 > `Swift`:
->  - **<ins>Description</ins>:** For the backend and business logic, `Swift` itself is a suitable choice.
->   - You can write backend logic in `Swift`, making use of its strong type system and performance benefits.
->  - **<ins>Pros</ins>:** Using `Swift` for the backend ensures consistency in the language across the entire project.
->     - `Swift`'s safety features help prevent common programming errors.
->  - **<ins>Cons</ins>:** Depending on the complexity of the backend logic,`Swift` may require additional support from libraries and frameworks for specific tasks.
+> - **<ins>Description</ins>:** For the backend and business logic, `Swift` itself is a suitable choice.
+>    - You can write backend logic in `Swift`, making use of its strong type system and performance benefits.
+> - **<ins>Pros</ins>:** Using `Swift` for the backend ensures consistency in the language across the entire project.
+>    - `Swift`'s safety features help prevent common programming errors.
+> - **<ins>Cons</ins>:** Depending on the complexity of the backend logic,`Swift` may require additional support from libraries and frameworks for specific tasks.
 
 
-> **<ins>Database</ins>: (*Data Storage*)**
+**<ins>Database</ins>: (*Data Storage*)**
 > `Core Data`
 > - **<ins>Description</ins>:** `Core Data` is Apple's framework for data storage, allowing you to manage the model layer of your application efficiently.
->   - It provides support for persistent storage, data retrieval, and change tracking.
-> **<ins>Pros</ins>:** `Core Data` is integrated with `SwiftUI` and is optimized for macOS apps.
-> -  It can handle complex data structures and relationships, and it offers built-in support for data synchronization with iCloud.
-> **<ins>Cons</ins>:** `Core Data` can be challenging for beginners, and there is a learning curve to understand its concepts and use it effectively
-> **<ins>APIs, Frameworks, and Libraries</ins>:**
+>    - It provides support for persistent storage, data retrieval, and change tracking.
+> - **<ins>Pros</ins>:** `Core Data` is integrated with `SwiftUI` and is optimized for macOS apps.
+>    - It can handle complex data structures and relationships, and it offers built-in support for data synchronization with iCloud.
+> - **<ins>Cons</ins>:** `Core Data` can be challenging for beginners, and there is a learning curve to understand its concepts and use it effectively.
+
+
+**<ins>APIs, Frameworks, and Libraries</ins>:**
 > `Combine`:
 > - **<ins>Description</ins>:** `Combine` is Apple's framework for reactive programming in `Swift`.
 >    - It allows you to work with asynchronous data streams, enabling better handling of UI updates and data processing.
-> **<ins>Pros</ins>:** `Combine` provides a declarative approach to handling asynchronous events, making code more readable and maintainable.
-> - It works well with `SwiftUI` and other Apple frameworks.
-> **<ins>Cons</ins>:**
-> - `Combine` is relatively new and may not have as many resources and community support as other frameworks.
-> **<ins>Tools/Toolkits and Channels</ins>:**
+> - **<ins>Pros</ins>:** `Combine` provides a declarative approach to handling asynchronous events, making code more readable and maintainable.
+>    - It works well with `SwiftUI` and other Apple frameworks.
+> - **<ins>Cons</ins>:**
+>    - `Combine` is relatively new and may not have as many resources and community support as other frameworks.
+
+**<ins>Tools/Toolkits and Channels</ins>:**
 > `Xcode`
-> **<ins>Description</ins>:** `Xcode` is the official IDE for macOS and iOS development.
->  - It offers a complete development environment for `Swift`, including code editor, interface builder, debugging tools, and performance analysis.
-> **<ins>Pros</ins>:**: Xcode is highly optimized for Swift development, offering features like real-time previews, SwiftUI Canvas, and an extensive set of debugging tools.
-> **<ins>Cons</ins>:** If you are not familiar with Xcode, there may be a learning curve to navigate its interface and tools efficiently.
+> - **<ins>Description</ins>:** `Xcode` is the official IDE for macOS and iOS development.
+>    - It offers a complete development environment for `Swift`, including code editor, interface builder, debugging tools, and performance analysis.
+> - **<ins>Pros</ins>:**: Xcode is highly optimized for Swift development, offering features like real-time previews, SwiftUI Canvas, and an extensive set of debugging tools.
+> - **<ins>Cons</ins>:** If you are not familiar with Xcode, there may be a learning curve to navigate its interface and tools efficiently.
 
 
-<p align="right">(<a href="#top">Back to top</a>)</p>
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
 -----------------
