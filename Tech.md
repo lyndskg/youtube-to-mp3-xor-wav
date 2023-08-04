@@ -51,6 +51,44 @@ VSCode FORJavaScript/React development, PyCharm for Python, CLion for C++ aND qt
 
 This tech stack combines the power and flexibility of Python, C++, and React to provide high cross-platform compatibility, code reuse, and ease of collaboration for your project. The use of Qt ensures native-like UI for the desktop apps, and the integration of Flask and SQLite allows for efficient backend development and data storage for the web app. With this stack, you can build a robust and feature-rich application that works seamlessly across different platforms and leverages the strengths of each language and framework.
 
+
+Sure! Here's the modified tech stack:
+
+Tech Stack:
+
+1. Frontend (Web App with React and Qt for WebAssembly):
+   - React: A popular JavaScript library for building user interfaces and managing the frontend of the web app.
+   - Qt for WebAssembly: Use Qt's framework to create a native-like experience for the web app with WebAssembly support.
+
+2. Backend (Python with Flask and C++ with Qt):
+   - Python: For the backend logic, data processing, and handling web requests using Flask.
+   - C++ with Qt: For advanced backend functionalities and integration with the frontend using Qt.
+   -    Use C++ with the Qt framework for specific performance-critical tasks and for code reuse between desktop, mobile, and web applications through WebAssembly.
+
+3. Database (SQLite or PostgreSQL):
+   - SQLite: A lightweight, serverless database that is easy to set up and suitable for small to medium-sized projects.
+      - For the web app, you can use SQLite as a lightweight and embedded database for client-side storage, suitable for handling local data storage in the browser.
+   - PostgreSQL: A powerful and scalable open-source relational database suitable for larger projects.
+   -    For the backend, consider using PostgreSQL, a powerful open-source relational database known for its robustness and scalability.
+
+4. APIs, Frameworks, and Libraries:
+   - YouTube Data API: To access and retrieve data from YouTube, such as video information and metadata.
+   - Flask: A micro web framework for Python to handle web requests and build the backend API.
+   - Qt: A C++ framework for building cross-platform applications with a rich set of libraries for various functionalities.
+
+5. Tools/Toolkits and Channels:
+   - WebAssembly: For running C++ code in web browsers to achieve native-like performance.
+   - npm (Node Package Manager): To manage and install frontend dependencies and packages.
+   - pip (Python Package Manager): To manage and install Python dependencies and packages.
+
+6. IDEs:
+   - Visual Studio Code (VSCode): A versatile code editor with great support for Python and JavaScript development, as well as C++ with appropriate extensions.
+   - Qt Creator: An integrated development environment (IDE) tailored for Qt development, useful for working with the C++ part of the project.
+
+The modified tech stack leverages Qt for WebAssembly to enable native-like user experiences in the web app while keeping the backend mainly in C++ and Python. The YouTube Data API integration allows you to fetch and use data from YouTube as needed.
+
+Please note that using Qt for WebAssembly might have a learning curve and potential challenges, but it can provide the advantage of reusing C++ code for both desktop and web applications, thereby enhancing code reusability and reducing development effort.
+
 For the Python + C++ (with Qt) + React tech stack, you'll need separate Integrated Development Environments (IDEs) for Python, C++, and JavaScript/React development. Here are some popular IDE options for each language:
 
 1. Python IDE: PyCharm
