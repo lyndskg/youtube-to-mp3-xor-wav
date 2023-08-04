@@ -172,6 +172,8 @@ A comprehensive list of backend languages, frameworks, libraries, and APIs that 
    - <ins>Cons</ins>:
       - May require more configuration for simple projects.
 
+&nbsp;
+
 Each of these backend technologies has its strengths and weaknesses.
 
 
