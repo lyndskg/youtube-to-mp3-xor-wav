@@ -54,15 +54,9 @@ ytconv3rt3r/
 │   │   ├── common/                                                  # Common C++/Qt code and resources
 │   │   │   └── ...                                                  # Shared C++/Qt files
 │   │   ├── macOS/                                                   # macOS-specific files and sources
-│   │   │   ├── src/                                                 # macOS-specific C++ source files
-│   │   │   │   ├── main.cpp                                         # Main macOS-specific C++ source file
-│   │   │   │   └── ... (Other macOS-specific C++ source files)
 │   │   │   ├── ytconv3rt3r.icns                                     # Custom macOS app icon
 │   │   │   └── ... (Other macOS-specific files)
 │   │   └── Windows/                                                 # Windows-specific files and sources
-│   │       ├── src/                                                 # Windows-specific C++ source files
-│   │       │   ├── main.cpp                                         # Main Windows-specific C++ source file
-│   │       │   └── ... (Other Windows-specific C++ source files)
 │   │       ├── ytconv3rt3r.ico            # Custom Windows app icon
 │   │       └── ... (Other Windows-specific files)
 │   └── ... (Other cross-platform desktop app files)
