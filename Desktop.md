@@ -530,8 +530,10 @@ Consider trying them out and selecting the one that feels most comfortable and e
 <h2>IV. &nbsp; Swift-Based Tech Stacks</h2>
 
 A strong choice for building a macOS desktop app efficiently while achieving a native look and feel.
-> Offers a native-looking and native-like user interface with `SwiftUI`, efficient data processing and business logic with `Swift`, and seamless data storage with `Core Data`. 
-> `Combine` enhances your application's reactivity and handling of asynchronous events. 
+> Offers a native-looking and native-like user interface with `SwiftUI`, efficient data processing and business logic with `Swift`, and seamless data storage with `Core Data`.
+> 
+> `Combine` enhances your application's reactivity and handling of asynchronous events.
+> 
 > While some components like `SwiftUI` and `Combine` may have a learning curve, they provide significant benefits in terms of code reusability, maintainability, and performance. For efficient development, `Xcode` is the go-to IDE for Swift on macOS.
 
 Since you have experience with `C++`, `C#`, `Python`, and `JavaScript`, `Swift`'s syntax and concepts may be relatively familiar, allowing you to adapt quickly. The integration of `SwiftUI` and `Core Data` within the native app ecosystem makes this tech stack a strong choice for building a macOS desktop app efficiently while achieving a native look and feel.
