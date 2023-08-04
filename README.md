@@ -266,6 +266,89 @@ The project aims to cater to both web and desktop users, supporting both macOS a
 >
 > Windows:
 
+__1. <ins>Front-end</ins>: (*User Interface*)__ 
+> - `React`: For building the web frontend, providing a fast and interactive user experience.
+> - `Qt for WebAssembly`: Use Qt's framework to create a native-like experience for the web app with WebAssembly support.
+> - 
+__2. <ins>Backend</ins>: (Data Processing and Business Logic)__
+> - `Python`: For handling backend logic, data processing, and integrating with web APIs.
+> -  `C++ with Qt`: For advanced backend functionalities and integration with the frontend using `Qt`.
+
+__3. <ins>Database</ins>: (Data Storage)__
+> - `SQLite`: For lightweight, serverless, and easy-to-use data storage for both the web app and desktop app.
+
+__4. <ins>APIs, Frameworks, and Libraries</ins>:__
+> - Flask (Python): For creating the web API and handling server-side functionality.
+> - Qt (C++): For building cross-platform desktop applications with native-like UI.
+> - YouTube Data API: To access and retrieve data from YouTube, such as video information and metadata.
+
+__5. <ins>Web APIs and HTTP Communication</ins>:__
+> - Flask (Python): For creating RESTful APIs to communicate between the frontend and backend.
+
+
+__6. <ins>User Interface Design and Styling</ins>:__
+> - `React`: For modern and interactive UI design for the web app.
+> - `Qt (C++)`: For building native-looking UI for the desktop apps.
+
+**7. <ins>Error Handling and Logging</ins>:**
+> - `Python Logging`: For error handling and logging on the server-side (web app).
+> -  `Qt (C++)`: For error handling and logging on the desktop applications.
+  
+      
+**8. <ins>Testing, Mocking, and Quality Assurance</ins>:**
+> - `Jest` (JavaScript): For frontend testing in React.
+> - `Pytest` (Python): For backend testing in Flask.
+> - `Google Test` (C++): For testing C++ code.
+>   - `Boost.Test` may be used instead?
+> - `Google Mock`
+
+
+__9. <ins>Logging and Documentation</ins>:__
+**C++**
+> - `spdlog`: A fast and efficient logging library for C++. It offers support for various logging sinks (e.g., console, file) and allows you to customize the log format.
+>   - It also provides thread-safe logging capabilities.
+> - `Boost.Log`: Part of the Boost C++ Libraries collection and provides a flexible and powerful logging framework for C++.
+>   - It offers multiple sinks and allows you to customize logging according to your requirements.
+
+**Python**
+> - `logging`: Python has a built-in logging module called logging, which is powerful and versatile.
+>   - It allows you to log messages with different levels of severity, customize log formats, and log to various outputs (e.g., file, console, network sockets).
+> - `Loguru`: A user-friendly and easy-to-use logging library for Python.
+>   - It simplifies logging with a straightforward syntax and provides colorful output for console logging.
+
+**JavaScript**
+> - `Winston`: A popular logging library for `Node.js` applications.
+>   - It provides flexible logging capabilities and allows you to set up custom logging transports (*e.g.*, console, file) with different log levels.
+> - `Bunyan`: An excellent logging library for `Node.js`.
+>   - It focuses on providing structured and `JSON`-formatted logs, making it easier to parse and analyze logs.
+
+
+      
+__10. <ins>Desktop Application Development</ins> (*Cross-platform*):__
+> - `Qt (C++)`: For building native-like desktop applications that work on macOS and Windows with a single codebase.
+  
+       
+**10. <ins>Audio Conversion</ins>:**
+> - `FFmpeg (C++)`: For audio conversion functionalities within the desktop applications.
+      
+**11. <ins>Metadata Processing</ins>:**
+> - `Python`: For handling metadata processing and integration with AI/ML models.
+
+  
+**12. <ins>AI/ML Integration</ins>:**
+> - `Python`: For integrating AI/ML models for metadata retrieval or generation.
+   
+      
+**13. <ins>Tools/Toolkits and Channels</ins>:**
+> - `WebAssembly`: For running C++ code in web browsers to achieve native-like performance.
+> - `npm` (Node Package Manager): To manage and install frontend dependencies and packages
+> - `pip` (Python Package Manager): To manage and install Python dependencies and packages.
+      
+**14. <ins>IDEs</ins>:**
+> - `Visual Studio Code (VSCode)`: A versatile code editor with great support for `Python` and `JavaScript` development, as well as `C++` with appropriate extensions.
+> - `CLion`
+> - `PyCharm`
+
 ------
 
 <a name="desk"></a>
