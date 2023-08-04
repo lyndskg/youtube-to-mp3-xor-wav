@@ -1,6 +1,6 @@
 Sure! Based on your requirements for high cross-platform compatibility, code reuse, and ease of collaboration between Python, C#, and C++ expertise, I recommend the following tech stack:
 
-VSCode for C++ and JavaScript/React development, PyCharm for Python
+VSCode FORJavaScript/React development, PyCharm for Python, CLion for C++ aND qt
 
 **Tech Stack: Python + C++ (with Qt) + React**
 
