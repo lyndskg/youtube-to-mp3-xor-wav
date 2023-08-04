@@ -2,6 +2,10 @@
    - [x] Install Python and set up a virtual environment for the backend development.
    - [x] Install necessary Python dependencies using `pip install -r requirements.txt`.
    - [ ] Set up the necessary C++ and Qt development environment, including Qt Creator or CLion for C++ development.
+      - [x] Set up GoogleMock in CLion
+      - [x] Set up Boost in CLion
+      - [ ] Set up GoogleTest in CLion
+      - [ ] Set up Qt 
 
 2. **Backend (Data Processing and Business Logic):**
    - Create a new folder for the C++ backend within your project directory.
