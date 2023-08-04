@@ -4,6 +4,9 @@
 
 <h4 align="center"><ins><strong><em>* a desktop- or web app-based youtube audio converter tool * </em></strong></ins></h4>
 
+**<ins>TO-DO</ins>:**
+- [ ] Incorporate CLI installation/usage
+- [ ] Incorporate Brew installion
 
 <p align="center">
   <a href="https://www.linkedin.com/in/lyndsey791/">LinkedIn</a>  |  <a href="https://www.sorry-this-site-doesnt-exist-yet./">Website</a>  |     <a href="https://github.com/lyndskg/">GitHub</a>  |  <a href="#contact">Contact Info</a>
