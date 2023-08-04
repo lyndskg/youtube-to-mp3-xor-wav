@@ -25,6 +25,11 @@ set(GMOCK_DIR "/path/to/googletest/googlemock" CACHE PATH "The path to the Googl
 # Add GoogleMock as an external dependency
 add_subdirectory(${GMOCK_DIR} ${CMAKE_BINARY_DIR}/googlemock)
 
+# Link the GoogleMock library to your target(s) that require mocking
+# Assuming you have a target named "my_target"
+target_link_libraries(my_target gmock_main)
+
+
 # Create object file names from source file names
 set(OBJS)
 foreach(src ${SRCS})
