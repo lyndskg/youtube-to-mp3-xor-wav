@@ -1,0 +1,1 @@
+Refer to https://gist.github.com/ju2wheels/e39f2cb442d8bc1be1c3 for package.json template

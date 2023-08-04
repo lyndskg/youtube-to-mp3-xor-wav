@@ -1,0 +1,151 @@
+
+  "author": {
+    "email": "dev@company.com",
+    "name": "FIrstName LastName",
+    "url": "http://www.company.com"
+  },
+
+  "bin": {
+    "cli-bin-one", "lib/mypackage.js",
+    "cli-bin-two", "lib/mypackage.js"
+  },
+
+  "bugs": {
+    "email": "dev@mydomain.com",
+    "url": "http://www.github.com/user/myproject/issues"
+  },
+
+  "bundledDependencies": [
+    "pkg1",
+    "pkg2"
+  ],
+
+  "config": {
+    "config" : {
+      "port" : "8080"
+    },
+    "name": "foo"
+  },
+
+  "contributors": [
+    {
+      "email": "dev@company.com",
+      "name": "FIrstName LastName",
+      "url": "http://www.company.com"
+    }
+  ],
+
+  "cpu": [
+    "x64",
+    "ia32",
+    "!arm",
+    "!mips"
+  ],
+
+  "dependencies" : {
+    "foo": "1.0.0 - 2.9999.9999",
+    "bar": ">=1.0.2 <2.1.2",
+    "baz": ">1.0.2 <=2.3.4",
+    "boo": "2.0.1",
+    "qux": "<1.0.0 || >=2.3.1 <2.4.5 || >=2.5.2 <3.0.0",
+    "asd": "http://asdf.com/asdf.tar.gz",
+    "til": "~1.2",
+    "elf": "~1.2.3",
+    "two": "2.x",
+    "thr": "3.3.x",
+    "lat": "latest",
+    "dyl": "file:../dyl"
+  },
+
+  "description": "My package description",
+
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  },
+
+  "directories": {
+    "bin": "./bin",
+    "doc": "./doc",
+    "jars": "./jars",
+    "lib": "./lib",
+    "man": "./man",
+    "src": "./src",
+    "test": "./test"
+  },
+
+  "engines": {
+    "node" : ">=0.10.3 <0.12",
+    "npm" : "~1.0.20"
+  },
+
+  "engineStrict": false,
+
+  "files": [
+    "app",
+    "assets",
+    "bin",
+    "controllers",
+    "doc",
+    "models",
+    "public",
+    "spec",
+    "src",
+    "test",
+    "tests",
+    "views"
+  ],
+
+  "homepage": "http://www.github.com/user/myproject",
+
+  "keywords": [ "some", "keyword" ],
+
+  "license": "Apache-2.0",
+
+  "main": "lib/mypackage.js",
+
+  "man": [
+    "man/one.1",
+    "man/two.1"
+  ],
+
+  "name": "my-package-name",
+
+  "optionalDependencies": {
+    "foo": "1.0.0 - 2.9999.9999"
+  },
+
+  "os": [
+    "aix",
+    "freebsd",
+    "linux",
+    "macos",
+    "solaris",
+    "vxworks",
+    "windows",
+    "!windows"
+  ],
+
+  "peerDependencies": {
+    "package_my_package_is_a_plugin_for": "2.x"
+  },
+
+  "preferGlobal": false,
+
+  "private": false,
+
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/npm.git"
+  },
+
+  "scripts": {
+    "preinstall": "node-waf clean || true; node-waf configure build",
+    "start": "node server.js"
+  },
+
+  "version": "0.0.0",
