@@ -4,7 +4,7 @@ ytconv3rt3r/
 ├── UserRequirements.txt                                             # Requirements for using the project
 ├── .gitignore                                                       # Git ignore file
 ├── backend/                                                         # Backend directory
-│   ├── cplusplus/                                                   # C++ Backend
+│   ├── cpp/                                                         # C++ Backend
 │   │   ├── CMakeLists.txt                                           # Top-level CMake build script for C++/Qt
 │   │   ├── src/                                                     # C++ Source Files
 │   │   │   ├── CMakeLists.txt                                       # CMake build script for C++/Qt source files
@@ -17,12 +17,12 @@ ytconv3rt3r/
 │   │   │   ├── test_main.cpp                                        # C++ backend test file
 │   │   │   ├── test_example.cpp                                     # Example C++ backend test file
 │   │   │   └── ... (Other C++ test files)
-│   │   ├── build/                                                   # (optional) For out-of-source build
 │   │   ├── include/                                                 # C++ include directory
 │   │   │   ├── ytconv3rt3r/                                         # C++ library header files
 │   │   │   │   ├── unit_test_framework.h                            # Custom unit test framework
 │   │   │   │   └── xcode_redirect.hpp                               # To speed up I/O 
 │   │   │   └── ... (Other [header-only] libraries)
+│   │   ├── build/                                                   # (optional) For out-of-source build
 │   │   ├── deps/                                                    # (optional) For external dependencies
 │   │   ├── dev/                                                     # (optional) For development files
 │   │   └── data/                                                    # (optional) For data files
@@ -39,7 +39,7 @@ ytconv3rt3r/
 │   ├── CMakeLists.txt                                               # (optional) Top-level CMake file for the whole backend, if needed
 ├── frontend/                                                        # Frontend directory
 │   ├── requirements.txt                                             # Node.js dependencies for the frontend
-│   ├── web_app/                                                     # Web App Frontend
+│   ├── Web/                                                         # Web App Frontend
 │   │   ├── public/                                                  # Public files 
 │   │   │   ├── index.html                                           # Main HTML file
 │   │   │   └── ... (Other frontend files)
@@ -50,16 +50,16 @@ ytconv3rt3r/
 │   │   │   └── index.js                                             # React entry point
 │   │   ├── package.json                                             # Node.js package file listing dependencies required for React
 │   │   └── ... (Other React-related files)
-│   ├── desktop_app/                                                 # Cross-platform Desktop App
+│   ├── Desktop/                                                     # Cross-platform Desktop App
 │   │   ├── common/                                                  # Common C++/Qt code and resources
 │   │   │   └── ...                                                  # Shared C++/Qt files
-│   │   ├── macos/                                                   # macOS-specific files and sources
+│   │   ├── macOS/                                                   # macOS-specific files and sources
 │   │   │   ├── src/                                                 # macOS-specific C++ source files
 │   │   │   │   ├── main.cpp                                         # Main macOS-specific C++ source file
 │   │   │   │   └── ... (Other macOS-specific C++ source files)
 │   │   │   ├── ytconv3rt3r.icns                                     # Custom macOS app icon
 │   │   │   └── ... (Other macOS-specific files)
-│   │   └── windows/                                                 # Windows-specific files and sources
+│   │   └── Windows/                                                 # Windows-specific files and sources
 │   │       ├── src/                                                 # Windows-specific C++ source files
 │   │       │   ├── main.cpp                                         # Main Windows-specific C++ source file
 │   │       │   └── ... (Other Windows-specific C++ source files)
