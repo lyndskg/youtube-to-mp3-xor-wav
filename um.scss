@@ -38,7 +38,7 @@ ytconv3rt3r/
 │   |       └── ... (Other Python files and directories)
 │   ├── CMakeLists.txt                                               # (optional) Top-level CMake file for the whole backend, if needed
 ├── frontend/                                                        # Frontend directory
-│   ├── requirements.txt                                             # Node.js dependencies for the frontend
+│   ├── requirements.txt                                             # Top-level Node.js dependencies for the frontend
 │   ├── Web/                                                         # Web App Frontend
 │   │   ├── public/                                                  # Public files 
 │   │   │   ├── index.html                                           # Main HTML file
@@ -54,9 +54,11 @@ ytconv3rt3r/
 │   │   ├── common/                                                  # Common C++/Qt code and resources
 │   │   │   └── ...                                                  # Shared C++/Qt files
 │   │   ├── macOS/                                                   # macOS-specific files and sources
+│   │   │   ├── package.json                                         # Node.js package file listing dependencies required for React
 │   │   │   ├── ytconv3rt3r.icns                                     # Custom macOS app icon
 │   │   │   └── ... (Other macOS-specific files)
 │   │   └── Windows/                                                 # Windows-specific files and sources
+│   │   │   ├── package.json                                         # Node.js package file listing dependencies required for React
 │   │       ├── ytconv3rt3r.ico            # Custom Windows app icon
 │   │       └── ... (Other Windows-specific files)
 │   └── ... (Other cross-platform desktop app files)
