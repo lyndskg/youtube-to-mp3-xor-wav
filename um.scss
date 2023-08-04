@@ -1,0 +1,45 @@
+my_project/
+├── backend/
+│   ├── cplusplus/
+│   │   ├── main.cpp
+│   │   └── CMakeLists.txt (CMake build script for C++/Qt)
+│   ├── python/
+│   │   ├── main.py
+│   │   └── venv/
+│   │       └── ... (Python virtual environment files)
+│   └── CMakeLists.txt (Top-level CMake file for the whole backend, if needed)
+├── frontend/
+│   ├── web_app/
+│   │   ├── public/
+│   │   │   ├── index.html
+│   │   │   └── ... (Other frontend files)
+│   │   ├── src/
+│   │   │   ├── components/
+│   │   │   │   └── ... (React components)
+│   │   │   ├── App.js
+│   │   │   └── index.js (React entry point)
+│   │   ├── package.json
+│   │   └── ... (Other React-related files)
+│   ├── desktop_app/
+│   │   ├── common/
+│   │   │   └── ... (Shared C++/Qt code and resources)
+│   │   ├── macos/
+│   │   │   ├── main.cpp
+│   │   │   ├── YourApp.icns (Custom macOS app icon)
+│   │   │   └── ... (Other macOS-specific files)
+│   │   ├── windows/
+│   │   │   ├── main.cpp
+│   │   │   ├── YourApp.ico (Custom Windows app icon)
+│   │   │   └── ... (Other Windows-specific files)
+│   │   └── ... (Other cross-platform desktop app files)
+│   └── tests/
+│       ├── frontend/
+│       │   └── ... (Frontend tests using Jest)
+│       └── backend/
+│           └── ... (Backend tests using Pytest and Google Test)
+├── venv/ (Python virtual environment for the whole project)
+│   └── ... (Virtual environment files)
+├── YourApp.dmg (Generated macOS DMG for distribution)
+├── YourAppInstaller.msi (Generated Windows installer, if applicable)
+├── requirements.txt (Python dependencies for backend)
+└── package.json (Node.js dependencies for frontend)
