@@ -164,7 +164,7 @@ A comprehensive list of backend languages, frameworks, libraries, and APIs that 
       - Smaller ecosystem compared to more established languages.
 
 7. **`C#` with `ASP.NET Core`:**
-  - <ins>Description</ins>:
+   - <ins>Description</ins>:
       - `ASP.NET Core` is a cross-platform, high-performance framework for building web applications and APIs using `C#`.
          - It is known for its speed and scalability.
    - <ins>Pros</ins>:
