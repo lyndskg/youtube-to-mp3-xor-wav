@@ -37,6 +37,7 @@ ytconv3rt3r/
 ├── CMakeLists.txt                         # (optional) Top-level CMake file for the whole backend, if needed
 ├── requirements.txt                       # Python dependencies for backend
 ├── frontend/                              # Frontend directory
+│   ├── requirements.txt                   # Node.js dependencies for the frontend
 │   ├── web_app/                           # Web App Frontend
 │   │   ├── public/                        # Public files 
 │   │   │   ├── index.html                 # Main HTML file
@@ -46,7 +47,7 @@ ytconv3rt3r/
 │   │   │   │   └── ...                    # Other React components
 │   │   │   ├── App.js                     # React App entry point
 │   │   │   └── index.js                   # React entry point
-│   │   ├── package.json                   # Node.js package file
+│   │   ├── package.json                   # Node.js package file listing dependencies required for React
 │   │   └── ...                            # Other React-related files
 │   ├── desktop_app/                       # Cross-platform Desktop App
 │   │   ├── common/                        # Common C++/Qt code and resources
@@ -81,7 +82,5 @@ ytconv3rt3r/
 ├── venv/                                  # Python virtual environment for the whole project
 │   └── ...                                # Virtual environment files and directories
 ├── YourApp.dmg                           # Generated macOS DMG for distribution
-├── YourAppInstaller.msi                # Generated Windows installer, if applicable
-├── backend/requirements.txt      # Python dependencies for the backend
-├── frontend/requirements.txt     # Node.js dependencies for the frontend
-└── package.json                            # Node.js dependencies for the frontend
+├── YourAppInstaller.msi                  # Generated Windows installer, if applicable
+└── package.json                          # Main configuration file for full-stack project
