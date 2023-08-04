@@ -165,7 +165,8 @@ A comprehensive list of backend languages, frameworks, libraries, and APIs that 
 
 7. **`C#` with `ASP.NET Core`:**
   - <ins>Description</ins>:
-      - `ASP.NET Core` is a cross-platform, high-performance framework for building web applications and APIs using `C#`. It is known for its speed and scalability.
+      - `ASP.NET Core` is a cross-platform, high-performance framework for building web applications and APIs using `C#`.
+         - It is known for its speed and scalability.
    - <ins>Pros</ins>:
       - Strongly typed language, great for building enterprise applications, extensive documentation, good performance.
    - <ins>Cons</ins>:
