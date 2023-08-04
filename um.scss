@@ -9,8 +9,8 @@ ytconv3rt3r/
 │   │   ├── src/                                                     # C++ Source Files
 │   │   │   ├── CMakeLists.txt                                       # CMake build script for C++/Qt source files
 │   │   │   ├── main.cpp                                             # Main C++ source file (contains driver function)
-│   │   │   ├── example.cpp                                          # Example C++ source file
 │   │   │   ├── example.h                                            # Example C++ header file
+│   │   │   ├── example.cpp                                          # Example C++ source file
 │   │   │   └── ... (Other C++ source/header files)
 │   │   ├── tests/                                                   # C++ Backend Tests
 │   │   │   ├── CMakeLists.txt                                       # CMake build script for C++/Qt backend tests
