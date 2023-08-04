@@ -1,0 +1,8 @@
+# ignore all logs
+*.log
+
+.DS_Store
+
+ytconv3rt3r.dmg
+
+ytconv3rt3rInstaller.msi
