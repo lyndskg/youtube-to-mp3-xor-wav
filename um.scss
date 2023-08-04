@@ -1,7 +1,5 @@
 ytconv3rt3r/
 ├── README.md                                                        # Project documentation and description
-├── BuildNotes.txt                                                   # Notes for building the project
-├── UserRequirements.txt                                             # Requirements for using the project
 ├── .gitignore                                                       # Git ignore file
 ├── backend/                                                         # Backend directory
 │   ├── cpp/                                                         # C++ Backend
@@ -59,28 +57,30 @@ ytconv3rt3r/
 │   │   │   └── ... (Other macOS-specific files)
 │   │   └── Windows/                                                 # Windows-specific files and sources
 │   │   │   ├── package.json                                         # Node.js package file listing dependencies required for React
-│   │       ├── ytconv3rt3r.ico            # Custom Windows app icon
+│   │       ├── ytconv3rt3r.ico                                      # Custom Windows app icon
 │   │       └── ... (Other Windows-specific files)
 │   └── ... (Other cross-platform desktop app files)
-├── tests/                                     # Tests directory
-│   ├── cpp_tests/                             # C++ unit tests with Google Test
-│   │   ├── CMakeLists.txt                     # CMake build script for C++/Qt tests
+├── tests/                                                           # Tests directory
+│   ├── cpp_tests/                                                   # C++ unit tests with Google Test
+│   │   ├── CMakeLists.txt                                           # CMake build script for C++/Qt tests
 │   │   └── ... (Other C++ test files)
-│   ├── python_tests/                          # Python unit tests with Pytest
+│   ├── python_tests/                                                # Python unit tests with Pytest
 │   │   └── ... (Other Python test files)
-│   └── js_tests/                              # JavaScript unit tests with Jest
+│   └── js_tests/                                                    # JavaScript unit tests with Jest
 │       └── ... (Other JavaScript test files)
-├── data/                                      # Data directory
+├── data/                                                            # Data directory
 │   └── ... (SQLite database files and other data files)
-├── scripts/                                   # Scripts directory
+├── scripts/                                                         # Scripts directory
 │   └── ... (Utility scripts for the project)
-├── docs/                                      # Documentation directory
-│   ├── DevLogs.txt                            # Logs while developing the project
+├── docs/                                                            # Documentation directory
+│   ├── DevLogs.txt                                                  # Logs while developing the project
+│   ├── BuildNotes.txt                                               # Notes for building the project
+│   ├── UserRequirements.txt                                         # Requirements for using the project
 │   └── ... (Other project documentation files)
-├── venv/                                      # Python virtual environment for the whole project
-│   └── ...                                    # Virtual environment files and directories
-├── ytconv3rt3r.dmg                            # Generated macOS DMG for distribution
-├── ytconv3rt3rInstaller.msi                   # Generated Windows installer, if applicable
-├── requirements.txt                           # (optional) Top-level Python dependencies for the whole project
-├── CMakeLists.txt                             # (optional) Top-level CMake build script for C++/Qts for the whole project
-└── package.json                               # Main configuration file for full-stack project
+├── venv/                                                            # Python virtual environment for the whole project
+│   └── ...                                                          # Virtual environment files and directories
+├── ytconv3rt3r.dmg                                                  # Generated macOS DMG for distribution
+├── ytconv3rt3rInstaller.msi                                         # Generated Windows installer, if applicable
+├── requirements.txt                                                 # (optional) Top-level Python dependencies for the whole project
+├── CMakeLists.txt                                                   # (optional) Top-level CMake build script for C++/Qts for the whole project
+└── package.json                                                     # Main configuration file for full-stack project
