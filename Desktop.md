@@ -109,7 +109,7 @@
 
 A comprehensive list of backend languages, frameworks, libraries, and APIs that you can consider for your project, along with their descriptions and pros/cons:
 
-1. **<ins>Python with `Flask`</ins>:**
+1. **Python with `Flask`:**
    - <ins>Description</ins>:
       - `Flask` is a lightweight and flexible Python web framework that allows you to build backend applications.
          -  It provides the essentials for building web APIs and integrates well with other libraries.
