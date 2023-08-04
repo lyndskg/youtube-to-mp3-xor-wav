@@ -348,10 +348,6 @@ Additionally, some IDEs may have community or professional editions, so be sure 
 
 <p align="right">(<a href="#yt">back to top</a>)</p>
 
-
----------------------
-<p align="right">(<a href="#yt">back to top</a>)</p>
-
 ---------------------
 
 <a name="map"></a>
