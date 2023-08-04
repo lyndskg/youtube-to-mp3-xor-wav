@@ -1,45 +1,87 @@
-my_project/
-├── backend/
-│   ├── cplusplus/
-│   │   ├── main.cpp
-│   │   └── CMakeLists.txt (CMake build script for C++/Qt)
-│   ├── python/
-│   │   ├── main.py
-│   │   └── venv/
-│   │       └── ... (Python virtual environment files)
-│   └── CMakeLists.txt (Top-level CMake file for the whole backend, if needed)
-├── frontend/
-│   ├── web_app/
-│   │   ├── public/
-│   │   │   ├── index.html
-│   │   │   └── ... (Other frontend files)
-│   │   ├── src/
-│   │   │   ├── components/
-│   │   │   │   └── ... (React components)
-│   │   │   ├── App.js
-│   │   │   └── index.js (React entry point)
-│   │   ├── package.json
-│   │   └── ... (Other React-related files)
-│   ├── desktop_app/
-│   │   ├── common/
-│   │   │   └── ... (Shared C++/Qt code and resources)
-│   │   ├── macos/
-│   │   │   ├── main.cpp
-│   │   │   ├── YourApp.icns (Custom macOS app icon)
-│   │   │   └── ... (Other macOS-specific files)
-│   │   ├── windows/
-│   │   │   ├── main.cpp
-│   │   │   ├── YourApp.ico (Custom Windows app icon)
-│   │   │   └── ... (Other Windows-specific files)
-│   │   └── ... (Other cross-platform desktop app files)
-│   └── tests/
-│       ├── frontend/
-│       │   └── ... (Frontend tests using Jest)
-│       └── backend/
-│           └── ... (Backend tests using Pytest and Google Test)
-├── venv/ (Python virtual environment for the whole project)
-│   └── ... (Virtual environment files)
-├── YourApp.dmg (Generated macOS DMG for distribution)
-├── YourAppInstaller.msi (Generated Windows installer, if applicable)
-├── requirements.txt (Python dependencies for backend)
-└── package.json (Node.js dependencies for frontend)
+ytconv3rt3r/
+├── README.md                              # Project documentation and description
+├── BuildNotes.txt                         # Notes for building the project
+├── requirements.txt                       # Top-level Python dependencies for the whole project
+├── .gitignore                             # Git ignore file
+├── backend/                               # Backend directory
+│   ├── cplusplus/                         # C++ Backend
+│   │   ├── CMakeLists.txt                 # Top-level CMake build script for C++/Qt
+│   │   ├── src/                           # C++ Source Files
+│   │   │   ├── CMakeLists.txt             # CMake build script for C++/Qt source files
+│   │   │   ├── main.cpp                   # Main C++ source file
+│   │   │   ├── example.cpp                # Example C++ source file
+│   │   │   └── ...                        # Other C++ source files
+│   │   ├── tests/                         # C++ Backend Tests
+│   │   │   ├── CMakeLists.txt             # CMake build script for C++/Qt backend tests
+│   │   │   ├── test_main.cpp              # C++ backend test file
+│   │   │   ├── test_example.cpp           # Example C++ backend test file
+│   │   │   └── ...                        # Other C++ test files
+│   │   ├── build/                         # (optional) For out-of-source build
+│   │   ├── include/                       # C++ include directory
+│   │   │   ├── ytconv3rt3r/               # C++ library header files
+│   │   │   │   └── xcode_redirect.hpp     # To speed up I/O 
+│   │   │   └── ...                        # Other libraries
+│   │   ├── deps/                          # (optional) For external dependencies
+│   │   ├── dev/                           # (optional) For development files
+│   │   └── data/                          # (optional) For data files
+├── python/                                # Python Backend
+│   ├── requirements.txt                   # Python dependencies for backend
+│   ├── main.py                            # Main Python backend file
+│   ├── example.py                         # Example Python backend file
+│   ├── tests/                             # Python Backend Tests
+│   │   ├── test_example.py                # Python backend test file
+│   │   ├── ...                            # Other Python test files
+│   │   └── ...                            # Backend tests using Pytest and Google Test
+│   └── venv/                              # Python virtual environment
+│       └── ...                            # Other Python [virtual] environment files and directories
+├── CMakeLists.txt                         # (optional) Top-level CMake file for the whole backend, if needed
+├── requirements.txt                       # Python dependencies for backend
+├── frontend/                              # Frontend directory
+│   ├── web_app/                           # Web App Frontend
+│   │   ├── public/                        # Public files 
+│   │   │   ├── index.html                 # Main HTML file
+│   │   │   └── ...                        # Other frontend files
+│   │   ├── src/                           # Source files for React components
+│   │   │   ├── components/                # React components
+│   │   │   │   └── ...                    # Other React components
+│   │   │   ├── App.js                     # React App entry point
+│   │   │   └── index.js                   # React entry point
+│   │   ├── package.json                   # Node.js package file
+│   │   └── ...                            # Other React-related files
+│   ├── desktop_app/                       # Cross-platform Desktop App
+│   │   ├── common/                        # Common C++/Qt code and resources
+│   │   │   └── ...                        # Shared C++/Qt files
+│   │   ├── macos/                         # macOS-specific files and sources
+│   │   │   ├── src/                       # macOS-specific C++ source files
+│   │   │   │   ├── main.cpp               # Main macOS-specific C++ source file
+│   │   │   │   └── ...                    # Other macOS-specific C++ source files
+│   │   │   ├── YourApp.icns               # Custom macOS app icon
+│   │   │   └── ...                        # Other macOS-specific files
+│   │   └── windows/                       # Windows-specific files and sources
+│   │       ├── src/                       # Windows-specific C++ source files
+│   │       │   ├── main.cpp               # Main Windows-specific C++ source file
+│   │       │   └── ...                    # Other Windows-specific C++ source files
+│   │       ├── YourApp.ico                # Custom Windows app icon
+│   │       └── ...                        # Other Windows-specific files
+│   └── ...                                # Other cross-platform desktop app files
+├── tests/                                 # Tests directory
+│   ├── cpp_tests/                         # C++ unit tests with Google Test
+│   │   ├── CMakeLists.txt                 # CMake build script for C++/Qt tests
+│   │   └── ...                            # Other C++ test files
+│   ├── python_tests/                      # Python unit tests with Pytest
+│   │   └── ...                            # Other Python test files
+│   └── js_tests/                          # JavaScript unit tests with Jest
+│       └── ...                            # Other JavaScript test files
+├── data/                                  # Data directory
+│   └── ...                                # SQLite database files and other data files
+├── scripts/                               # Scripts directory
+│   └── ...                                # Utility scripts for the project
+├── docs/                                  # Documentation directory
+│   └── ...                                # Project documentation files
+├── venv/                                  # Python virtual environment for the whole project
+│   └── ...                                # Virtual environment files and directories
+├── YourApp.dmg                           # Generated macOS DMG for distribution
+├── YourAppInstaller.msi                # Generated Windows installer, if applicable
+├── backend/requirements.txt      # Python dependencies for the backend
+├── frontend/requirements.txt     # Node.js dependencies for the frontend
+└── package.json                            # Node.js dependencies for the frontend
