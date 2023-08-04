@@ -13,8 +13,11 @@
    2. <a href="#postflask">Flask + PostgreSQL</a>
    3. <a href="#djangosql">Django + SQLite</a>
    4. <a href="#postdjango">Django + PostgreSQL</a>
-3. C#
-4. Swift
+3. Python/C++ Hybrid
+   1. <a href="#hybrid">Hybrid</a>
+5. C#
+6. Swift
+   1. <a href="#swift">Swift + SwiftUI + Core Data + Combine</a>
    
 <details>
   <summary>Table of Contents</summary>
