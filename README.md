@@ -169,7 +169,7 @@
 
 
 <details>
-  <summary>Current Tech Stacks &nbsp; [<a href="#stackz">view more details</a>]</p>
+  <summary>Current Tech Stacks &nbsp; view more details (<a href="#stackz">here</a>)</p>
   </summary>
 </details>
 
