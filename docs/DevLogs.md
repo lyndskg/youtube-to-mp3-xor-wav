@@ -1,6 +1,6 @@
 1. **Setup Development Environment:**
    - [x] Install Python and set up a virtual environment for the backend development.
-   - [ ] Install necessary Python dependencies using `pip install -r requirements.txt`.
+   - [x] Install necessary Python dependencies using `pip install -r requirements.txt`.
    - [ ] Set up the necessary C++ and Qt development environment, including Qt Creator or CLion for C++ development.
 
 2. **Backend (Data Processing and Business Logic):**
